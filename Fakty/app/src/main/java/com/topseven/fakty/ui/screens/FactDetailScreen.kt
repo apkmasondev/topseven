@@ -93,7 +93,9 @@ fun FactDetailScreen(
         ttsManager?.stop()
     }
 
-    val currentItem = items[pagerState.currentPage]
+    // Lista może się skrócić (usunięcie ulubionego w trakcie oglądania), a pager pamięta
+    // poprzedni indeks - bez tego zabezpieczenia dostawaliśmy IndexOutOfBoundsException.
+    val currentItem = items.getOrNull(pagerState.currentPage) ?: items.last()
     val currentFact = currentItem.fact
     val category = currentItem.category
     val isFavorite = favorites.any { it.categoryId == category.id && it.factId == currentFact.id }
@@ -109,7 +111,7 @@ fun FactDetailScreen(
             state = pagerState,
             modifier = Modifier.fillMaxSize()
         ) { page ->
-            val pageItem = items[page]
+            val pageItem = items.getOrNull(page) ?: return@HorizontalPager
             val fact = pageItem.fact
             val pageCategory = pageItem.category
             val imagePath = fact.imageUrl?.let { "file:///android_asset/images/facts/$it" }

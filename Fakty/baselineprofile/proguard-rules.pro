@@ -1,0 +1,8 @@
+-ignorewarnings
+-dontwarn javax.lang.model.element.Modifier
+-dontwarn javax.lang.model.element.**
+-dontwarn javax.lang.**
+-dontwarn com.google.errorprone.**
+-keep class com.topseven.fakty.baselineprofile.** { *; }
+-dontobfuscate
+-dontoptimize

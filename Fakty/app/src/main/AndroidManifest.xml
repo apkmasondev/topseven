@@ -1,6 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <!--
+      Wymagane od API 30 (package visibility). Bez tej deklaracji TextToSpeech nie widzi
+      zainstalowanych silników mowy i lektor po cichu nie działa - aplikacja celuje w API 36.
+    -->
+    <queries>
+        <intent>
+            <action android:name="android.intent.action.TTS_SERVICE" />
+        </intent>
+    </queries>
+
     <application
         android:name=".TopSevenApplication"
         android:allowBackup="true"

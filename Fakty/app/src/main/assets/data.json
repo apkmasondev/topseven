@@ -1,0 +1,2373 @@
+[
+  {
+    "id": "historia_polski",
+    "title": "Historia Polski",
+    "icon": "historia_polski.webp",
+    "facts": [
+      {
+        "id": 1,
+        "title": "966 – Chrzest Mieszka I",
+        "shortDescription": "Chrzest władcy zmienił kierunek państwa.",
+        "details": "W 966 roku Mieszko I przyjął chrzest, prawdopodobnie w Wielką Sobotę. Zapoczątkowało to chrystianizację jego państwa oraz włączenie go w krąg zachodniego chrześcijaństwa i kultury łacińskiej.",
+        "imageUrl": "historia_polski_1.webp",
+        "glossary": {
+          "chrystianizację": {
+            "title": "Chrystianizacja",
+            "definition": "Proces przyjmowania chrześcijaństwa przez społeczeństwo oraz tworzenia związanych z nim instytucji kościelnych i kultury."
+          }
+        }
+      },
+      {
+        "id": 2,
+        "title": "1025 – Koronacja Chrobrego",
+        "shortDescription": "Pierwszy koronowany król polskiego państwa.",
+        "details": "W 1025 roku Bolesław Chrobry został pierwszym koronowanym królem Polski. Dokładny dzień i miejsce ceremonii pozostają dyskusyjne, lecz koronacja podkreślała suwerenność młodego królestwa wobec cesarstwa i sąsiadów.",
+        "imageUrl": "historia_polski_2.webp",
+        "glossary": {
+          "suwerenność": {
+            "title": "Suwerenność",
+            "definition": "Zdolność państwa do samodzielnego sprawowania władzy i prowadzenia polityki bez podporządkowania innemu państwu."
+          }
+        }
+      },
+      {
+        "id": 3,
+        "title": "1385 – Unia w Krewie",
+        "shortDescription": "Dokument rozpoczął zbliżenie Polski i Litwy.",
+        "details": "14 sierpnia 1385 roku Jagiełło wystawił w Krewie dokument określający warunki małżeństwa z Jadwigą i objęcia polskiego tronu. Akt zapoczątkował chrystianizację Litwy i zbliżenie obu państw.",
+        "imageUrl": "historia_polski_3_v2.webp",
+        "glossary": {
+          "chrystianizację": {
+            "title": "Chrystianizacja",
+            "definition": "Proces przyjmowania chrześcijaństwa przez władcę i mieszkańców kraju oraz tworzenia struktur kościelnych."
+          }
+        }
+      },
+      {
+        "id": 4,
+        "title": "1569 – Unia lubelska",
+        "shortDescription": "Unia stworzyła wspólną Rzeczpospolitą.",
+        "details": "1 lipca 1569 roku Korona i Wielkie Księstwo Litewskie zawarły w Lublinie unię realną. Powstała Rzeczpospolita Obojga Narodów ze wspólnym monarchą, sejmem oraz polityką zagraniczną i obronną.",
+        "imageUrl": "historia_polski_4_v2.webp",
+        "glossary": {
+          "unię realną": {
+            "title": "Unia realna",
+            "definition": "Związek państw posiadających nie tylko wspólnego monarchę, lecz także wspólne instytucje i wybrane obszary polityki."
+          }
+        }
+      },
+      {
+        "id": 5,
+        "title": "1791 – Konstytucja 3 maja",
+        "shortDescription": "Reforma państwa uchwalona przez Sejm Wielki.",
+        "details": "3 maja 1791 roku Sejm Wielki uchwalił Ustawę Rządową. Konstytucja zniosła liberum veto, wprowadziła dziedziczną monarchię i podział władz, wzmacniając osłabione państwo po pierwszym rozbiorze Rzeczypospolitej.",
+        "imageUrl": "historia_polski_5.webp",
+        "glossary": {
+          "liberum veto": {
+            "title": "Liberum veto",
+            "definition": "Zasada pozwalająca jednemu posłowi zerwać obrady sejmu i unieważnić podjęte na nim uchwały."
+          }
+        }
+      },
+      {
+        "id": 6,
+        "title": "1795 – III rozbiór Polski",
+        "shortDescription": "Trzej zaborcy zlikwidowali Rzeczpospolitą.",
+        "details": "24 października 1795 roku Rosja, Prusy i Austria podpisały traktat trzeciego rozbioru. Państwo polsko-litewskie przestało istnieć, a miesiąc później Stanisław August Poniatowski abdykował w Grodnie.",
+        "imageUrl": "historia_polski_6.webp",
+        "glossary": {
+          "abdykował": {
+            "title": "Abdykacja",
+            "definition": "Zrzeczenie się tronu i władzy przez monarchę. Stanisław August Poniatowski podpisał akt abdykacji 25 listopada 1795 roku."
+          }
+        }
+      },
+      {
+        "id": 7,
+        "title": "1918 – Niepodległość Polski",
+        "shortDescription": "Symboliczny dzień odrodzenia państwa.",
+        "details": "11 listopada 1918 roku Rada Regencyjna przekazała Józefowi Piłsudskiemu władzę wojskową i naczelne dowództwo. Był to ważny etap wielomiesięcznego procesu odbudowy niepodległego państwa po 123 latach zaborów.",
+        "imageUrl": "historia_polski_7.webp",
+        "glossary": {
+          "Rada Regencyjna": {
+            "title": "Rada Regencyjna",
+            "definition": "Tymczasowy organ władzy w Królestwie Polskim działający w latach 1917–1918, który przekazał Piłsudskiemu najpierw władzę wojskową, a później zwierzchnią."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "biologia",
+    "title": "Biologia",
+    "icon": "biologia.webp",
+    "facts": [
+      {
+        "id": 11,
+        "title": "Cząsteczka DNA",
+        "shortDescription": "Podwójna helisa przechowuje instrukcje życia.",
+        "details": "W 1953 roku James Watson i Francis Crick opisali strukturę podwójnej helisy DNA, wykorzystując dane promieniowania rentgenowskiego uzyskane przez Rosalind Franklin i Maurice’a Wilkinsa. Kwas deoksyrybonukleinowy zawiera instrukcje genetyczne.",
+        "imageUrl": "biologia_11.webp",
+        "glossary": {
+          "podwójnej helisy": {
+            "title": "Podwójna helisa",
+            "definition": "Przestrzenna struktura cząsteczki DNA, przypominająca skręconą wokół własnej osi drabinę. Odkrycie tego kształtu w 1953 roku było kamieniem milowym w genetyce, pozwalającym zrozumieć mechanizm dziedziczenia."
+          },
+          "rentgenowskiego": {
+            "title": "Promieniowanie rentgenowskie",
+            "definition": "Rodzaj promieniowania elektromagnetycznego o wysokiej częstotliwości i dużej przenikliwości. Znalazło kluczowe zastosowanie w medycynie (prześwietlenia RTG), umożliwiając bezinwazyjne obrazowanie struktur kostnych."
+          },
+          "deoksyrybonukleinowy": {
+            "title": "Kwas deoksyrybonukleinowy",
+            "definition": "Pełna nazwa skrótu DNA. Jest to wielkocząsteczkowy związek chemiczny o strukturze podwójnej helisy (przypominającej skręconą drabinę), który przechowuje instrukcje genetyczne każdego żywego organizmu."
+          }
+        }
+      },
+      {
+        "id": 12,
+        "title": "Mitochondria",
+        "shortDescription": "Elektrownie z bakteryjną przeszłością.",
+        "details": "Mitochondria wytwarzają większość energii chemicznej komórki w postaci ATP. Mają własne mtDNA, zwykle dziedziczone po matce, a ich bakteryjne pochodzenie wyjaśnia teoria endosymbiozy sprzed ponad miliarda lat.",
+        "imageUrl": "biologia_12.webp",
+        "glossary": {
+          "ATP": {
+            "title": "ATP (Adenozynotrifosforan)",
+            "definition": "Główny nośnik energii w komórkach wszystkich organizmów żywych. Działa jak uniwersalna molekularna waluta energetyczna, napędzając procesy metaboliczne, skurcze mięśni czy transport substancji."
+          },
+          "mtDNA": {
+            "title": "Mitochondrialne DNA",
+            "definition": "Niewielki, kolisty materiał genetyczny znajdujący się w mitochondriach. U człowieka jest zwykle dziedziczony po matce."
+          },
+          "mitochondria": {
+            "title": "Mitochondria",
+            "definition": "Organelle komórkowe pełniące funkcję centrum energetycznego komórki. To w nich zachodzą procesy oddychania komórkowego, w wyniku których powstaje energia (ATP)."
+          }
+        }
+      },
+      {
+        "id": 13,
+        "title": "Fotosynteza",
+        "shortDescription": "Proces zamieniający światło w pożywienie.",
+        "details": "W procesie fotosyntezy organizmy wykorzystują energię światła do przekształcania wody i dwutlenku węgla w związki organiczne. Rośliny, glony i sinice uwalniają przy tym tlen niezbędny dla oddychania tlenowego.",
+        "imageUrl": "biologia_13.webp",
+        "glossary": {
+          "fotosyntezy": {
+            "title": "Fotosynteza",
+            "definition": "Proces biochemiczny, w którym rośliny przy udziale światła słonecznego wytwarzają związki organiczne z dwutlenku węgla i wody, uwalniając do atmosfery tlen."
+          }
+        }
+      },
+      {
+        "id": 14,
+        "title": "Zasady dziedziczenia Mendla",
+        "shortDescription": "Genetyczne reguły odkryte w grochu.",
+        "details": "Gregor Mendel opublikował wyniki doświadczeń z grochem w 1866 roku. Wykazał, że warianty cech dominujące lub recesywne mogą być dziedziczone według przewidywalnych proporcji, tworząc podstawy genetyki eksperymentalnej.",
+        "imageUrl": "biologia_14.webp",
+        "glossary": {
+          "dominujące": {
+            "title": "Cecha dominująca",
+            "definition": "W prostym dziedziczeniu mendlowskim cecha ujawniająca się u heterozygoty, która ma dwa różne warianty danego genu."
+          },
+          "recesywne": {
+            "title": "Cecha recesywna",
+            "definition": "W prostym dziedziczeniu mendlowskim cecha ujawniająca się zwykle wtedy, gdy organizm ma dwie recesywne kopie danego wariantu genu."
+          }
+        }
+      },
+      {
+        "id": 15,
+        "title": "Dobór naturalny Darwina i Wallace’a",
+        "shortDescription": "Środowisko zmienia populacje przez pokolenia.",
+        "details": "Charles Darwin i Alfred Russel Wallace wspólnie przedstawili w 1858 roku mechanizm określany jako dobór naturalny. Sprawia on, że korzystne cechy dziedziczne częściej utrwalają się w populacjach.",
+        "imageUrl": "biologia_15.webp",
+        "glossary": {
+          "dobór naturalny": {
+            "title": "Dobór naturalny",
+            "definition": "Mechanizm ewolucji opisany przez Charlesa Darwina i Alfreda Russela Wallace’a, w którym dziedziczne cechy wpływające na rozród zmieniają częstość w populacji."
+          }
+        }
+      },
+      {
+        "id": 16,
+        "title": "Odkrycie penicyliny",
+        "shortDescription": "Zwykła pleśń trwale odmieniająca medycynę.",
+        "details": "W 1928 roku Alexander Fleming zauważył, że pleśń Penicillium hamuje wzrost bakterii. Howard Florey, Ernst Chain i ich zespół później przekształcili penicylinę w skuteczny antybiotyk stosowany klinicznie.",
+        "imageUrl": "biologia_16.webp",
+        "glossary": {
+          "antybiotyk": {
+            "title": "Antybiotyk",
+            "definition": "Lek zabijający określone bakterie albo hamujący ich namnażanie. Antybiotyki nie leczą infekcji wirusowych i mogą powodować działania niepożądane."
+          }
+        }
+      },
+      {
+        "id": 17,
+        "title": "Mikrobiom człowieka",
+        "shortDescription": "Niewidzialni lokatorzy ludzkiego układu trawiennego.",
+        "details": "Ciało dorosłego człowieka zawiera szacunkowo 38 bilionów bakterii, głównie w jelicie grubym. Mikrobiom jelitowy uczestniczy w metabolizmie składników pokarmowych, wytwarzaniu niektórych witamin i regulacji odporności organizmu.",
+        "imageUrl": "biologia_17.webp",
+        "glossary": {
+          "mikrobiom jelitowy": {
+            "title": "Mikrobiom jelitowy",
+            "definition": "Zbiorowisko mikroorganizmów, ich genów i środowiska w przewodzie pokarmowym. Jego skład różni się między ludźmi i zmienia pod wpływem wielu czynników."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "geografia",
+    "title": "Geografia",
+    "icon": "geografia.webp",
+    "facts": [
+      {
+        "id": 21,
+        "title": "Mount Everest",
+        "shortDescription": "Najwyższy szczyt ponad poziomem morza.",
+        "details": "Mount Everest wznosi się około 8849 metrów nad poziom morza. Himalaje powstały wskutek ruchów tektonicznych i kolizji płyty indyjskiej z eurazjatycką, a pomiary satelitarne nadal rejestrują wypiętrzanie regionu.",
+        "imageUrl": "geografia_21.webp",
+        "glossary": {
+          "ruchów tektonicznych": {
+            "title": "Ruchy tektoniczne",
+            "definition": "Zjawiska związane z przemieszczaniem się ogromnych płyt litosfery względem siebie. Są odpowiedzialne za procesy górotwórcze (orogenezę), powstawanie wulkanów oraz trzęsienia ziemi."
+          }
+        }
+      },
+      {
+        "id": 22,
+        "title": "Rów Mariański",
+        "shortDescription": "Najgłębsze znane miejsce ziemskich oceanów.",
+        "details": "Głębia Challengera w Rowie Mariańskim sięga około 10 935 metrów poniżej średniego poziomu morza. Jest najgłębszym zmierzonym miejscem oceanu, gdzie ciśnienie przekracza tysiąckrotność ciśnienia atmosferycznego przy powierzchni.",
+        "imageUrl": "geografia_22.webp",
+        "glossary": {
+          "ciśnienie": {
+            "title": "Ciśnienie",
+            "definition": "Wielkość fizyczna określająca siłę nacisku (parcie) wywieraną na jednostkę powierzchni. Zarówno ciśnienie atmosferyczne, jak i hydrostatyczne w głębinach oceanów, wyznacza drastyczne granice dla funkcjonowania organizmów żywych."
+          }
+        }
+      },
+      {
+        "id": 23,
+        "title": "Amazonka",
+        "shortDescription": "Rzeka transportująca największą ilość wody.",
+        "details": "Amazonka odprowadza do Atlantyku więcej wody niż jakakolwiek inna rzeka. W jej dorzeczu, obejmującym około 7 milionów kilometrów kwadratowych, rośnie największy tropikalny las deszczowy na Ziemi.",
+        "imageUrl": "geografia_23.webp",
+        "glossary": {
+          "dorzeczu": {
+            "title": "Dorzecze",
+            "definition": "Obszar lądu, z którego wszystkie wody powierzchniowe i podziemne spływają do jednego głównego cieku wodnego (rzeki), a wraz z nim do morza lub jeziora."
+          }
+        }
+      },
+      {
+        "id": 24,
+        "title": "Pustynia Sahara",
+        "shortDescription": "Największa gorąca pustynia na świecie.",
+        "details": "Sahara jest największą gorącą pustynią świata i zajmuje około 9 milionów kilometrów kwadratowych. Zmiany orbity Ziemi okresowo wzmacniały afrykańskie monsuny, przekształcając część pustyni w krajobraz zielonej sawanny.",
+        "imageUrl": "geografia_24.webp",
+        "glossary": {
+          "sawanny": {
+            "title": "Sawanna",
+            "definition": "Formacja roślinna strefy międzyzwrotnikowej, charakteryzująca się występowaniem pory suchej i deszczowej. Dominują tam trawy i rzadko rozsiane drzewa (np. baobaby, akacje), co sprzyja istnieniu fauny wielkich roślinożerców."
+          }
+        }
+      },
+      {
+        "id": 25,
+        "title": "Wielka Rafa Koralowa",
+        "shortDescription": "Największa na Ziemi żywa struktura.",
+        "details": "Wielka Rafa Koralowa rozciąga się na 2300 kilometrów wzdłuż wybrzeża Queensland. Tworzy ją ponad 3000 pojedynczych raf, budowanych przez kolonie koralowców, czyli drobnych zwierząt morskich.",
+        "imageUrl": "geografia_25.webp",
+        "glossary": {
+          "koralowców": {
+            "title": "Koralowce",
+            "definition": "Morskie organizmy z typu parzydełkowców. Ich wapienne szkielety z czasem formują rafy koralowe – jedne z najbardziej zróżnicowanych ekosystemów na naszej planecie, niezwykle wrażliwe na zmiany klimatyczne."
+          }
+        }
+      },
+      {
+        "id": 26,
+        "title": "Ruchy płyt tektonicznych",
+        "shortDescription": "Proces wywołujący trzęsienia ziemskiej skorupy.",
+        "details": "Litosfera Ziemi jest podzielona na kilkanaście dużych i mniejszych fragmentów. Płyty przesuwają się od milimetrów do kilkunastu centymetrów rocznie, a na ich granicach koncentrują się trzęsienia ziemi i wulkany.",
+        "imageUrl": "geografia_26_v2.webp",
+        "glossary": {
+          "litosfera": {
+            "title": "Litosfera",
+            "definition": "Najbardziej zewnętrzna, sztywna powłoka Ziemi, obejmująca skorupę ziemską oraz najwyższą, twardą część płaszcza Ziemi. Jest podzielona na płyty tektoniczne znajdujące się w ciągłym ruchu."
+          },
+          "płyty": {
+            "title": "Płyty tektoniczne",
+            "definition": "Ogromne fragmenty litosfery (zewnętrznej powłoki Ziemi), które nieustannie się przemieszczają. Ich kolizje i odsunięcia są główną przyczyną powstawania gór, trzęsień ziemi i wybuchów wulkanów."
+          }
+        }
+      },
+      {
+        "id": 27,
+        "title": "Prądy morskie i Golfsztrom",
+        "shortDescription": "Oceaniczny prąd ocieplający europejski klimat.",
+        "details": "Golfsztrom przenosi ciepłą wodę z rejonu Florydy na północny Atlantyk. Wraz z dalszym systemem prądów transportuje ciepło ku Europie, wpływając na jej łagodniejszy klimat morski.",
+        "imageUrl": "geografia_27_v2.webp",
+        "glossary": {
+          "Golfsztrom": {
+            "title": "Golfsztrom (Prąd Zatokowy)",
+            "definition": "Silny prąd Atlantyku płynący od rejonu Florydy ku północnemu wschodowi. Dalej jego wody zasilają system prądów transportujących ciepło ku Europie."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kosmos",
+    "title": "Kosmos",
+    "icon": "kosmos.webp",
+    "facts": [
+      {
+        "id": 31,
+        "title": "Wielki Wybuch",
+        "shortDescription": "Początek ekspansji całego Wszechświata.",
+        "details": "Około 13,8 miliarda lat temu rozpoczęła się ekspansja gorącego, gęstego Wszechświata. Wielki Wybuch nie był eksplozją w pustej przestrzeni; rozszerzała się sama przestrzeń, wszędzie jednocześnie.",
+        "glossary": {
+          "ekspansja": {
+            "title": "Ekspansja Wszechświata",
+            "definition": "Potwierdzone obserwacyjnie zjawisko ciągłego powiększania się odległości metrycznych między galaktykami z upływem czasu, wywołane rozszerzaniem się samej czasoprzestrzeni od momentu Wielkiego Wybuchu."
+          }
+        },
+        "imageUrl": "kosmos_31_v2.webp"
+      },
+      {
+        "id": 32,
+        "title": "Układ Słoneczny",
+        "shortDescription": "Rodzina obiektów krążących wokół Słońca.",
+        "details": "Słońce zawiera około 99,8 procent masy Układu Słonecznego. Jego grawitacja utrzymuje na orbitach osiem planet, planety karłowate, księżyce, asteroidy, komety i niezliczone inne drobniejsze obiekty.",
+        "glossary": {
+          "masy": {
+            "title": "Masa",
+            "definition": "Wielkość fizyczna opisująca bezwładność obiektu i jego oddziaływanie grawitacyjne. Nie jest tym samym co ciężar, który zależy od lokalnej grawitacji."
+          }
+        },
+        "imageUrl": "kosmos_32_v2.webp"
+      },
+      {
+        "id": 33,
+        "title": "Czarne Dziury",
+        "shortDescription": "Obiekty o niewyobrażalnie silnej grawitacji.",
+        "details": "Czarne dziury mogą powstawać po zapadnięciu jąder bardzo masywnych gwiazd, zależnie od ich masy. W centrum Drogi Mlecznej znajduje się Sagittarius A*, supermasywna czarna dziura o masie czterech milionów Słońc.",
+        "glossary": {
+          "masy": {
+            "title": "Masa",
+            "definition": "Wielkość fizyczna opisująca bezwładność obiektu i jego oddziaływanie grawitacyjne. Nie jest tym samym co ciężar, który zależy od lokalnej grawitacji."
+          },
+          "supermasywna czarna dziura": {
+            "title": "Supermasywna czarna dziura",
+            "definition": "Czarna dziura o masie od setek tysięcy do miliardów mas Słońca. Takie obiekty występują w centrach większości dużych galaktyk."
+          }
+        },
+        "imageUrl": "kosmos_33_v2.webp"
+      },
+      {
+        "id": 34,
+        "title": "Rok Świetlny",
+        "shortDescription": "Kosmiczna miara ogromnych odległości.",
+        "details": "Rok świetlny nie mierzy czasu, lecz odległość przebytą przez światło w próżni podczas jednego roku. Wynosi około 9,46 biliona kilometrów i służy do opisywania odległości kosmicznych.",
+        "glossary": {
+          "próżni": {
+            "title": "Próżnia",
+            "definition": "Pojęcie z zakresu fizyki oznaczające przestrzeń charakteryzującą się skrajnie niskim ciśnieniem gazu. W próżni kosmicznej rozchodzą się fale elektromagnetyczne (światło), jednak rozchodzenie się dźwięku (fali mechanicznej) jest niemożliwe."
+          }
+        },
+        "imageUrl": "kosmos_34_v2.webp"
+      },
+      {
+        "id": 35,
+        "title": "Droga Mleczna",
+        "shortDescription": "Spiralna galaktyka będąca naszym domem.",
+        "details": "Droga Mleczna to Galaktyka spiralna z poprzeczką, szeroka na około 100 tysięcy lat świetlnych i zawierająca od 100 do 400 miliardów gwiazd. Układ Słoneczny leży w Ramieniu Oriona.",
+        "glossary": {
+          "Galaktyka spiralna": {
+            "title": "Galaktyka spiralna",
+            "definition": "Typ galaktyki przypominający spłaszczony dysk z centralnym zgrubieniem i wychodzącymi z niego jasnymi, spiralnymi ramionami, pełnymi młodych gwiazd i pyłu międzygwiazdowego. Droga Mleczna jest klasycznym przykładem."
+          },
+          "Ramieniu Oriona": {
+            "title": "Ramię Oriona",
+            "definition": "Jedno z mniejszych, bocznych ramion spiralnych naszej galaktyki, w którym położony jest Układ Słoneczny (wraz z Ziemią). Znajduje się pomiędzy dwoma głównymi ramionami Drogi Mlecznej: Ramieniem Perseusza a Ramieniem Strzelca."
+          }
+        },
+        "imageUrl": "kosmos_35.webp"
+      },
+      {
+        "id": 36,
+        "title": "Lądowanie na Księżycu",
+        "shortDescription": "Pierwsze kroki na Srebrnym Globie.",
+        "details": "20 lipca 1969 roku moduł Eagle misji Apollo 11 wylądował na Księżycu. Neil Armstrong jako pierwszy człowiek stanął na powierzchni Srebrnego Globu, a wkrótce dołączył Buzz Aldrin.",
+        "imageUrl": "kosmos_36.webp",
+        "glossary": {
+          "Srebrnego Globu": {
+            "title": "Srebrny Glob",
+            "definition": "Poetyckie określenie Księżyca, jedynego naturalnego satelity Ziemi, powszechnie stosowane ze względu na jego charakterystyczny, chłodny i odbijający słońce blask obserwowany na nocnym niebie."
+          }
+        }
+      },
+      {
+        "id": 37,
+        "title": "Teleskop Jamesa Webba",
+        "shortDescription": "Kosmiczne obserwatorium badające wczesny wszechświat.",
+        "details": "Kosmiczny Teleskop Jamesa Webba wystartował 25 grudnia 2021 roku. Jego segmentowe lustro ma średnicę 6,5 metra, a instrumenty podczerwieni badają pierwsze galaktyki, gwiazdy i atmosfery egzoplanet.",
+        "glossary": {
+          "podczerwieni": {
+            "title": "Podczerwień",
+            "definition": "Zakres promieniowania elektromagnetycznego o falach dłuższych od światła widzialnego. Astrofizyka podczerwona (np. Teleskop Jamesa Webba) pozwala na obserwację obiektów ukrytych za pyłem kosmicznym i przesuniętych ku czerwieni wczesnych galaktyk."
+          }
+
+        },
+        "imageUrl": "kosmos_37.webp"
+      }
+    ]
+  },
+  {
+    "id": "matematyka",
+    "title": "Matematyka",
+    "icon": "matematyka.webp",
+    "facts": [
+      {
+        "id": 41,
+        "title": "Ciąg Fibonacciego",
+        "shortDescription": "Ciąg zbudowany z sum poprzedników.",
+        "details": "Ciąg zaczyna się od 0 i 1, a każdy kolejny wyraz jest sumą dwóch poprzednich. Ilorazy sąsiednich wyrazów zbliżają się do złotej liczby około 1,618.",
+        "glossary": {
+          "złotej liczby": {
+            "title": "Złota liczba",
+            "definition": "Liczba oznaczana literą φ, wynosząca w przybliżeniu 1,618. Jest granicą, do której zbliżają się ilorazy kolejnych wyrazów ciągu Fibonacciego."
+          },
+          "Ilorazy": {
+            "title": "Iloraz",
+            "definition": "Wynik dzielenia jednej liczby przez drugą. Iloraz dwóch kolejnych wyrazów ciągu Fibonacciego coraz dokładniej przybliża złotą liczbę."
+          }
+        },
+        "imageUrl": "matematyka_41_v2.webp"
+      },
+      {
+        "id": 42,
+        "title": "Liczba Pi (π)",
+        "shortDescription": "Stała łącząca obwód i średnicę koła.",
+        "details": "Liczba π jest stosunkiem obwodu koła do jego średnicy i ma nieskończone, nieokresowe rozwinięcie dziesiętne. Około 37 cyfr po przecinku wystarcza do bardzo dokładnych obliczeń kosmicznych.",
+        "glossary": {
+          "rozwinięcie dziesiętne": {
+            "title": "Rozwinięcie dziesiętne",
+            "definition": "Zapis liczby za pomocą cyfr po przecinku. Dla liczby niewymiernej, takiej jak π, zapis ten jest nieskończony i nie tworzy okresowo powtarzającego się wzoru."
+          }
+        },
+        "imageUrl": "matematyka_42.webp"
+      },
+      {
+        "id": 43,
+        "title": "Twierdzenie Pitagorasa",
+        "shortDescription": "Fundament klasycznej geometrii trójkątów prostokątnych.",
+        "details": "W trójkącie prostokątnym suma kwadratów przyprostokątnych równa się kwadratowi przeciwprostokątnej. Zależność znano w Babilonii ponad tysiąc lat przed Pitagorasem, dlatego jej historyczne autorstwo pozostaje niepewne.",
+        "glossary": {
+          "przyprostokątnych": {
+            "title": "Przyprostokątna",
+            "definition": "Jeden z dwóch boków trójkąta prostokątnego tworzących kąt prosty. Ich długości zwykle oznacza się literami a i b."
+          },
+          "przeciwprostokątnej": {
+            "title": "Przeciwprostokątna",
+            "definition": "Bok trójkąta prostokątnego leżący naprzeciw kąta prostego. Jest najdłuższym bokiem tego trójkąta i zwykle oznacza się go literą c."
+          }
+        },
+        "imageUrl": "matematyka_43.webp"
+      },
+      {
+        "id": 44,
+        "title": "Złoty podział",
+        "shortDescription": "Szczególna proporcja dwóch części odcinka.",
+        "details": "Złoty podział dzieli odcinek tak, by stosunek całości do dłuższej części równał się stosunkowi części dłuższej do krótszej. Odpowiada mu liczba φ wynosząca w przybliżeniu 1,618.",
+        "glossary": {
+          "stosunkowi": {
+            "title": "Stosunek",
+            "definition": "Porównanie dwóch wielkości przez ich podzielenie, zapisywane na przykład jako a:b. W złotym podziale dwa wskazane stosunki mają tę samą wartość około 1,618."
+          }
+        },
+        "imageUrl": "matematyka_44_v2.webp"
+      },
+      {
+        "id": 45,
+        "title": "Fraktale",
+        "shortDescription": "Samopodobne wzory widoczne w różnych skalach.",
+        "details": "Fraktal ma strukturę samopodobną: jego fragmenty przypominają całość po zmianie skali. W idealnych fraktalach wzór powtarza się bez końca, natomiast obiekty naturalne robią to tylko w pewnym zakresie.",
+        "glossary": {
+          "samopodobną": {
+            "title": "Samopodobieństwo",
+            "definition": "Właściwość obiektu, którego fragmenty przypominają cały obiekt po odpowiednim powiększeniu lub pomniejszeniu. Podobieństwo nie zawsze musi być idealne."
+          },
+          "skali": {
+            "title": "Skala",
+            "definition": "Stosunek rozmiaru obrazu lub modelu do rozmiaru przedstawianego obiektu. Zmiana skali pozwala oglądać strukturę na innym poziomie powiększenia."
+          }
+        },
+        "imageUrl": "matematyka_45.webp"
+      },
+      {
+        "id": 46,
+        "title": "Zero jako liczba",
+        "shortDescription": "Zero stało się liczbą rachunkową.",
+        "details": "Indyjski matematyk Brahmagupta w traktacie z 628 roku podał reguły rachunkowe dla zera i liczb ujemnych. Zero pełni dziś rolę liczby oraz cyfry oznaczającej puste miejsce.",
+        "glossary": {
+          "liczb ujemnych": {
+            "title": "Liczby ujemne",
+            "definition": "Liczby mniejsze od zera, zapisywane ze znakiem minus. Mogą opisywać między innymi dług, temperaturę poniżej zera albo położenie po przeciwnej stronie punktu odniesienia."
+          },
+          "cyfry": {
+            "title": "Cyfra",
+            "definition": "Znak służący do zapisywania liczb. W systemie dziesiętnym używamy dziesięciu cyfr od 0 do 9; zero może też wskazywać puste miejsce w zapisie pozycyjnym."
+          }
+        },
+        "imageUrl": "matematyka_46.webp"
+      },
+      {
+        "id": 47,
+        "title": "Liczby pierwsze",
+        "shortDescription": "Liczby z dokładnie dwoma dzielnikami.",
+        "details": "Liczba pierwsza ma dokładnie dwa dodatnie dzielniki: 1 i samą siebie. W RSA iloczyn dwóch wielkich liczb pierwszych tworzy moduł, którego rozłożenie na czynniki jest trudne obliczeniowo.",
+        "glossary": {
+          "RSA": {
+            "title": "RSA",
+            "definition": "Algorytm kryptografii klucza publicznego używany między innymi do podpisów cyfrowych i bezpiecznego ustalania kluczy. Jego bezpieczeństwo wiąże się z trudnością rozkładu dużych liczb na czynniki."
+          },
+          "moduł": {
+            "title": "Moduł RSA",
+            "definition": "Duża liczba otrzymana przez pomnożenie dwóch tajnych liczb pierwszych. Jest częścią klucza publicznego, ale jej czynniki pozostają tajne."
+          }
+        },
+        "imageUrl": "matematyka_47.webp"
+      }
+    ]
+  },
+  {
+    "id": "jezyk_polski",
+    "title": "Język Polski",
+    "icon": "jezyk_polski.webp",
+    "facts": [
+      {
+        "id": 51,
+        "title": "Pierwsze polskie zdanie",
+        "shortDescription": "Najstarsze zachowane zdanie ze słowami polskimi.",
+        "details": "Około 1270 roku w łacińskiej Księdze Henrykowskiej zapisano zdanie „Day, ut ia pobrusa, a ti poziwai”. Uważa się je za najstarsze zachowane zdanie zawierające słowa po polsku.",
+        "imageUrl": "jezyk_polski_51_v2.webp",
+        "glossary": {
+          "Księdze Henrykowskiej": {
+            "title": "Księga Henrykowska",
+            "definition": "Łacińska kronika opactwa cystersów w Henrykowie, spisywana od XIII wieku. Zawiera zdanie z polskimi słowami, zanotowane przy opowieści o mieleniu ziarna."
+          }
+        }
+      },
+      {
+        "id": 52,
+        "title": "Pięcioro noblistów literackich",
+        "shortDescription": "Pięcioro polskich laureatów literackiego Nobla.",
+        "details": "Literacką Nagrodę Nobla otrzymali Henryk Sienkiewicz, Władysław Reymont, Czesław Miłosz, Wisława Szymborska i Olga Tokarczuk. Ich nagrody przyznano w latach 1905–2018 za prozę oraz poezję.",
+        "imageUrl": "jezyk_polski_52.webp",
+        "glossary": {
+          "Literacką Nagrodę Nobla": {
+            "title": "Literacka Nagroda Nobla",
+            "definition": "Międzynarodowa nagroda przyznawana corocznie przez Akademię Szwedzką autorowi lub autorce za wybitny dorobek literacki. Może wyróżniać prozę, poezję albo inne formy pisarstwa."
+          }
+        }
+      },
+      {
+        "id": 53,
+        "title": "Bogurodzica",
+        "shortDescription": "Najstarsza zachowana polska pieśń religijna.",
+        "details": "Najstarszy zachowany zapis Bogurodzicy powstał po 28 lipca 1407 roku i obejmuje dwie strofy z nutami. Według Jana Długosza polscy rycerze śpiewali pieśń przed bitwą pod Grunwaldem.",
+        "imageUrl": "jezyk_polski_53.webp",
+        "glossary": {
+          "strofy": {
+            "title": "Strofa",
+            "definition": "Wyodrębniona grupa wersów w wierszu lub pieśni, połączona układem rytmicznym albo rymami. Najstarszy zapis Bogurodzicy obejmuje dwie takie części."
+          }
+        }
+      },
+      {
+        "id": 54,
+        "title": "Pan Tadeusz",
+        "shortDescription": "Dwunastoksięgowa epopeja Adama Mickiewicza.",
+        "details": "Adam Mickiewicz wydał „Pana Tadeusza” w Paryżu w 1834 roku. Ta epopeja narodowa składa się z dwunastu ksiąg napisanych głównie trzynastozgłoskowcem i przedstawia świat szlacheckiej Litwy.",
+        "imageUrl": "jezyk_polski_54.webp",
+        "glossary": {
+          "epopeja narodowa": {
+            "title": "Epopeja narodowa",
+            "definition": "Rozbudowany utwór epicki przedstawiający ważne wydarzenia i szeroki obraz życia danej społeczności. „Pan Tadeusz” jest uznawany za polską epopeję narodową."
+          },
+          "trzynastozgłoskowcem": {
+            "title": "Trzynastozgłoskowiec",
+            "definition": "Wiersz sylabiczny, którego pełny wers ma trzynaście sylab, zwykle ze stałą przerwą po siódmej sylabie. Taki rytm dominuje w „Panu Tadeuszu”."
+          }
+        }
+      },
+      {
+        "id": 55,
+        "title": "Języki słowiańskie",
+        "shortDescription": "Polski należy do języków zachodniosłowiańskich.",
+        "details": "Polski należy do zachodniosłowiańskiej gałęzi języków słowiańskich, razem między innymi z czeskim i słowackim. Rzeczowniki odmieniają się przez siedem przypadków, a polszczyzną posługuje się ponad 40 milionów ludzi.",
+        "imageUrl": "jezyk_polski_55_v2.webp",
+        "glossary": {
+          "zachodniosłowiańskiej": {
+            "title": "Języki zachodniosłowiańskie",
+            "definition": "Jedna z trzech głównych gałęzi języków słowiańskich. Obejmuje między innymi polski, czeski, słowacki, kaszubski oraz języki łużyckie."
+          },
+          "przypadków": {
+            "title": "Przypadek gramatyczny",
+            "definition": "Forma wyrazu wskazująca jego funkcję i związki z innymi słowami w zdaniu. W polszczyźnie tradycyjnie wyróżnia się siedem przypadków."
+          }
+        }
+      },
+      {
+        "id": 56,
+        "title": "Długi polski wyraz",
+        "shortDescription": "Sztucznie złożony przymiotnik ma 54 litery.",
+        "details": "Wyraz „dziewięćsetdziewięćdziesięciodziewięcionarodowościowego” ma 54 litery i oznacza formę odnoszącą się do 999 narodowości. Jest poprawnie zbudowanym przymiotnikiem liczebnikowym, lecz pozostaje sztucznym przykładem, a nie słowem codziennego użytku.",
+        "imageUrl": "jezyk_polski_56_v2.webp",
+        "glossary": {
+          "dziewięćsetdziewięćdziesięciodziewięcionarodowościowego": {
+            "title": "dziewięćsetdziewięćdziesięciodziewięcionarodowościowego",
+            "definition": "Sztucznie utworzona, odmieniona forma przymiotnika odnoszącego się do 999 narodowości. Pokazuje możliwości polskiego słowotwórstwa, ale praktycznie nie występuje w zwykłych wypowiedziach."
+          },
+          "przymiotnikiem liczebnikowym": {
+            "title": "Przymiotnik liczebnikowy",
+            "definition": "Przymiotnik utworzony od wyrażenia zawierającego liczbę, na przykład „dwupiętrowy”. Opisuje cechę związaną z określoną liczbą elementów."
+          }
+        }
+      },
+      {
+        "id": 57,
+        "title": "Renesans i Jan Kochanowski",
+        "shortDescription": "Najwybitniejszy poeta polskiego renesansu.",
+        "details": "Jan Kochanowski, najwybitniejszy poeta polskiego renesansu, tworzył po łacinie i po polsku. Cykl „Treny” obejmuje dziewiętnaście utworów poświęconych zmarłej córce Urszuli i łączy żałobę z refleksją filozoficzną.",
+        "imageUrl": "jezyk_polski_57.webp",
+        "glossary": {
+          "renesansu": {
+            "title": "Renesans",
+            "definition": "Epoka europejskiej kultury odwołująca się do wzorów antycznych i humanizmu. W Polsce jej rozkwit przypadł głównie na XVI wiek."
+          },
+          "Treny": {
+            "title": "Tren",
+            "definition": "Utwór żałobny poświęcony osobie zmarłej. Kochanowski stworzył cykl dziewiętnastu trenów po śmierci swojej kilkuletniej córki Urszuli."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "fizyka",
+    "title": "Fizyka",
+    "icon": "fizyka.webp",
+    "facts": [
+      {
+        "id": 61,
+        "title": "Prawo ciążenia Newtona",
+        "shortDescription": "Uniwersalne prawo wzajemnego przyciągania mas.",
+        "details": "W „Principiach” z 1687 roku Newton opisał powszechne ciążenie: siła rośnie z iloczynem mas i maleje z kwadratem odległości. Prawo wyjaśnia między innymi eliptyczne orbity planet.",
+        "glossary": {
+          "Principiach": {
+            "title": "Principia",
+            "definition": "Skrócona nazwa dzieła Newtona „Matematyczne zasady filozofii naturalnej”, wydanego w 1687 roku. Książka przedstawiła prawa ruchu i prawo powszechnego ciążenia."
+          },
+          "orbity": {
+            "title": "Orbita",
+            "definition": "Tor, po którym ciało porusza się pod wpływem grawitacji wokół innego ciała. Orbity planet wokół Słońca są w przybliżeniu elipsami."
+          }
+        },
+        "imageUrl": "fact_fiz_61.webp"
+      },
+      {
+        "id": 62,
+        "title": "Maria Skłodowska-Curie",
+        "shortDescription": "Polska badaczka i dwukrotna noblistka.",
+        "details": "Maria Skłodowska-Curie wraz z Pierre’em Curie wyodrębniała sole radu z ton blendy smolistej. Otrzymała Nobla z fizyki w 1903 roku za badania promieniotwórczości i z chemii w 1911 za odkrycia oraz izolację radu.",
+        "glossary": {
+          "promieniotwórczości": {
+            "title": "Promieniotwórczość (Radioaktywność)",
+            "definition": "Samorzutna przemiana niestabilnego jądra atomowego połączona z emisją promieniowania. Zjawisko nie dotyczy wyłącznie ciężkich pierwiastków."
+          },
+          "blendy smolistej": {
+            "title": "Blenda smolista",
+            "definition": "Ruda bogata w tlenki uranu. Curies przetwarzali jej pozostałości, ponieważ wykazywały większą aktywność promieniotwórczą niż wynikało z samej zawartości uranu."
+          }
+        },
+        "imageUrl": "fact_fiz_62_v2.webp"
+      },
+      {
+        "id": 63,
+        "title": "Szczególna teoria względności",
+        "shortDescription": "Nowe powiązanie przestrzeni, czasu i energii.",
+        "details": "W 1905 roku Einstein sformułował szczególną teorię względności i opisał równoważność masy oraz energii. Teoria przewiduje dylatację czasu: poruszający się zegar chodzi wolniej względem nieruchomego obserwatora.",
+        "imageUrl": "fact_fiz_63.webp",
+        "glossary": {
+          "równoważność masy oraz energii": {
+            "title": "Równoważność masy i energii",
+            "definition": "Zależność wyrażana wzorem E=mc². Oznacza, że masie odpowiada energia spoczynkowa, a zmianie energii układu odpowiada zmiana jego masy."
+          },
+          "dylatację czasu": {
+            "title": "Dylatacja czasu",
+            "definition": "Różnica tempa upływu czasu mierzona przez obserwatorów poruszających się względem siebie. Efekt staje się wyraźny przy prędkościach bliskich prędkości światła."
+          }
+        }
+      },
+      {
+        "id": 64,
+        "title": "Mechanika kwantowa",
+        "shortDescription": "Prawa opisujące świat cząstek i atomów.",
+        "details": "Superpozycja pozwala opisywać układ jako kombinację możliwych stanów, a splątanie tworzy korelacje między wynikami pomiarów odległych cząstek. Nie umożliwia ono jednak przesyłania informacji szybciej niż światło.",
+        "glossary": {
+          "superpozycja": {
+            "title": "Superpozycja kwantowa",
+            "definition": "Stan będący kombinacją kilku możliwych stanów układu kwantowego. Pomiar daje jeden z dopuszczalnych wyników z prawdopodobieństwem określonym przez ten stan."
+          },
+          "splątanie": {
+            "title": "Splątanie kwantowe",
+            "definition": "Wspólny stan kwantowy co najmniej dwóch obiektów, którego nie da się opisać jako niezależnych stanów części. Pomiary wykazują wtedy szczególne korelacje."
+          }
+        },
+        "imageUrl": "fact_fiz_64.webp"
+      },
+      {
+        "id": 65,
+        "title": "Zasada zachowania energii",
+        "shortDescription": "Energia w przyrodzie nigdy nie ginie.",
+        "details": "Zasada zachowania energii mówi, że energia nie powstaje ani nie znika, lecz zmienia postać lub przepływa między obiektami. W układzie izolowanym jej całkowita ilość pozostaje stała.",
+        "glossary": {
+          "układzie izolowanym": {
+            "title": "Układ izolowany",
+            "definition": "Model układu, który nie wymienia z otoczeniem materii ani energii. W takim układzie całkowita energia pozostaje stała."
+          }
+        },
+        "imageUrl": "fact_fiz_65.webp"
+      },
+      {
+        "id": 66,
+        "title": "Odkrycie elektronu",
+        "shortDescription": "Złamanie mitu o niepodzielności budowy atomu.",
+        "details": "W 1897 roku J.J. Thomson wykazał, że promienie katodowe są strumieniem ujemnie naładowanych cząstek, później nazwanych elektronami. Ich stosunek masy do ładunku był znacznie mniejszy niż dla jonów.",
+        "imageUrl": "fact_fiz_66_v2.webp",
+        "glossary": {
+          "promienie katodowe": {
+            "title": "Promienie katodowe",
+            "definition": "Wiązka elektronów emitowanych z katody i poruszających się w lampie próżniowej. Można ją odchylać polem elektrycznym albo magnetycznym."
+          },
+          "stosunek masy do ładunku": {
+            "title": "Stosunek masy do ładunku",
+            "definition": "Iloraz masy cząstki i jej ładunku elektrycznego. Thomson wyznaczył go z odchylenia promieni katodowych w polach elektrycznych i magnetycznych."
+          },
+          "jonów": {
+            "title": "Jon",
+            "definition": "Atom albo cząsteczka mająca ładunek elektryczny wskutek utraty lub przyjęcia elektronów. Jon dodatni ma mniej elektronów niż protonów."
+          }
+        }
+      },
+      {
+        "id": 67,
+        "title": "Wielki Zderzacz Hadronów",
+        "shortDescription": "Największy i najpotężniejszy akcelerator cząstek.",
+        "details": "LHC to 27-kilometrowy pierścień nadprzewodzących magnesów, w którym wiązki protonów krążą niemal z prędkością światła. W 2012 roku eksperymenty ATLAS i CMS odkryły cząstkę zgodną z przewidywaniami dla bozonu Higgsa.",
+        "glossary": {
+          "nadprzewodzących": {
+            "title": "Nadprzewodnictwo",
+            "definition": "Stan materiału, w którym poniżej odpowiednio niskiej temperatury opór elektryczny zanika. Pozwala to elektromagnesom LHC wytwarzać bardzo silne pola magnetyczne."
+          },
+          "bozonu Higgsa": {
+            "title": "Bozon Higgsa",
+            "definition": "Cząstka związana z polem Higgsa, przewidziana przez model standardowy. Jej odkrycie potwierdziło mechanizm, dzięki któremu niektóre cząstki elementarne uzyskują masę."
+          }
+        },
+        "imageUrl": "fact_fiz_67.webp"
+      }
+    ]
+  },
+  {
+    "id": "sport",
+    "title": "Sport",
+    "icon": "sport.webp",
+    "facts": [
+      {
+        "id": 71,
+        "title": "Starożytne Igrzyska",
+        "shortDescription": "Najstarsze zapisane igrzyska greckiej Olimpii.",
+        "details": "Tradycyjna chronologia zaczyna starożytne igrzyska w Olimpii w 776 roku p.n.e., gdy zapisano zwycięstwo Koroibosa w biegu stadionowym. Zawody miały charakter religijny i czciły Zeusa.",
+        "glossary": {
+          "Olimpii": {
+            "title": "Olimpia",
+            "definition": "Starożytne greckie sanktuarium Zeusa na Peloponezie, w którym co cztery lata odbywały się igrzyska panhelleńskie. Nie należy go mylić z górą Olimp."
+          },
+          "biegu stadionowym": {
+            "title": "Bieg stadionowy",
+            "definition": "Najstarsza konkurencja igrzysk: krótki bieg na długość stadionu, wynoszącą w Olimpii około 192 metrów. Przez pierwsze igrzyska był jedyną rozgrywaną dyscypliną."
+          }
+        },
+        "imageUrl": "sport_71.webp"
+      },
+      {
+        "id": 72,
+        "title": "Początki piłki nożnej",
+        "shortDescription": "Wspólne reguły narodzin nowoczesnego futbolu.",
+        "details": "Football Association powstał w Londynie w 1863 roku, aby ujednolicić odmienne zasady klubów i szkół. Podczas kolejnych spotkań uzgodniono pierwszy kodeks, od którego rozwinęły się współczesne przepisy piłkarskie.",
+        "imageUrl": "sport_72.webp",
+        "glossary": {
+          "Football Association": {
+            "title": "Football Association",
+            "definition": "Angielski związek piłkarski założony w 1863 roku. Jego nazwa odróżniała piłkę nożną według nowych reguł od innych odmian futbolu, między innymi rugby."
+          },
+          "kodeks": {
+            "title": "Kodeks sportowy",
+            "definition": "Spis wspólnych reguł określających przebieg gry, dozwolone zachowania i sposób rozstrzygania spotkania. Ujednolicenie zasad pozwala drużynom z różnych miejsc rywalizować na równych warunkach."
+          }
+        }
+      },
+      {
+        "id": 73,
+        "title": "Rekord Usaina Bolta",
+        "shortDescription": "Rekord świata na sto metrów.",
+        "details": "Usain Bolt przebiegł 100 metrów w 9,58 sekundy podczas mistrzostw świata w Berlinie 16 sierpnia 2009 roku. Jamajczyk poprawił własny rekord o 0,11 sekundy, a wynik pozostaje rekordem świata.",
+        "imageUrl": "sport_73.webp",
+        "glossary": {
+          "rekordem świata": {
+            "title": "Rekord świata",
+            "definition": "Najlepszy oficjalnie uznany wynik osiągnięty w danej konkurencji zgodnie z jej przepisami. Rekord Bolta na 100 metrów zatwierdza organizacja World Athletics."
+          }
+        }
+      },
+      {
+        "id": 74,
+        "title": "Tour de France",
+        "shortDescription": "Wieloetapowy wyścig przez francuskie góry.",
+        "details": "Pierwszy Tour de France rozpoczął się 1 lipca 1903 roku z udziałem 60 kolarzy. Ten wieloetapowy wyścig co roku zmienia trasę; wysokie Pireneje wprowadzono w 1910, a przełęcz Galibier w 1911 roku.",
+        "glossary": {
+          "wieloetapowy": {
+            "title": "Wyścig wieloetapowy",
+            "definition": "Rywalizacja kolarska rozłożona na wiele dni i oddzielnych odcinków. O zwycięstwie w klasyfikacji generalnej decyduje suma czasów uzyskanych na wszystkich etapach."
+          },
+          "przełęcz": {
+            "title": "Przełęcz górska",
+            "definition": "Obniżenie grzbietu między szczytami, przez które może prowadzić droga. Podjazdy na wysokie przełęcze są jednymi z najtrudniejszych odcinków Tour de France."
+          }
+        },
+        "imageUrl": "sport_74.webp"
+      },
+      {
+        "id": 75,
+        "title": "Dystans maratonu",
+        "shortDescription": "Współczesny dystans ustaliły igrzyska londyńskie.",
+        "details": "W starożytnych igrzyskach nie rozgrywano maratonu. Bieg wprowadzono na pierwszych nowożytnych igrzyskach w 1896 roku, a obecny dystans 42,195 kilometra po raz pierwszy zastosowano w Londynie w 1908 roku.",
+        "glossary": {
+          "nowożytnych igrzyskach": {
+            "title": "Nowożytne igrzyska olimpijskie",
+            "definition": "Międzynarodowe zawody sportowe wznowione w Atenach w 1896 roku z inspiracji tradycją antyczną. Ich program, organizacja i zasady różnią się od starożytnego pierwowzoru."
+          },
+          "maratonu": {
+            "title": "Maraton",
+            "definition": "Bieg uliczny na dystansie 42 kilometrów i 195 metrów. Jego nazwa odwołuje się do legendy o posłańcu biegnącym po bitwie pod Maratonem."
+          }
+        },
+        "imageUrl": "sport_75_v2.webp"
+      },
+      {
+        "id": 76,
+        "title": "Medale Ireny Szewińskiej",
+        "shortDescription": "Siedem medali i dziesięć rekordów świata.",
+        "details": "Irena Szewińska wystąpiła na pięciu igrzyskach olimpijskich w latach 1964–1980. Zdobyła siedem medali: trzy złote, dwa srebrne i dwa brązowe, a w karierze ustanowiła dziesięć rekordów świata.",
+        "imageUrl": "sport_76.webp",
+        "glossary": {
+          "rekordów świata": {
+            "title": "Rekord świata",
+            "definition": "Najlepszy oficjalnie uznany wynik w danej konkurencji. Szewińska ustanawiała rekordy indywidualnie na 100, 200 i 400 metrów oraz w sztafecie 4 × 100 metrów."
+          }
+        }
+      },
+      {
+        "id": 77,
+        "title": "Powstanie koszykówki",
+        "shortDescription": "Zimowa gra z koszami brzoskwiniowymi.",
+        "details": "James Naismith stworzył koszykówkę w Springfield w grudniu 1891 roku jako grę halową. W pierwszym meczu dwie dziewięcioosobowe drużyny rzucały piłkę nożną do koszy brzoskwiniowych zawieszonych około trzech metrów nad podłogą.",
+        "imageUrl": "sport_77.webp",
+        "glossary": {
+          "James Naismith": {
+            "title": "James Naismith",
+            "definition": "Kanadyjsko-amerykański nauczyciel wychowania fizycznego, który opracował pierwsze trzynaście zasad koszykówki. Szukał bezpiecznej gry dla studentów podczas zimy w sali gimnastycznej."
+          },
+          "koszy brzoskwiniowych": {
+            "title": "Kosze brzoskwiniowe",
+            "definition": "Drewniane pojemniki użyte jako pierwsze cele w koszykówce. Początkowo miały dna, dlatego po każdym trafieniu piłkę trzeba było ręcznie wyjmować."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "technologia",
+    "title": "Technologia",
+    "icon": "technologia.webp",
+    "facts": [
+      {
+        "id": 81,
+        "title": "Powstanie Internetu (ARPANET)",
+        "shortDescription": "Pierwsza wiadomość między węzłami ARPANET-u.",
+        "details": "29 października 1969 roku nawiązano połączenie między węzłami ARPANET-u: komputerami na UCLA i w Stanford Research Institute. Próbowano wysłać słowo „LOGIN”, lecz po literach „LO” system przestał działać.",
+        "glossary": {
+          "ARPANET": {
+            "title": "ARPANET",
+            "definition": "Eksperymentalna sieć pakietowa finansowana przez amerykańską agencję ARPA. Początkowo łączyła cztery ośrodki badawcze i pomogła rozwinąć technologie, na których zbudowano Internet."
+          },
+          "węzłami": {
+            "title": "Węzeł sieci",
+            "definition": "Urządzenie lub komputer będący punktem połączenia w sieci. Węzły mogą wysyłać, odbierać albo przekazywać dane dalej do innych punktów."
+          }
+        },
+        "imageUrl": "tech_81.webp"
+      },
+      {
+        "id": 82,
+        "title": "Elektroniczny komputer ENIAC",
+        "shortDescription": "Ogromna maszyna licząca z lampami.",
+        "details": "ENIAC, zbudowany dla armii Stanów Zjednoczonych i ujawniony publicznie w 1946 roku, ważył około 30 ton i zawierał około 18 tysięcy lamp próżniowych. Wykonywał do 5000 dodawań na sekundę.",
+        "glossary": {
+          "lamp próżniowych": {
+            "title": "Lampa próżniowa",
+            "definition": "Elektroniczny element sterujący przepływem elektronów w szklanej obudowie z usuniętym powietrzem. Przed tranzystorami lampy służyły między innymi do wzmacniania i przełączania sygnałów."
+          }
+        },
+        "imageUrl": "tech_82.webp"
+      },
+      {
+        "id": 83,
+        "title": "Odkrycie tranzystora",
+        "shortDescription": "Półprzewodnikowy wzmacniacz zastępujący lampy próżniowe.",
+        "details": "John Bardeen i Walter Brattain uruchomili pierwszy działający tranzystor punktowy w Bell Labs w grudniu 1947 roku. Urządzenie z germanium wzmacniało sygnał bez rozgrzanej katody wymaganej przez lampy próżniowe.",
+        "glossary": {
+          "lampy próżniowe": {
+            "title": "Lampa próżniowa",
+            "definition": "Element elektroniczny sterujący przepływem elektronów w opróżnionej z powietrza obudowie. Był większy, zużywał więcej energii i wydzielał więcej ciepła niż późniejsze tranzystory."
+          },
+          "tranzystor punktowy": {
+            "title": "Tranzystor punktowy",
+            "definition": "Wczesny typ tranzystora, w którym dwa metalowe styki dotykały kryształu półprzewodnika. Umożliwiał wzmacnianie sygnału elektrycznego bez użycia lampy próżniowej."
+          },
+          "germanium": {
+            "title": "German",
+            "definition": "Pierwiastek chemiczny o właściwościach półprzewodnikowych. Kryształ germanu wykorzystano w pierwszym działającym tranzystorze punktowym."
+          }
+        },
+        "imageUrl": "tech_83_v2.webp"
+      },
+      {
+        "id": 84,
+        "title": "World Wide Web",
+        "shortDescription": "Sieć połączonych dokumentów hipertekstowych.",
+        "details": "Tim Berners-Lee przedstawił w CERN propozycję sieci dokumentów hipertekstowych w 1989 roku. Pierwszą przeglądarkę i serwer stworzył w 1990, a w 1993 CERN udostępnił technologię bez opłat licencyjnych.",
+        "glossary": {
+          "hipertekstowych": {
+            "title": "Hipertekst",
+            "definition": "Sposób organizowania dokumentów za pomocą odnośników prowadzących do innych treści. Dzięki hiperłączom użytkownik może poruszać się po informacjach w kolejności innej niż liniowa."
+          },
+          "serwer": {
+            "title": "Serwer WWW",
+            "definition": "Program lub komputer udostępniający strony internetowe na żądanie przeglądarki. Pierwszy serwer WWW działał na komputerze NeXT w ośrodku CERN."
+          }
+        },
+        "imageUrl": "tech_84.webp"
+      },
+      {
+        "id": 85,
+        "title": "Test Turinga",
+        "shortDescription": "Rozmowa sprawdzająca zachowanie maszyny.",
+        "details": "W artykule z 1950 roku Alan Turing zastąpił pytanie „czy maszyny myślą?” grą w naśladownictwo. Sędzia prowadzi tekstową rozmowę i próbuje odróżnić odpowiedzi komputera od odpowiedzi człowieka.",
+        "glossary": {
+          "grą w naśladownictwo": {
+            "title": "Gra w naśladownictwo",
+            "definition": "Eksperyment myślowy Turinga, w którym człowiek ocenia anonimowych rozmówców na podstawie tekstowych odpowiedzi. Test dotyczy obserwowalnego zachowania maszyny, a nie dowodzi świadomości."
+          }
+        },
+        "imageUrl": "tech_85_v2.webp"
+      },
+      {
+        "id": 86,
+        "title": "Pierwszy iPhone",
+        "shortDescription": "Telefon sterowany ekranem wielodotykowym.",
+        "details": "Apple zaprezentowało pierwszy iPhone 9 stycznia 2007 roku. Urządzenie miało 3,5-calowy ekran wielodotykowy i ekranową klawiaturę; wersja 4 GB kosztowała przy premierze w Stanach Zjednoczonych 499 dolarów.",
+        "imageUrl": "tech_86_v2.webp",
+        "glossary": {
+          "wielodotykowy": {
+            "title": "Ekran wielodotykowy",
+            "definition": "Wyświetlacz rozpoznający jednocześnie więcej niż jeden punkt dotyku. Pozwala wykonywać gesty kilkoma palcami, na przykład szczypnięcie służące do powiększania obrazu."
+          }
+        }
+      },
+      {
+        "id": 87,
+        "title": "Kryptografia asymetryczna",
+        "shortDescription": "Dwa powiązane klucze kryptograficzne.",
+        "details": "RSA jest algorytmem kryptografii klucza publicznego. Klucz publiczny służy między innymi do weryfikacji podpisu lub ustanawiania klucza, natomiast odpowiadający mu klucz prywatny musi pozostać tajny.",
+        "glossary": {
+          "RSA": {
+            "title": "RSA",
+            "definition": "Algorytm nazwany od nazwisk Rona Rivesta, Adiego Shamira i Leonarda Adlemana. Jego bezpieczeństwo opiera się na trudności rozkładania odpowiednio dużych liczb na czynniki."
+          },
+          "klucza publicznego": {
+            "title": "Kryptografia klucza publicznego",
+            "definition": "Metoda wykorzystująca parę matematycznie powiązanych kluczy. Publiczny można rozpowszechniać, a prywatny zna wyłącznie właściciel. Każdy klucz pełni inną rolę w operacji kryptograficznej."
+          },
+          "podpisu": {
+            "title": "Podpis cyfrowy",
+            "definition": "Dane kryptograficzne pozwalające sprawdzić autora i integralność wiadomości. Podpis tworzy się kluczem prywatnym, a weryfikuje odpowiadającym mu kluczem publicznym."
+          }
+        },
+        "imageUrl": "tech_87.webp"
+      }
+    ]
+  },
+  {
+    "id": "anatomia",
+    "title": "Ciało Człowieka",
+    "icon": "anatomia.webp",
+    "facts": [
+      {
+        "id": 91,
+        "title": "Mięsień żwacz",
+        "shortDescription": "Silny mięsień zamykający ludzką szczękę.",
+        "details": "Żwacz jest jednym z czterech głównych mięśni żucia. Jego skurcz mocno unosi żuchwę i zamyka usta, lecz określenie „najsilniejszy mięsień” zależy od sposobu porównywania siły, momentu obrotowego lub wytrzymałości.",
+        "imageUrl": "anatomia_91.webp",
+        "glossary": {
+          "Żwacz": {
+            "title": "Żwacz",
+            "definition": "Parzysty mięsień po bokach twarzy biegnący od łuku jarzmowego do żuchwy. Wspólnie z innymi mięśniami żucia uczestniczy w gryzieniu i rozdrabnianiu pokarmu."
+          },
+          "żuchwę": {
+            "title": "Żuchwa",
+            "definition": "Dolna, ruchoma kość szczęki. Łączy się z czaszką w stawach skroniowo-żuchwowych i stanowi miejsce przyczepu mięśni odpowiedzialnych za żucie."
+          }
+        }
+      },
+      {
+        "id": 92,
+        "title": "Długość naczyń krwionośnych",
+        "shortDescription": "Tysiące kilometrów rozgałęzionego układu krążenia.",
+        "details": "Popularne 100 tysięcy kilometrów pochodzi ze starego oszacowania dla niezwykle umięśnionej osoby. Nowszy model naczyń u 70-kilogramowego dorosłego daje około 19 tysięcy kilometrów, z czego większość stanowią naczynia włosowate.",
+        "imageUrl": "anatomia_92.webp",
+        "glossary": {
+          "naczynia włosowate": {
+            "title": "Naczynia włosowate (kapilary)",
+            "definition": "Najdrobniejsze naczynia krwionośne łączące tętniczki z żyłkami. Ich cienkie ściany umożliwiają wymianę tlenu, składników odżywczych i produktów przemiany między krwią a tkankami."
+          },
+          "oszacowania": {
+            "title": "Oszacowanie",
+            "definition": "Przybliżony wynik obliczony na podstawie modelu i dostępnych pomiarów. Długości wszystkich mikroskopijnych naczyń człowieka nie da się zmierzyć bezpośrednio jako jednej rozwiniętej sieci."
+          }
+        }
+      },
+      {
+        "id": 93,
+        "title": "Kwas żołądkowy",
+        "shortDescription": "Kwaśny sok i ochronna bariera śluzowa.",
+        "details": "Sok żołądkowy może osiągać pH około 1–2 dzięki kwasowi solnemu. Żołądek chroni warstwa śluzu i wodorowęglanów; twierdzenie, że szybko „trawi żyletkę”, myli powolną korozję metalu z enzymatycznym trawieniem pokarmu.",
+        "imageUrl": "anatomia_93_v2.webp",
+        "glossary": {
+          "pH": {
+            "title": "Skala pH",
+            "definition": "Logarytmiczna miara kwasowości lub zasadowości roztworu. W temperaturze pokojowej wartości poniżej 7 oznaczają odczyn kwasowy, a powyżej 7 zasadowy."
+          },
+          "wodorowęglanów": {
+            "title": "Wodorowęglany",
+            "definition": "Jony o działaniu zasadowym obecne w ochronnym śluzie żołądka. Pomagają neutralizować kwas tuż przy powierzchni nabłonka i współtworzą barierę śluzówkową."
+          },
+          "korozję": {
+            "title": "Korozja",
+            "definition": "Stopniowe niszczenie materiału wskutek reakcji chemicznych lub elektrochemicznych z otoczeniem. Rozpuszczanie metalu przez kwas jest korozją, a nie biologicznym trawieniem."
+          }
+        }
+      },
+      {
+        "id": 94,
+        "title": "Liczba kości w ciele",
+        "shortDescription": "Kości łączą się podczas dorastania.",
+        "details": "Niemowlę ma zwykle około 270 kości, a standardowy szkielet dorosłego opisuje się jako 206. Liczba maleje, ponieważ część oddzielnych elementów kostnych zrasta się podczas wzrostu; występują także naturalne różnice anatomiczne.",
+        "imageUrl": "anatomia_94.webp",
+        "glossary": {
+          "elementów kostnych": {
+            "title": "Element kostny",
+            "definition": "Oddzielna część rozwijającego się szkieletu. Niektóre elementy są początkowo połączone chrząstką, a później kostnieją i zrastają się w jedną kość dorosłego."
+          },
+          "różnice anatomiczne": {
+            "title": "Różnice anatomiczne",
+            "definition": "Naturalne odmiany budowy występujące między zdrowymi ludźmi. Dodatkowe drobne kości lub odmienne zrośnięcie elementów mogą zmieniać indywidualną liczbę kości."
+          }
+        }
+      },
+      {
+        "id": 95,
+        "title": "Wielkość mózgu a energia",
+        "shortDescription": "Mały narząd o wielkim zapotrzebowaniu.",
+        "details": "Mózg stanowi około 2 procent masy dorosłego ciała, ale w spoczynku zużywa około 20 procent energii organizmu. Glukoza jest jego głównym paliwem, choć podczas długiego głodzenia wykorzystuje także ciała ketonowe.",
+        "imageUrl": "anatomia_95.webp",
+        "glossary": {
+          "Glukoza": {
+            "title": "Glukoza",
+            "definition": "Cukier prosty krążący we krwi i podstawowe paliwo mózgu w zwykłych warunkach. Komórki wykorzystują go do wytwarzania energii potrzebnej do działania."
+          },
+          "ciała ketonowe": {
+            "title": "Ciała ketonowe",
+            "definition": "Cząsteczki energetyczne wytwarzane w wątrobie głównie z kwasów tłuszczowych. Podczas długiego głodzenia mogą częściowo zastępować glukozę jako paliwo mózgu."
+          }
+        }
+      },
+      {
+        "id": 96,
+        "title": "Odnowa komórkowa skóry",
+        "shortDescription": "Naskórek odnawia się przez całe życie.",
+        "details": "Komórki naskórka powstają w warstwie podstawnej i przesuwają się ku powierzchni, gdzie ulegają złuszczeniu. Pełna odnowa trwa zwykle kilka tygodni, a jej tempo zależy między innymi od wieku i stanu skóry.",
+        "imageUrl": "anatomia_96.webp",
+        "glossary": {
+          "naskórka": {
+            "title": "Naskórek",
+            "definition": "Najbardziej zewnętrzna warstwa skóry zbudowana głównie z keratynocytów. Tworzy odnawiającą się barierę ograniczającą utratę wody i chroniącą głębsze tkanki."
+          },
+          "warstwie podstawnej": {
+            "title": "Warstwa podstawna",
+            "definition": "Najgłębsza część naskórka, w której dzielą się komórki dające początek nowym keratynocytom. Ich potomne komórki stopniowo przemieszczają się ku powierzchni."
+          },
+          "złuszczeniu": {
+            "title": "Złuszczanie",
+            "definition": "Naturalne odłączanie martwych, zrogowaciałych komórek z powierzchni naskórka. Proces zachodzi stale i równoważy powstawanie nowych komórek w głębszych warstwach."
+          }
+        }
+      },
+      {
+        "id": 97,
+        "title": "Brodawki języka",
+        "shortDescription": "Różne brodawki pełnią odmienne funkcje.",
+        "details": "Powierzchnię języka pokrywają cztery typy brodawek. Nitkowate pomagają przesuwać pokarm i nie mają kubków smakowych, natomiast grzybowate, liściaste oraz okolone mogą zawierać receptory odpowiedzialne za smak.",
+        "imageUrl": "anatomia_97_v2.webp",
+        "glossary": {
+          "brodawek": {
+            "title": "Brodawki językowe",
+            "definition": "Niewielkie wypukłości na grzbietowej powierzchni języka. Ich cztery typy różnią się kształtem, rozmieszczeniem i funkcją; nie wszystkie uczestniczą w odczuwaniu smaku."
+          },
+          "kubków smakowych": {
+            "title": "Kubki smakowe",
+            "definition": "Zespoły komórek receptorowych wykrywających substancje rozpuszczone w ślinie. Występują w części brodawek języka, a także w innych obszarach jamy ustnej i gardła."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "sztuka",
+    "title": "Sztuka",
+    "icon": "sztuka.webp",
+    "facts": [
+      {
+        "id": 101,
+        "title": "Mona Lisa",
+        "shortDescription": "Portret malowany przez kilkanaście lat.",
+        "details": "Leonardo da Vinci rozpoczął Monę Lisę około 1503 roku i pracował nad nią do późnych lat życia. Portret Lisy Gherardini namalował olejem na topolowej desce o wysokości około 77 centymetrów.",
+        "imageUrl": "sztuka_101.webp",
+        "glossary": {
+          "Lisy Gherardini": {
+            "title": "Lisa Gherardini",
+            "definition": "Florencka mieszczka i żona kupca Francesca del Gioconda, najczęściej uznawana za modelkę portretu. Od nazwiska męża pochodzi włoska nazwa obrazu: La Gioconda."
+          },
+          "topolowej desce": {
+            "title": "Deska topolowa",
+            "definition": "Drewniane podłoże malarskie wykonane z topoli. Mona Lisa nie została namalowana na płótnie, lecz farbami olejnymi na cienkim panelu z drewna."
+          }
+        }
+      },
+      {
+        "id": 102,
+        "title": "Impresjonizm",
+        "shortDescription": "Wystawa, która nazwała impresjonizm.",
+        "details": "Pierwsza niezależna wystawa grupy otworzyła się w Paryżu 15 kwietnia 1874 roku. Pokazano tam „Impresję, wschód słońca” Moneta, a krytyczna recenzja jej tytułu pomogła upowszechnić nazwę impresjonizm.",
+        "imageUrl": "sztuka_102.webp",
+        "glossary": {
+          "niezależna wystawa": {
+            "title": "Wystawa niezależna",
+            "definition": "Pokaz zorganizowany poza oficjalnym Salonem paryskim, którego jury decydowało o dopuszczeniu prac. Artyści mogli dzięki temu samodzielnie zaprezentować nowatorskie obrazy publiczności."
+          },
+          "impresjonizm": {
+            "title": "Impresjonizm",
+            "definition": "Kierunek malarski rozwijany we Francji pod koniec XIX wieku. Artyści często używali jasnej palety i szybkich pociągnięć pędzla, aby uchwycić chwilowe światło i wrażenie."
+          }
+        }
+      },
+      {
+        "id": 103,
+        "title": "Kaplica Sykstyńska",
+        "shortDescription": "Sklepienie wypełnione biblijnymi scenami.",
+        "details": "Michał Anioł malował sklepienie Kaplicy Sykstyńskiej od 1508 do 1512 roku. Freski przedstawiają sceny z Księgi Rodzaju, proroków i przodków Chrystusa; słynne „Stworzenie Adama” jest tylko jednym fragmentem.",
+        "imageUrl": "sztuka_103.webp",
+        "glossary": {
+          "Freski": {
+            "title": "Fresk",
+            "definition": "Technika malarstwa ściennego polegająca na nakładaniu pigmentów na świeżą, wilgotną zaprawę wapienną. Schnąca zaprawa wiąże barwy z powierzchnią ściany lub sklepienia."
+          },
+          "Księgi Rodzaju": {
+            "title": "Księga Rodzaju",
+            "definition": "Pierwsza księga Biblii, zawierająca między innymi opowieści o stworzeniu świata, Adamie i Ewie oraz potopie. Jej sceny zajmują centralną część sklepienia."
+          }
+        }
+      },
+      {
+        "id": 104,
+        "title": "Piramidy w Gizie",
+        "shortDescription": "Najwyższa piramida starożytnego Egiptu.",
+        "details": "Wielka Piramida powstała jako grobowiec faraona Chufu około XXVI wieku p.n.e. Jej pierwotna wysokość wynosiła około 146 metrów; jest jedynym zachowanym cudem z tradycyjnej listy siedmiu cudów starożytnego świata.",
+        "imageUrl": "sztuka_104.webp",
+        "glossary": {
+          "faraona": {
+            "title": "Faraon",
+            "definition": "Określenie władcy starożytnego Egiptu, który stał na czele państwa i pełnił ważną rolę religijną. Chufu jest także znany pod grecką formą imienia Cheops."
+          },
+          "siedmiu cudów": {
+            "title": "Siedem cudów starożytnego świata",
+            "definition": "Tradycyjna lista niezwykłych budowli znanych Grekom i Rzymianom. Wielka Piramida jest najstarszym elementem listy i jedynym zachowanym do czasów współczesnych."
+          }
+        }
+      },
+      {
+        "id": 105,
+        "title": "Vincent van Gogh",
+        "shortDescription": "Dziesięć lat niezwykle intensywnego malowania.",
+        "details": "Vincent van Gogh poświęcił sztuce ostatnią dekadę życia, od około 1880 do 1890 roku. Zachowało się około 850 jego obrazów i 1300 rysunków, kojarzonych dziś z postimpresjonizmem.",
+        "imageUrl": "sztuka_105.webp",
+        "glossary": {
+          "postimpresjonizmem": {
+            "title": "Postimpresjonizm",
+            "definition": "Umowne określenie różnorodnej twórczości artystów działających po impresjonistach. Van Gogh używał wyrazistych barw i energicznych śladów pędzla, aby wzmacniać ekspresję obrazu."
+          }
+        }
+      },
+      {
+        "id": 106,
+        "title": "Gotyk",
+        "shortDescription": "Światło i wysokość gotyckich katedr.",
+        "details": "Nowy język architektury pojawił się w chórze opactwa Saint-Denis, przebudowanym w latach 1140–1144. Sklepienia krzyżowo-żebrowe, ostre łuki i późniejsze łuki przyporowe pozwalały budować wyżej oraz otwierać ściany na witraże.",
+        "imageUrl": "sztuka_106.webp",
+        "glossary": {
+          "witraże": {
+            "title": "Witraż",
+            "definition": "Kompozycja z barwionych kawałków szkła połączonych najczęściej ołowianymi listwami. W gotyckich kościołach duże okna witrażowe wpuszczały kolorowe światło i przedstawiały sceny religijne."
+          },
+          "Sklepienia krzyżowo-żebrowe": {
+            "title": "Sklepienie krzyżowo-żebrowe",
+            "definition": "Sklepienie, którego pola podtrzymuje szkielet przecinających się kamiennych żeber. Rozwiązanie kieruje obciążenia ku filarom i ułatwia przykrywanie nieregularnych przestrzeni."
+          },
+          "łuki przyporowe": {
+            "title": "Łuk przyporowy",
+            "definition": "Zewnętrzny łuk przenoszący boczny napór sklepienia z wysokiej ściany na oddaloną przyporę. Umożliwia ograniczenie masy muru i wykonanie większych okien."
+          }
+        }
+      },
+      {
+        "id": 107,
+        "title": "Pop-art i Andy Warhol",
+        "shortDescription": "Trzydzieści dwa ręcznie malowane produkty.",
+        "details": "Andy Warhol pokazał „Campbell’s Soup Cans” w Los Angeles w 1962 roku. Dzieło pop-artu obejmuje 32 osobne płótna, po jednym dla każdego ówczesnego smaku zupy; puszki namalowano ręcznie, naśladując seryjną produkcję.",
+        "imageUrl": "sztuka_107.webp",
+        "glossary": {
+          "pop-artu": {
+            "title": "Pop-art",
+            "definition": "Kierunek artystyczny wykorzystujący obrazy kultury popularnej, reklamy, komiksu i towarów masowych. Warhol badał w ten sposób granicę między dziełem sztuki a produktem konsumpcyjnym."
+          },
+          "seryjną produkcję": {
+            "title": "Produkcja seryjna",
+            "definition": "Wytwarzanie wielu podobnych egzemplarzy według powtarzalnego procesu. Warhol naśladował jej wizualną jednolitość, choć tę serię puszek wykonał głównie ręcznie."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "zwierzeta",
+    "title": "Zwierzęta",
+    "icon": "zwierzeta.webp",
+    "facts": [
+      {
+        "id": 111,
+        "title": "Płetwal błękitny",
+        "shortDescription": "Największe znane zwierzę w dziejach.",
+        "details": "Płetwal błękitny jest największym znanym zwierzęciem: największe osobniki przekraczają 30 metrów długości, a ich masa może sięgać około 150 ton. Oddycha powietrzem i karmi młode mlekiem, ponieważ jest ssakiem.",
+        "imageUrl": "zwierzeta_111.webp",
+        "glossary": {
+          "ssakiem": {
+            "title": "Ssak morski",
+            "definition": "Ssak przystosowany do życia w wodzie, lecz oddychający powietrzem za pomocą płuc. Samice produkują mleko dla młodych, a płetwale muszą regularnie wynurzać się po oddech."
+          }
+        }
+      },
+      {
+        "id": 112,
+        "title": "Narzędzia wron nowokaledońskich",
+        "shortDescription": "Ptaki wytwarzające haczykowate narzędzia.",
+        "details": "Wrony nowokaledońskie odrywają rozwidlone gałązki, usuwają liście i rzeźbią końcówkę w haczyk. Tak wytworzone narzędzia wkładają do szczelin, aby wydobywać larwy i inne ukryte bezkręgowce.",
+        "imageUrl": "zwierzeta_112.webp",
+        "glossary": {
+          "narzędzia": {
+            "title": "Narzędzia u zwierząt",
+            "definition": "Przedmioty używane do osiągnięcia konkretnego celu. Wrony nowokaledońskie nie tylko wybierają patyki, lecz także nadają im kształt zwiększający skuteczność wydobywania zdobyczy."
+          },
+          "nowokaledońskie": {
+            "title": "Nowa Kaledonia",
+            "definition": "Archipelag na południowo-zachodnim Pacyfiku, na którym naturalnie występuje wrona nowokaledońska. Różne populacje tych ptaków wytwarzają charakterystyczne narzędzia z lokalnych roślin."
+          }
+        }
+      },
+      {
+        "id": 113,
+        "title": "Echolokacja u nietoperzy",
+        "shortDescription": "Ultradźwięki tworzące obraz nocnego otoczenia.",
+        "details": "Wiele nietoperzy emituje ultradźwięki i nasłuchuje ich echa od przeszkód lub zdobyczy. Podczas polowania zwiększają tempo zawołań, tworząc tak zwany brzęk żerowania, który pomaga precyzyjnie określić położenie owada.",
+        "imageUrl": "zwierzeta_113_v2.webp",
+        "glossary": {
+          "ultradźwięki": {
+            "title": "Ultradźwięki",
+            "definition": "Dźwięki o częstotliwości wyższej niż górna granica słuchu człowieka, przyjmowana zwykle jako około 20 kHz. Wiele gatunków nietoperzy wykorzystuje je do echolokacji."
+          },
+          "brzęk żerowania": {
+            "title": "Brzęk żerowania",
+            "definition": "Bardzo szybka seria zawołań echolokacyjnych emitowanych podczas zbliżania się do zdobyczy. Coraz krótsze odstępy między sygnałami dostarczają częstszych aktualizacji jej położenia."
+          }
+        }
+      },
+      {
+        "id": 114,
+        "title": "Gepard",
+        "shortDescription": "Szybkość połączona z niezwykłą zwrotnością.",
+        "details": "Obroże pomiarowe zarejestrowały u dzikiego geparda prędkość 93 km/h, ale większość polowań odbywała się wolniej. Sukces zależał także od gwałtownego przyspieszania, hamowania i zmiany kierunku podczas pościgu.",
+        "imageUrl": "zwierzeta_114.webp",
+        "glossary": {
+          "Obroże pomiarowe": {
+            "title": "Obroża pomiarowa",
+            "definition": "Lekki zestaw czujników noszony przez badane zwierzę. Odbiornik GPS i czujniki ruchu pozwalają mierzyć prędkość, przyspieszenie oraz zmianę kierunku podczas naturalnego polowania."
+          },
+          "przyspieszania": {
+            "title": "Przyspieszenie",
+            "definition": "Tempo zmiany prędkości w czasie. Podczas polowania gepard wielokrotnie przyspiesza, zwalnia i skręca, dlatego sama najwyższa prędkość nie wyjaśnia sukcesu pościgu."
+          }
+        }
+      },
+      {
+        "id": 115,
+        "title": "Nanokryształy w skórze kameleona",
+        "shortDescription": "Kolor zmieniany przez mikroskopijne kryształy.",
+        "details": "Kameleon lamparci zmienia odbijane barwy, regulując odległości między nanokryształami guaniny w komórkach skóry zwanych irydoforami. Mechanizm wspiera komunikację społeczną i regulację temperatury; kamuflaż nie jest jego jedynym zastosowaniem.",
+        "imageUrl": "zwierzeta_115.webp",
+        "glossary": {
+          "nanokryształami guaniny": {
+            "title": "Nanokryształy guaniny",
+            "definition": "Mikroskopijne kryształy ułożone w regularną sieć wewnątrz wyspecjalizowanych komórek. Zmiana odstępów między nimi powoduje odbijanie innych długości fal, a więc innych barw."
+          },
+          "irydoforami": {
+            "title": "Irydofory",
+            "definition": "Komórki skóry zawierające odbijające światło struktury, między innymi kryształy guaniny. U kameleona lamparciego ich organizacja umożliwia szybką zmianę widocznej barwy."
+          }
+        }
+      },
+      {
+        "id": 116,
+        "title": "Doświadczenie słonic matriarchalnych",
+        "shortDescription": "Starsze samice przechowują wiedzę społeczną.",
+        "details": "W eksperymentach z odtwarzaniem nagrań rodziny prowadzone przez starsze matriarchinie lepiej rozpoznawały obce słonice po głosie i reagowały odpowiednio. Doświadczenie najstarszej samicy pomaga więc całej grupie oceniać zagrożenia społeczne.",
+        "imageUrl": "zwierzeta_116.webp",
+        "glossary": {
+          "matriarchinie": {
+            "title": "Matriarchini",
+            "definition": "Najstarsza samica przewodząca rodzinnej grupie słoni. Jej wieloletnie doświadczenie pomaga rozpoznawać inne osobniki i dobierać reakcję na potencjalne zagrożenie."
+          },
+          "odtwarzaniem nagrań": {
+            "title": "Eksperyment z odtwarzaniem nagrań",
+            "definition": "Metoda badania zachowania, w której zwierzętom odtwarza się wcześniej zapisane głosy. Naukowcy porównują reakcje na sygnały znajome, obce lub kontrolne."
+          }
+        }
+      },
+      {
+        "id": 117,
+        "title": "Niesporczaki",
+        "shortDescription": "Mikrozwierzęta zdolne przetrwać próżnię kosmiczną.",
+        "details": "W 2007 roku niesporczaki w stanie kryptobiozy wystawiono przez dziesięć dni na warunki otwartego kosmosu. Wiele przeżyło samą próżnię, lecz promieniowanie słoneczne znacznie obniżyło przeżywalność; odporność nie oznacza niezniszczalności.",
+        "imageUrl": "zwierzeta_117_v2.webp",
+        "glossary": {
+          "kryptobiozy": {
+            "title": "Kryptobioza",
+            "definition": "Odwracalny stan, w którym aktywność metaboliczna organizmu staje się skrajnie mała i trudna do wykrycia. Odwodnione niesporczaki mogą dzięki niemu przetrwać okresowo niekorzystne warunki."
+          },
+          "niesporczaki": {
+            "title": "Niesporczaki",
+            "definition": "Typ mikroskopijnych, ośmionożnych zwierząt żyjących zwykle w wodzie lub wilgotnym środowisku. Odporność różni się między gatunkami, stanami rozwojowymi i rodzajem zagrożenia."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "psychologia",
+    "title": "Psychologia",
+    "icon": "psychologia.webp",
+    "facts": [
+      {
+        "id": 181,
+        "title": "Efekt Mandeli",
+        "shortDescription": "Wiele osób pamięta ten sam błąd.",
+        "details": "Efekt Mandeli oznacza wspólne, podobne fałszywe wspomnienia. Badanie ikon wykazało, że przy niektórych obrazach uczestnicy wybierali ten sam nieistniejący szczegół, mimo wcześniejszego oglądania wersji prawidłowej.",
+        "imageUrl": "psy_1.webp",
+        "glossary": {
+          "fałszywe wspomnienia": {
+            "title": "Fałszywe wspomnienie",
+            "definition": "Pamięć zdarzenia lub szczegółu, który nie wystąpił albo wyglądał inaczej. Wspomnienie może być szczere i wyraziste, mimo że nie odpowiada rzeczywistości."
+          }
+        }
+      },
+      {
+        "id": 182,
+        "title": "Paradoks wyboru",
+        "shortDescription": "Większy wybór nie zawsze pomaga.",
+        "details": "W badaniu sklepowym stoisko z 24 dżemami przyciągało więcej osób niż stoisko z sześcioma, ale kupowało odpowiednio około 3 i 30 procent próbujących. To klasyczny, lecz zależny od sytuacji paradoks wyboru.",
+        "imageUrl": "psy_2.webp",
+        "glossary": {
+          "badaniu sklepowym": {
+            "title": "Badanie terenowe",
+            "definition": "Eksperyment prowadzony w naturalnym środowisku zamiast wyłącznie w laboratorium. W tym przypadku badacze obserwowali reakcje klientów przy stoisku degustacyjnym w sklepie."
+          },
+          "paradoks wyboru": {
+            "title": "Paradoks wyboru",
+            "definition": "Hipoteza, że zwiększanie liczby możliwości może czasem utrudniać decyzję albo obniżać zadowolenie. Siła tego efektu zależy od zadania, osoby i kontekstu."
+          }
+        }
+      },
+      {
+        "id": 183,
+        "title": "Świadome sny",
+        "shortDescription": "Świadomość pojawiająca się podczas snu.",
+        "details": "Świadomy sen zachodzi, gdy śniący rozpoznaje, że właśnie śni; pełna kontrola nie jest konieczna. W laboratorium potwierdzono takie sny podczas fazy REM dzięki umówionym ruchom oczu rejestrowanym spod zamkniętych powiek.",
+        "imageUrl": "psy_3.webp",
+        "glossary": {
+          "fazy REM": {
+            "title": "Faza REM",
+            "definition": "Stadium snu nazwane od szybkich ruchów gałek ocznych. Mózg jest wtedy aktywny, występują żywe sny, a większość mięśni szkieletowych pozostaje czasowo rozluźniona."
+          },
+          "umówionym ruchom oczu": {
+            "title": "Sygnał ruchami oczu",
+            "definition": "Ustalona wcześniej sekwencja spojrzeń w lewo i prawo wykonywana we śnie. Elektrody rejestrują ruchy oczu, pozwalając śniącemu oznaczyć moment uzyskania świadomości."
+          }
+        }
+      },
+      {
+        "id": 184,
+        "title": "Efekt Dunninga-Krugera",
+        "shortDescription": "Słabi wykonawcy błędnie oceniają swój wynik.",
+        "details": "W badaniach z 1999 roku osoby z najniższymi wynikami w zadaniach humoru, gramatyki i logiki znacznie przeceniały swoją pozycję względem grupy. Efekt dotyczy samooceny konkretnej umiejętności, nie ogólnej inteligencji.",
+        "imageUrl": "psy_4.webp",
+        "glossary": {
+          "samooceny": {
+            "title": "Samoocena umiejętności",
+            "definition": "Własny osąd poziomu wykonania określonego zadania. Można go porównać z obiektywnym wynikiem albo z rzeczywistą pozycją osoby na tle innych uczestników."
+          },
+          "pozycję względem grupy": {
+            "title": "Ocena względna",
+            "definition": "Próba określenia, jak własny wynik wypada na tle pozostałych osób. Różni się od pytania o bezwzględną liczbę poprawnych odpowiedzi."
+          }
+        }
+      },
+      {
+        "id": 185,
+        "title": "Efekt placebo",
+        "shortDescription": "Oczekiwania mogą zmieniać odczuwanie objawów.",
+        "details": "Efekt placebo to reakcja związana z oczekiwaniami i kontekstem leczenia, a nie samą obojętną substancją. W badaniach bólu nalokson osłabiał część analgezji placebo, wskazując na udział naturalnych opioidów organizmu.",
+        "imageUrl": "psy_5.webp",
+        "glossary": {
+          "nalokson": {
+            "title": "Nalokson",
+            "definition": "Lek blokujący receptory opioidowe. Jego zdolność do osłabiania niektórych reakcji przeciwbólowych placebo wskazuje, że organizm może uruchamiać własny układ opioidowy."
+          },
+          "analgezji": {
+            "title": "Analgezja",
+            "definition": "Zmniejszenie lub zniesienie odczuwania bólu bez utraty świadomości. Może wynikać z działania leku, procedury medycznej albo procesów uruchamianych przez kontekst leczenia."
+          },
+          "opioidów": {
+            "title": "Opioidy endogenne",
+            "definition": "Naturalne cząsteczki wytwarzane przez organizm, które wiążą się z receptorami opioidowymi i uczestniczą między innymi w regulacji bólu."
+          }
+        }
+      },
+      {
+        "id": 186,
+        "title": "Efekt aureoli",
+        "shortDescription": "Jedna cecha zabarwia całą ocenę.",
+        "details": "Edward Thorndike opisał w 1920 roku, że przełożeni wojskowi oceniali różne cechy podwładnych zaskakująco podobnie. Efekt aureoli sprawia, że ogólne dobre lub złe wrażenie wpływa na niezależne sądy.",
+        "imageUrl": "psy_6.webp",
+        "glossary": {
+          "Efekt aureoli": {
+            "title": "Efekt aureoli",
+            "definition": "Błąd oceny, w którym ogólne wrażenie o osobie lub obiekcie wpływa na osąd ich odrębnych cech, nawet gdy powinny być rozpatrywane niezależnie."
+          },
+          "niezależne sądy": {
+            "title": "Niezależny sąd",
+            "definition": "Ocena pojedynczej cechy oparta na dowodach dotyczących właśnie tej cechy. Efekt aureoli utrudnia oddzielenie takiej oceny od wcześniejszego ogólnego wrażenia."
+          }
+        }
+      },
+      {
+        "id": 187,
+        "title": "Dysonans poznawczy",
+        "shortDescription": "Wewnętrzny konflikt prowadzący do racjonalizowania błędów.",
+        "details": "W eksperymencie z 1959 roku uczestnicy wykonywali nudne zadanie, a potem zachwalali je kolejnej osobie za 1 lub 20 dolarów. Grupa opłacona jednym dolarem później oceniała zadanie pozytywniej, zgodnie z teorią dysonansu poznawczego.",
+        "imageUrl": "psy_7.webp",
+        "glossary": {
+          "dysonansu poznawczego": {
+            "title": "Dysonans poznawczy",
+            "definition": "Napięcie wynikające z niezgodności między przekonaniami, postawami lub zachowaniem. Człowiek może je zmniejszać, zmieniając ocenę sytuacji albo znajdując zewnętrzne uzasadnienie działania."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "ekonomia",
+    "title": "Ekonomia i Finanse",
+    "icon": "ekonomia.webp",
+    "facts": [
+      {
+        "id": 191,
+        "title": "Piramida Ponziego",
+        "shortDescription": "Wpłaty nowych uczestników finansują wcześniejszych.",
+        "details": "Schemat Ponziego wypłaca wcześniejszym uczestnikom pieniądze wpłacane przez nowych, zamiast rzeczywistych zysków. Charles Ponzi obiecywał w 1920 roku ogromne zwroty na arbitrażu międzynarodowych kuponów pocztowych.",
+        "imageUrl": "eco_1.webp",
+        "glossary": {
+          "arbitrażu": {
+            "title": "Arbitraż",
+            "definition": "Jednoczesne kupno i sprzedaż tego samego lub podobnego dobra na różnych rynkach, aby wykorzystać różnicę jego ceny."
+          }
+        }
+      },
+      {
+        "id": 192,
+        "title": "Hiperinflacja w Zimbabwe",
+        "shortDescription": "Hiperinflacja błyskawicznie odbiera pieniądzom wartość.",
+        "details": "W listopadzie 2008 roku miesięczna inflacja w Zimbabwe osiągnęła około 79,6 miliarda procent, więc ceny podwajały się mniej więcej co dobę. Hiperinflacja gwałtownie niszczyła siłę nabywczą miejscowej waluty.",
+        "imageUrl": "eco_2_v2.webp",
+        "glossary": {
+          "siłę nabywczą": {
+            "title": "Siła nabywcza",
+            "definition": "Ilość dóbr i usług, które można kupić za określoną sumę pieniędzy. Wzrost cen zwykle ją obniża."
+          }
+        }
+      },
+      {
+        "id": 193,
+        "title": "Podaż i Popyt",
+        "shortDescription": "Mniejsza podaż może podnosić ceny.",
+        "details": "W czasie kryzysu naftowego 1973–1974 arabscy eksporterzy ograniczyli produkcję i nałożyli embargo na wybrane państwa. Cena ropy wzrosła niemal czterokrotnie, pokazując skutki gwałtownego spadku podaży.",
+        "imageUrl": "eco_3.webp",
+        "glossary": {
+          "embargo": {
+            "title": "Embargo",
+            "definition": "Zakaz lub poważne ograniczenie handlu z określonym państwem, nakładane jako środek nacisku politycznego albo gospodarczego."
+          },
+          "podaży": {
+            "title": "Podaż",
+            "definition": "Ilość dobra lub usługi, którą sprzedawcy są gotowi zaoferować na rynku przy określonych cenach."
+          }
+        }
+      },
+      {
+        "id": 194,
+        "title": "Byki i Niedźwiedzie",
+        "shortDescription": "Byk oznacza wzrosty, niedźwiedź spadki.",
+        "details": "Hossa oznacza dłuższy okres wzrostu cen akcji i optymizmu inwestorów, a bessa — spadków oraz pesymizmu. W popularnej terminologii giełdowej byk symbolizuje rynek rosnący, niedźwiedź zaś tracący wartość.",
+        "imageUrl": "eco_4.webp",
+        "glossary": {
+          "Hossa": {
+            "title": "Hossa",
+            "definition": "Dłuższy okres ogólnego wzrostu cen na rynku, któremu zwykle towarzyszy optymizm inwestorów."
+          },
+          "bessa": {
+            "title": "Bessa",
+            "definition": "Dłuższy okres ogólnego spadku cen na rynku, któremu zwykle towarzyszy pesymizm inwestorów."
+          }
+        }
+      },
+      {
+        "id": 195,
+        "title": "Procent składany",
+        "shortDescription": "Odsetki również zaczynają przynosić odsetki.",
+        "details": "Przy corocznej kapitalizacji 1000 złotych oprocentowane na 8 procent rocznie wzrosłoby po 30 latach do około 10 063 złotych. Procent składany nalicza odsetki również od wcześniejszych odsetek.",
+        "imageUrl": "eco_5.webp",
+        "glossary": {
+          "kapitalizacji": {
+            "title": "Kapitalizacja odsetek",
+            "definition": "Dopisanie naliczonych odsetek do kapitału, dzięki czemu w następnym okresie one również mogą przynosić odsetki."
+          }
+        }
+      },
+      {
+        "id": 196,
+        "title": "Tulipanomania",
+        "shortDescription": "Tulipany napędziły krótką falę spekulacji.",
+        "details": "W Holandii lat 30. XVII wieku ceny niektórych rzadkich tulipanów oraz kontraktów na cebulki gwałtownie rosły. Rynek załamał się w lutym 1637 roku, lecz nie zrujnował całej gospodarki.",
+        "imageUrl": "eco_6.webp",
+        "glossary": {
+          "kontraktów": {
+            "title": "Kontrakt",
+            "definition": "Umowa określająca zobowiązania stron; podczas tulipanomanii handlowano także umowami dotyczącymi przyszłej dostawy cebulek."
+          }
+        }
+      },
+      {
+        "id": 197,
+        "title": "Bitcoin i blockchain",
+        "shortDescription": "Rozproszona sieć zapisuje historię transakcji.",
+        "details": "Satoshi Nakamoto opisał Bitcoin w 2008 roku, a 3 stycznia 2009 uruchomił jego blok genezy. Blockchain zapisuje transakcje w kolejnych blokach uzgadnianych przez zdecentralizowaną sieć uczestników.",
+        "imageUrl": "eco_7.webp",
+        "glossary": {
+          "blok genezy": {
+            "title": "Blok genezy",
+            "definition": "Pierwszy blok danego łańcucha blockchain, od którego rozpoczyna się zapisana historia całej sieci."
+          },
+          "Blockchain": {
+            "title": "Blockchain",
+            "definition": "Rozproszony rejestr danych, w którym kolejne partie zapisów są łączone kryptograficznie w uporządkowany łańcuch bloków."
+          },
+          "zdecentralizowaną": {
+            "title": "Zdecentralizowana sieć",
+            "definition": "Sieć pozbawiona jednego centralnego operatora, w której dane i decyzje są współdzielone przez wielu uczestników."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "historia_swiata",
+    "title": "Historia Świata",
+    "icon": "historia_swiata.webp",
+    "facts": [
+      {
+        "id": 201,
+        "title": "Wynalezienie pisma",
+        "shortDescription": "Pismo utrwaliło informacje poza ludzką pamięcią.",
+        "details": "Najstarsze znane systemy pisma powstały niezależnie w kilku regionach. W Mezopotamii około 3200 roku p.n.e. zapisywano na glinianych tabliczkach głównie rachunki gospodarcze, z których rozwinęło się pismo klinowe.",
+        "imageUrl": "historia_swiata_1.webp",
+        "glossary": {
+          "Mezopotamii": {
+            "title": "Mezopotamia",
+            "definition": "Historyczna kraina między Tygrysem a Eufratem, obejmująca głównie obszar dzisiejszego Iraku i części sąsiednich państw."
+          },
+          "pismo klinowe": {
+            "title": "Pismo klinowe",
+            "definition": "System zapisu wykonywany trzcinowym rylcem na glinie; odciski miały charakterystyczny kształt małych klinów."
+          }
+        }
+      },
+      {
+        "id": 202,
+        "title": "476 n.e. – Upadek Rzymu",
+        "shortDescription": "Umowna cezura końca zachodniego cesarstwa.",
+        "details": "W 476 roku germański dowódca Odoaker usunął z tronu Romulusa Augustulusa. Datę tę umownie uznaje się za koniec cesarstwa zachodniorzymskiego, choć jego instytucje i kultura nie zniknęły nagle.",
+        "imageUrl": "historia_swiata_2_v2.webp",
+        "glossary": {
+          "Odoaker": {
+            "title": "Odoaker",
+            "definition": "Germański dowódca, który w 476 roku odsunął od władzy młodego cesarza Romulusa Augustulusa i rządził Italią."
+          },
+          "cesarstwa zachodniorzymskiego": {
+            "title": "Cesarstwo zachodniorzymskie",
+            "definition": "Zachodnia część państwa rzymskiego, rządzona oddzielnie od części wschodniej w ostatnich stuleciach starożytności."
+          }
+        }
+      },
+      {
+        "id": 203,
+        "title": "Około 1450 – druk Gutenberga",
+        "shortDescription": "Ruchome czcionki przyspieszyły powielanie książek.",
+        "details": "Johannes Gutenberg udoskonalił w Moguncji europejski druk z metalowych ruchomych czcionek. Jego 42-wierszowa Biblia, wydrukowana około 1452–1455 w nakładzie blisko 180 egzemplarzy, przyspieszyła powielanie książek.",
+        "imageUrl": "historia_swiata_3.webp",
+        "glossary": {
+          "ruchomych czcionek": {
+            "title": "Ruchome czcionki",
+            "definition": "Oddzielne elementy z wypukłymi znakami, które można wielokrotnie zestawiać w tekst, rozbierać i układać ponownie."
+          },
+          "nakładzie": {
+            "title": "Nakład",
+            "definition": "Liczba egzemplarzy książki, gazety lub innej publikacji wytworzonych w jednej edycji."
+          }
+        }
+      },
+      {
+        "id": 204,
+        "title": "1492 – wyprawa Kolumba",
+        "shortDescription": "Spotkanie światów rozpoczęło epokę kolonizacji.",
+        "details": "12 października 1492 roku wyprawa Krzysztofa Kolumba dotarła na bahamską wyspę Guanahani, zamieszkaną przez lud Taíno. Podróż zapoczątkowała trwały kontakt Europy z Amerykami, kolonizację i katastrofalne skutki dla ludności rdzennej.",
+        "imageUrl": "historia_swiata_4.webp",
+        "glossary": {
+          "Taíno": {
+            "title": "Taíno",
+            "definition": "Rdzenna ludność Karaibów, którą wyprawa Kolumba spotkała w 1492 roku na wyspach archipelagu Bahamów."
+          },
+          "kolonizację": {
+            "title": "Kolonizacja",
+            "definition": "Proces zajmowania i podporządkowywania terytorium przez przybyszów, często połączony z osadnictwem, eksploatacją i narzucaniem władzy."
+          }
+        }
+      },
+      {
+        "id": 205,
+        "title": "1789 – Rewolucja Francuska",
+        "shortDescription": "Rewolucja podważyła przywileje starego porządku.",
+        "details": "14 lipca 1789 roku paryżanie zdobyli Bastylię. W sierpniu Zgromadzenie Narodowe zniosło przywileje feudalne i uchwaliło siedemnastopunktową Deklarację Praw Człowieka i Obywatela, głosząc wolność oraz równość wobec prawa.",
+        "imageUrl": "historia_swiata_5.webp",
+        "glossary": {
+          "Bastylię": {
+            "title": "Bastylia",
+            "definition": "Twierdza i więzienie w Paryżu, symbolizująca opresję władzy królewskiej. Jej zdobycie 14 lipca 1789 roku zainicjowało wybuch rewolucji."
+          },
+          "przywileje feudalne": {
+            "title": "Przywileje feudalne",
+            "definition": "Dziedziczne uprawnienia stanów uprzywilejowanych, między innymi zwolnienia podatkowe i świadczenia należne od chłopów."
+          },
+          "Deklarację Praw Człowieka i Obywatela": {
+            "title": "Deklaracja Praw Człowieka i Obywatela",
+            "definition": "Fundamentalny dokument rewolucji francuskiej uchwalony w 1789 roku. Gwarantował wolność, równość wobec prawa oraz prawo do własności prywatnej."
+          }
+        }
+      },
+      {
+        "id": 206,
+        "title": "Rewolucja Przemysłowa",
+        "shortDescription": "Mechanizacja odmieniła produkcję i społeczeństwo.",
+        "details": "Rewolucja przemysłowa rozpoczęła się w XVIII-wiecznej Wielkiej Brytanii i trwała dekady. Mechanizacja produkcji, fabryki oraz energia wodna i parowa zwiększyły wydajność, równocześnie przyspieszając urbanizację i rozwój klasy robotniczej.",
+        "imageUrl": "historia_swiata_6.webp",
+        "glossary": {
+          "Mechanizacja": {
+            "title": "Mechanizacja",
+            "definition": "Zastępowanie lub wspomaganie pracy ludzi i zwierząt maszynami, aby zwiększyć tempo i skalę produkcji."
+          },
+          "urbanizację": {
+            "title": "Urbanizacja",
+            "definition": "Wzrost liczby i wielkości miast oraz udziału ludności miejskiej, często związany z migracją za pracą."
+          }
+        }
+      },
+      {
+        "id": 207,
+        "title": "1989 – Upadek Muru",
+        "shortDescription": "Otwarcie granicy odebrało murowi znaczenie.",
+        "details": "9 listopada 1989 roku, po mylącej zapowiedzi nowych przepisów podróżnych NRD, tłumy wymusiły otwarcie berlińskich przejść granicznych. Główną rozbiórkę muru przeprowadzono dopiero od czerwca do listopada 1990 roku.",
+        "imageUrl": "historia_swiata_7.webp",
+        "glossary": {
+          "NRD": {
+            "title": "NRD",
+            "definition": "Niemiecka Republika Demokratyczna, państwo należące do bloku wschodniego, istniejące w latach 1949–1990."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "architektura",
+    "title": "Architektura",
+    "icon": "architektura.webp",
+    "facts": [
+      {
+        "id": 121,
+        "title": "Tadż Mahal",
+        "shortDescription": "Marmurowe mauzoleum upamiętnia cesarską żonę.",
+        "details": "Tadż Mahal w Agrze wzniesiono z białego marmuru na polecenie mogolskiego cesarza Szahdżahana ku pamięci Mumtaz Mahal. Mauzoleum ukończono w 1648 roku, a pozostałe części kompleksu w 1653.",
+        "imageUrl": "architektura_121.webp",
+        "glossary": {
+          "mogolskiego": {
+            "title": "Państwo Wielkich Mogołów",
+            "definition": "Muzułmańskie imperium rządzące znaczną częścią subkontynentu indyjskiego od XVI do XIX wieku."
+          },
+          "Mauzoleum": {
+            "title": "Mauzoleum",
+            "definition": "Okazały grobowiec mający formę samodzielnej budowli lub wydzielonej części większego zespołu architektonicznego."
+          }
+        }
+      },
+      {
+        "id": 122,
+        "title": "Beton rzymski",
+        "shortDescription": "Starożytna mieszanka potrafiła zabliźniać pęknięcia.",
+        "details": "Rzymski beton zawierał wapno i materiały pucolanowe, na przykład popiół wulkaniczny. Badania wskazują, że reaktywne grudki wapna mogły samoczynnie wypełniać drobne pęknięcia, pomagając niektórym konstrukcjom przetrwać stulecia.",
+        "imageUrl": "architektura_122.webp",
+        "glossary": {
+          "materiały pucolanowe": {
+            "title": "Materiały pucolanowe",
+            "definition": "Materiały bogate w krzemionkę i glin, które reagują z wapnem i wodą, tworząc trwałe związki wiążące."
+          }
+        }
+      },
+      {
+        "id": 123,
+        "title": "Burdż Chalifa",
+        "shortDescription": "Najwyższy budynek ujarzmia potężny wiatr.",
+        "details": "Burdż Chalifa w Dubaju ma 828 metrów i pozostaje najwyższym budynkiem świata. Plan w kształcie litery Y, usztywniony rdzeń oraz zmieniające się uskoki ograniczają siły wiatru i powstawanie wirów.",
+        "imageUrl": "architektura_123_v2.webp",
+        "glossary": {
+          "usztywniony rdzeń": {
+            "title": "Usztywniony rdzeń",
+            "definition": "Centralny element konstrukcyjny wieżowca wzmocniony skrzydłami budynku, które wspólnie przenoszą obciążenia i ograniczają skręcanie."
+          },
+          "uskoki": {
+            "title": "Uskoki bryły",
+            "definition": "Stopniowe cofnięcia kolejnych części wysokiego budynku, zmieniające jego przekrój i sposób opływania przez wiatr."
+          }
+        }
+      },
+      {
+        "id": 124,
+        "title": "Kanał Panamski",
+        "shortDescription": "Śluzy unoszą statki ponad poziom oceanów.",
+        "details": "Kanał Panamski ma około 80 kilometrów i łączy Atlantyk z Pacyfikiem. System śluz podnosi statki na poziom jeziora Gatún, około 26 metrów nad morzem, a następnie je opuszcza.",
+        "imageUrl": "architektura_124.webp",
+        "glossary": {
+          "śluz": {
+            "title": "Śluza wodna",
+            "definition": "Zamykana komora wodna, której napełnianie lub opróżnianie pozwala statkom pokonywać różnicę poziomów."
+          }
+        }
+      },
+      {
+        "id": 125,
+        "title": "Most Golden Gate",
+        "shortDescription": "Wiszący most reaguje na zmienne obciążenia.",
+        "details": "Most Golden Gate wraz z dojazdami ma 2737 metrów długości, a jego główne przęsło 1280 metrów. Podwieszony pomost może przemieszczać się pod wpływem wiatru, temperatury i obciążenia.",
+        "imageUrl": "architektura_125.webp",
+        "glossary": {
+          "przęsło": {
+            "title": "Przęsło",
+            "definition": "Część mostu rozpięta pomiędzy dwiema sąsiednimi podporami, na przykład filarami lub wieżami."
+          },
+          "Podwieszony pomost": {
+            "title": "Podwieszony pomost",
+            "definition": "Część mostu, po której odbywa się ruch, utrzymywana przez pionowe wieszaki połączone z głównymi linami."
+          }
+        }
+      },
+      {
+        "id": 126,
+        "title": "Rzymski Panteon",
+        "shortDescription": "Betonowa kopuła przetrwała niemal dwa tysiąclecia.",
+        "details": "Panteon w Rzymie, ukończony za cesarza Hadriana około 126 roku, ma kopułę o średnicy 43,3 metra. To największa zachowana na świecie kopuła wykonana z niezbrojonego betonu.",
+        "imageUrl": "architektura_126.webp",
+        "glossary": {
+          "niezbrojonego betonu": {
+            "title": "Beton niezbrojony",
+            "definition": "Beton bez stalowych prętów lub siatek przejmujących naprężenia rozciągające wewnątrz konstrukcji."
+          }
+        }
+      },
+      {
+        "id": 127,
+        "title": "Sagrada Familia",
+        "shortDescription": "Wielopokoleniowa budowa rozwija wizję Gaudíego.",
+        "details": "Budowę bazyliki rozpoczęto w Barcelonie w 1882 roku według projektu Francisca de Pauli del Villara; Gaudí przejął ją rok później. Zaplanował osiemnaście symbolicznych wież i konstrukcje inspirowane geometrią natury.",
+        "imageUrl": "architektura_127.webp",
+        "glossary": {
+          "bazyliki": {
+            "title": "Bazylika",
+            "definition": "Kościół o szczególnym znaczeniu liturgicznym lub historycznym; nazwa może też określać typ układu architektonicznego."
+          },
+          "geometrią natury": {
+            "title": "Geometria natury",
+            "definition": "Wykorzystanie w projekcie zasad i kształtów obserwowanych w przyrodzie, na przykład rozgałęzień, krzywizn i powierzchni bryłowych."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "inzynieria",
+    "title": "Inżynieria",
+    "icon": "inzynieria.webp",
+    "facts": [
+      {
+        "id": 131,
+        "title": "Stacja Kosmiczna ISS",
+        "shortDescription": "Międzynarodowe laboratorium stale okrąża Ziemię.",
+        "details": "ISS jest budowana na orbicie od 1998 roku i stale zamieszkana od listopada 2000. Zwykle przebywa na niej siedem osób; stacja krąży 370–460 kilometrów nad Ziemią, wykonując obieg w około 90 minut.",
+        "imageUrl": "inzynieria_131.webp",
+        "glossary": {
+          "orbicie": {
+            "title": "Orbita",
+            "definition": "Tor lotu obiektu krążącego wokół planety (np. Ziemi) wynikający z równowagi między grawitacją a siłą odśrodkową."
+          }
+        }
+      },
+      {
+        "id": 132,
+        "title": "Zapora Trzech Przełomów",
+        "shortDescription": "Ogromny zbiornik minimalnie wpływa na obrót.",
+        "details": "Zbiornik Zapory Trzech Przełomów mieści do 39,3 miliarda metrów sześciennych wody. Obliczenia geofizyczne wskazują, że taki rozkład masy może wydłużyć ziemską dobę o około 0,06 mikrosekundy.",
+        "imageUrl": "inzynieria_132.webp",
+        "glossary": {
+          "rozkład masy": {
+            "title": "Rozkład masy",
+            "definition": "Sposób, w jaki masa jest rozłożona w przestrzeni. Zmiana jej koncentracji na powierzchni planety wpływa na moment bezwładności i prędkość obrotową, podobnie jak u kręcącego się łyżwiarza."
+          }
+        }
+      },
+      {
+        "id": 133,
+        "title": "Plan Delta w Holandii",
+        "shortDescription": "System barier chroni Holandię przed powodzią.",
+        "details": "Po katastrofalnej powodzi z 1953 roku Holandia zbudowała Deltawerken: trzynaście zapór i barier przeciwpowodziowych. Ostatnie wielkie obiekty, Maeslantkering i Hartelkering, ukończono w 1997 roku po 43 latach prac.",
+        "imageUrl": "inzynieria_133.webp",
+        "glossary": {
+          "barier przeciwpowodziowych": {
+            "title": "Bariera przeciwpowodziowa",
+            "definition": "Ruchoma lub stała budowla ograniczająca napływ wysokiej wody na chronione tereny."
+          }
+        }
+      },
+      {
+        "id": 134,
+        "title": "Eurotunel pod La Manche",
+        "shortDescription": "Trzy tunele łączą Francję z Anglią.",
+        "details": "Otwarty w 1994 roku Eurotunel ma 50,45 kilometra długości, z czego 37,9 kilometra biegnie pod kanałem La Manche. Dwie rury kolejowe i tunel serwisowy drążono specjalnymi maszynami TBM.",
+        "imageUrl": "inzynieria_134.webp",
+        "glossary": {
+          "maszynami TBM": {
+            "title": "Maszyna drążąca (TBM)",
+            "definition": "Ogromna tarcza wiercąca wyposażona w zęby frezujące, która kruszy skałę przed sobą, jednocześnie automatycznie montując betonowe ściany gotowego tunelu za sobą."
+          }
+        }
+      },
+      {
+        "id": 135,
+        "title": "Aerodynamika pociągów Shinkansen",
+        "shortDescription": "Długi nos ogranicza huk tunelowy.",
+        "details": "Długie, zwężające się nosy pociągów Shinkansen ograniczają falę ciśnienia powstającą przy wjeździe do tunelu. Dzięki temu zmniejszają huk przy wyjeździe, a opływowe osłony redukują także inne źródła hałasu.",
+        "imageUrl": "inzynieria_135.webp",
+        "glossary": {
+          "falę ciśnienia": {
+            "title": "Fala ciśnienia",
+            "definition": "Przemieszczająca się zmiana ciśnienia powietrza, wywołana szybkim wjazdem pociągu do ograniczonej przestrzeni tunelu."
+          }
+        }
+      },
+      {
+        "id": 136,
+        "title": "Rzymskie Akwedukty",
+        "shortDescription": "Grawitacja prowadziła wodę do starożytnego Rzymu.",
+        "details": "Starożytny Rzym zaopatrywało jedenaście akweduktów. Woda płynęła dzięki grawitacji po łagodnym, starannie wyznaczonym spadku; większość kanałów prowadzono pod ziemią, a arkady budowano głównie nad dolinami.",
+        "imageUrl": "inzynieria_136.webp",
+        "glossary": {
+          "spadku": {
+            "title": "Spadek",
+            "definition": "Precyzyjny kąt nachylenia konstrukcji gwarantujący nieprzerwany, powolny przepływ wody za pomocą samej grawitacji, eliminując potrzebę używania zewnętrznych pomp."
+          }
+        }
+      },
+      {
+        "id": 137,
+        "title": "Samolot Concorde",
+        "shortDescription": "Pasażerski odrzutowiec latał dwukrotnie szybciej od dźwięku.",
+        "details": "Concorde przewoził 100 pasażerów z prędkością przelotową około Mach 2, czyli 2160 km/h. Typowy lot Londyn–Nowy Jork trwał niespełna trzy i pół godziny; regularne połączenia zakończono w 2003 roku.",
+        "imageUrl": "inzynieria_137.webp",
+        "glossary": {
+          "Mach 2": {
+            "title": "Liczba Macha",
+            "definition": "Fizyczna jednostka miary określająca stosunek prędkości obiektu do prędkości dźwięku (wynoszącej ok. 1225 km/h na poziomie morza)."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "chemia",
+    "title": "Chemia",
+    "icon": "chemia.webp",
+    "facts": [
+      {
+        "id": 141,
+        "title": "Układ Okresowy Pierwiastków",
+        "shortDescription": "Luki w tablicy przewidziały nieznane pierwiastki.",
+        "details": "W 1869 roku Dmitrij Mendelejew uporządkował 63 znane pierwiastki głównie według mas atomowych i podobieństwa właściwości. Pozostawione luki pozwoliły mu trafnie przewidzieć między innymi cechy później odkrytych galu i germanu.",
+        "imageUrl": "chemia_141_v2.webp",
+        "glossary": {
+          "właściwości": {
+            "title": "Właściwości",
+            "definition": "Cechy fizyczne i chemiczne substancji, takie jak kolor, temperatura topnienia czy gęstość."
+          }
+        }
+      },
+      {
+        "id": 142,
+        "title": "Gal - niezwykły metal",
+        "shortDescription": "Metal może stopić się w ciepłej dłoni.",
+        "details": "Gal, pierwiastek o liczbie atomowej 31, jest miękkim srebrzystym metalem podobnym do aluminium. Jego temperatura topnienia wynosi 29,7646°C, dlatego próbka ogrzana powyżej tej wartości zmienia się w ciecz.",
+        "imageUrl": "chemia_142.webp",
+        "glossary": {
+          "temperatura topnienia": {
+            "title": "Temperatura topnienia",
+            "definition": "Wartość temperatury, w której substancja stała zaczyna zmieniać swój stan skupienia na ciekły."
+          }
+        }
+      },
+      {
+        "id": 143,
+        "title": "Alotropia węgla",
+        "shortDescription": "Ten sam pierwiastek tworzy skrajnie różne materiały.",
+        "details": "Grafit i diament są odmianami czystego węgla, lecz atomy łączą się w nich inaczej. Warstwowa sieć grafitu łatwo się rozsuwa, natomiast przestrzenna sieć wiązań kowalencyjnych nadaje diamentowi wielką twardość.",
+        "imageUrl": "chemia_143_v2.webp",
+        "glossary": {
+          "wiązań kowalencyjnych": {
+            "title": "Wiązanie kowalencyjne",
+            "definition": "Wiązanie chemiczne powstające, gdy atomy współdzielą pary elektronów."
+          }
+        }
+      },
+      {
+        "id": 144,
+        "title": "Kwas fluoroantymonowy",
+        "shortDescription": "Superkwas wielokrotnie przewyższa kwas siarkowy.",
+        "details": "Kwas fluoroantymonowy powstaje przez połączenie fluorowodoru HF z pentafluorkiem antymonu SbF5. W odpowiednich proporcjach może być około 20 trylionów razy silniejszy od stuprocentowego kwasu siarkowego i wymaga specjalnych pojemników.",
+        "imageUrl": "chemia_144_v2.webp",
+        "glossary": {
+          "fluorowodoru": {
+            "title": "Fluorowodór",
+            "definition": "Związek wodoru i fluoru o wzorze HF; w połączeniu z pentafluorkiem antymonu tworzy wyjątkowo silny superkwas."
+          }
+        }
+      },
+      {
+        "id": 145,
+        "title": "Anomalia gęstości wody",
+        "shortDescription": "Lód unosi się nad gęstszą wodą.",
+        "details": "Woda osiąga największą gęstość w pobliżu 4°C, a po zamarznięciu gęstość lodu spada o około 9 procent. Dlatego lód pływa i izoluje głębszą wodę, ograniczając zamarzanie jezior od dna.",
+        "imageUrl": "chemia_145.webp",
+        "glossary": {
+          "gęstość": {
+            "title": "Gęstość",
+            "definition": "Stosunek masy substancji do zajmowanej przez nią objętości."
+          }
+        }
+      },
+      {
+        "id": 146,
+        "title": "Siarkowe związki w cebuli",
+        "shortDescription": "Lotny związek cebuli pobudza wydzielanie łez.",
+        "details": "Krojenie cebuli rozrywa komórki i uruchamia reakcje enzymatyczne tworzące lotny syn-propanotial-S-tlenek. Gdy związek dociera do oczu, drażni nerwy czuciowe i pobudza gruczoły łzowe do wypłukiwania drażniącej substancji.",
+        "imageUrl": "chemia_146.webp",
+        "glossary": {
+          "reakcje enzymatyczne": {
+            "title": "Reakcja enzymatyczna",
+            "definition": "Przemiana chemiczna przyspieszana przez enzym, czyli biologiczny katalizator."
+          }
+        }
+      },
+      {
+        "id": 147,
+        "title": "Kamień Filozoficzny",
+        "shortDescription": "Poszukiwanie złota przyniosło nieoczekiwane odkrycie.",
+        "details": "Alchemicy przypisywali kamieniowi filozoficznemu zdolność przemiany pospolitych metali w złoto. W 1669 roku Hennig Brand, szukając go podczas doświadczeń z moczem, wyizolował świecący biały fosfor zamiast upragnionego złota.",
+        "imageUrl": "chemia_147.webp",
+        "glossary": {
+          "Alchemicy": {
+            "title": "Alchemik",
+            "definition": "Średniowieczni i starożytni badacze łączący wczesną chemię, filozofię i magię w celu poszukiwania m.in. kamienia filozoficznego."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "muzyka",
+    "title": "Muzyka",
+    "icon": "muzyka.webp",
+    "facts": [
+      {
+        "id": 151,
+        "title": "Hymny huryckie z Ugarit",
+        "shortDescription": "Hymn hurycki zachował starożytną notację muzyczną.",
+        "details": "Około XIV wieku p.n.e. w Ugarit zapisano na glinianych tabliczkach hymny w języku huryckim. Najlepiej zachowany Hymn nr 6 zawiera tekst oraz wskazówki muzyczne, lecz ich współczesne interpretacje różnią się.",
+        "imageUrl": "muzyka_151_v2.webp",
+        "glossary": {
+          "huryckim": {
+            "title": "Język hurycki",
+            "definition": "Wymarły język używany przez Hurytów w części starożytnego Bliskiego Wschodu."
+          }
+        }
+      },
+      {
+        "id": 152,
+        "title": "Theremin",
+        "shortDescription": "Gesty sterują dźwiękiem bez dotykania instrumentu.",
+        "details": "Lew Termen skonstruował theremin około 1920 roku. Ruch jednej dłoni w polu elektromagnetycznym anteny zmienia wysokość dźwięku, a ruch drugiej przy antenie pętlowej reguluje jego głośność.",
+        "imageUrl": "muzyka_152.webp",
+        "glossary": {
+          "polu elektromagnetycznym": {
+            "title": "Pole elektromagnetyczne",
+            "definition": "Obszar oddziaływania elektrycznego i magnetycznego; położenie dłoni przy antenie zmienia parametry obwodu thereminu."
+          }
+        }
+      },
+      {
+        "id": 153,
+        "title": "Gęsia skórka od muzyki",
+        "shortDescription": "Silne emocje muzyczne uruchamiają układ nagrody.",
+        "details": "Niektórzy słuchacze podczas szczególnie poruszających fragmentów muzyki odczuwają dreszcze i gęsią skórkę. Badania obrazowe wykazały wtedy uwalnianie dopaminy w prążkowiu, inne podczas oczekiwania na kulminację i inne w chwili szczytowej przyjemności.",
+        "imageUrl": "muzyka_153_v2.webp",
+        "glossary": {
+          "dopaminy": {
+            "title": "Dopamina",
+            "definition": "Ważny neuroprzekaźnik w mózgu, często nazywany hormonem szczęścia i układu nagrody."
+          }
+        }
+      },
+      {
+        "id": 154,
+        "title": "Jak działają płyty winylowe?",
+        "shortDescription": "Igła odczytuje drgania spiralnego rowka.",
+        "details": "Płyta winylowa przechowuje dźwięk jako mikroskopijne odchylenia spiralnego rowka. Poruszająca się w nim igła wprawia wkładkę gramofonową w drgania, które są zamieniane na sygnał elektryczny i wzmacniane przez głośniki.",
+        "imageUrl": "muzyka_154.webp",
+        "glossary": {
+          "drgania": {
+            "title": "Drgania (mechaniczne)",
+            "definition": "Szybkie ruchy obiektu (np. igły gramofonu) w przód i w tył, będące fizycznym źródłem powstawania fal dźwiękowych w powietrzu."
+          }
+        }
+      },
+      {
+        "id": 155,
+        "title": "Synestezja – kolory dźwięku",
+        "shortDescription": "Jeden bodziec automatycznie wywołuje drugie wrażenie.",
+        "details": "Synestezja sprawia, że określony bodziec automatycznie i powtarzalnie wywołuje dodatkowe wrażenie, na przykład barwę przy dźwięku. Wszystkich jej odmian może doświadczać około 4,4 procent ludzi, lecz chromestezja jest rzadsza.",
+        "imageUrl": "muzyka_155.webp",
+        "glossary": {
+          "Synestezja": {
+            "title": "Synestezja",
+            "definition": "Trwałe zjawisko, w którym jeden bodziec automatycznie wywołuje dodatkowe wrażenie zmysłowe lub poznawcze."
+          }
+        }
+      },
+      {
+        "id": 156,
+        "title": "Auto-Tune – od ropy do wokalu",
+        "shortDescription": "Geofizyk wykorzystał analizę sygnałów do strojenia.",
+        "details": "Andy Hildebrand, wcześniej zajmujący się interpretacją danych sejsmicznych dla przemysłu naftowego, stworzył Auto-Tune wydany w 1997 roku. Program wykorzystuje autokorelację do wykrywania wysokości dźwięku i korygowania nieczysto zaśpiewanych nut.",
+        "imageUrl": "muzyka_156.webp",
+        "glossary": {
+          "autokorelację": {
+            "title": "Autokorelacja",
+            "definition": "Metoda porównująca sygnał z jego przesuniętą kopią, pomocna w wykrywaniu powtarzalności i podstawowej wysokości dźwięku."
+          }
+        }
+      },
+      {
+        "id": 157,
+        "title": "Mozart i Miserere Allegrego",
+        "shortDescription": "List ojca utrwalił niezwykłą historię pamięci.",
+        "details": "Według listu Leopolda Mozarta czternastoletni Wolfgang w 1770 roku zapisał z pamięci Miserere Gregoria Allegriego po nabożeństwie w Kaplicy Sykstyńskiej. Opowieść nie dowodzi jednak słuchu absolutnego, a jej szczegóły są dyskutowane.",
+        "imageUrl": "muzyka_157_v2.webp",
+        "glossary": {
+          "słuchu absolutnego": {
+            "title": "Słuch absolutny",
+            "definition": "Niezwykle rzadka umiejętność bezbłędnego rozpoznawania i odtwarzania wysokości każdego słyszanego dźwięku bez żadnego dźwięku odniesienia."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kino",
+    "title": "Kino i film",
+    "icon": "kino.webp",
+    "facts": [
+      {
+        "id": 158,
+        "title": "Pokaz kinematografu",
+        "shortDescription": "Paryski pokaz rozpoczął epokę kina.",
+        "details": "28 grudnia 1895 roku bracia Lumière zorganizowali w Paryżu płatny pokaz kinematografu. Film o nadjeżdżającym pociągu pokazano publicznie dopiero później, a opowieść o panice widzów jest legendą.",
+        "imageUrl": "kino_158_v2.webp",
+        "glossary": {
+          "kinematografu": {
+            "title": "Kinematograf",
+            "definition": "Aparat braci Lumière służący do rejestrowania, kopiowania i wyświetlania ruchomych obrazów."
+          }
+        }
+      },
+      {
+        "id": 159,
+        "title": "Kino dźwiękowe",
+        "shortDescription": "Dźwięk szybko odmienił przemysł filmowy.",
+        "details": "„Śpiewak jazzbandu” miał premierę 6 października 1927 roku. Film był głównie niemy, lecz zawierał około dwóch minut dialogu; jego sukces przyspieszył przejście Hollywood do kina dźwiękowego.",
+        "imageUrl": "kino_159.webp",
+        "glossary": {
+          "dialogu": {
+            "title": "Dialog filmowy",
+            "definition": "Wypowiedzi postaci zapisane jako część zsynchronizowanej ścieżki dźwiękowej filmu."
+          }
+        }
+      },
+      {
+        "id": 160,
+        "title": "Kamera wieloplanowa",
+        "shortDescription": "Warstwy obrazu stworzyły filmową głębię.",
+        "details": "Disney rozwijał kamerę wieloplanową od 1933 roku. Urządzenie filmowało obrazy na kilku poziomach, tworząc paralaksę; wykorzystano je w „Starym młynie” z 1937 roku, a potem w „Królewnie Śnieżce”.",
+        "imageUrl": "kino_160_v2.webp",
+        "glossary": {
+          "paralaksę": {
+            "title": "Paralaksa",
+            "definition": "Pozorna zmiana położenia obiektów względem tła; różne tempo przesuwania warstw tworzy wrażenie głębi."
+          }
+        }
+      },
+      {
+        "id": 161,
+        "title": "Efekty dźwiękowe Foley",
+        "shortDescription": "Artyści dogrywają dźwięki zsynchronizowane z obrazem.",
+        "details": "Artyści Foley oglądają gotową scenę i w rytm obrazu nagrywają kroki, szelest ubrań lub odgłosy rekwizytów. Nazwa techniki upamiętnia Jacka Foleya, wieloletniego twórcę efektów w Universal Studios.",
+        "imageUrl": "kino_161_v2.webp",
+        "glossary": {
+          "Foley": {
+            "title": "Efekty Foley",
+            "definition": "Codzienne odgłosy wykonywane i nagrywane w synchronizacji z obrazem podczas postprodukcji filmu."
+          }
+        }
+      },
+      {
+        "id": 162,
+        "title": "Rewolucja Parku Jurajskiego",
+        "shortDescription": "Dinozaury połączyły animatronikę z grafiką.",
+        "details": "„Park Jurajski” z 1993 roku łączył animatronikę i cyfrowe dinozaury, choć początkowo planowano animację poklatkową. Przekonujący test CGI firmy ILM zmienił plan produkcji i wyznaczył nowy standard efektów filmowych.",
+        "imageUrl": "kino_162.webp",
+        "glossary": {
+          "animację poklatkową": {
+            "title": "Animacja poklatkowa",
+            "definition": "Technika tworzenia ruchu przez fotografowanie modelu po każdej niewielkiej zmianie jego ustawienia."
+          }
+        }
+      },
+      {
+        "id": 163,
+        "title": "Efekt Bullet time",
+        "shortDescription": "Kamery zatrzymały czas wokół bohatera.",
+        "details": "W „Matriksie” z 1999 roku efekt Bullet time powstał dzięki ponad stu aparatom ustawionym wokół aktora. Wyzwalane kolejno zdjęcia połączono cyfrowo, uzyskując pozornie swobodny ruch kamery w zamrożonej chwili.",
+        "imageUrl": "kino_163.webp",
+        "glossary": {
+          "Bullet time": {
+            "title": "Bullet time",
+            "definition": "Efekt pokazujący silnie spowolnioną lub zatrzymaną akcję przy pozornym ruchu kamery wokół sceny."
+          }
+        }
+      },
+      {
+        "id": 164,
+        "title": "Najdłuższy film świata",
+        "shortDescription": "Film trwa ponad trzydzieści pięć dni.",
+        "details": "Szwedzki eksperyment „Logistics” z 2012 roku trwa 857 godzin. Pokazuje w odwrotnej kolejności podróż krokomierza ze sklepu w Sztokholmie do fabryki w Shenzhen, zapisując niemal cały proces transportu.",
+        "imageUrl": "kino_164_v2.webp",
+        "glossary": {
+          "krokomierza": {
+            "title": "Krokomierz",
+            "definition": "Niewielkie urządzenie elektroniczne zliczające kroki użytkownika; właśnie jego łańcuch dostaw dokumentuje film."
+          }
+        }
+      }
+    ]
+  },
+  {
+    "id": "kulinaria",
+    "title": "Kulinaria i Jedzenie",
+    "icon": "kulinaria.webp",
+    "facts": [
+      {
+        "id": 165,
+        "title": "Wynalazek mikrofalówki",
+        "shortDescription": "Radar przypadkiem doprowadził do kuchenki mikrofalowej.",
+        "details": "W 1945 roku inżynier Percy Spencer zauważył, że czekolada w jego kieszeni topi się przy pracującym magnetronie radarowym. Eksperymenty z popcornem i jajkiem doprowadziły zespół Raytheona do opracowania kuchenki mikrofalowej.",
+        "imageUrl": "kulinaria_165.webp",
+        "glossary": {
+          "magnetronie": {
+            "title": "Magnetron",
+            "definition": "Lampa elektronowa wytwarzająca mikrofale, wykorzystywana między innymi w radarach i kuchenkach mikrofalowych."
+          }
+        }
+      },
+      {
+        "id": 166,
+        "title": "Spór o pochodzenie frytek",
+        "shortDescription": "Francja i Belgia dzielą frytkową historię.",
+        "details": "Pochodzenie frytek pozostaje sporne między Francją i Belgią. Popularna opowieść o mieszkańcach doliny Mozy, którzy podczas zamarznięcia rzeki zastąpili ryby smażonymi ziemniakami, nie ma wiarygodnego potwierdzenia źródłowego.",
+        "imageUrl": "kulinaria_166_v2.webp",
+        "glossary": {
+          "Mozy": {
+            "title": "Moza",
+            "definition": "Rzeka przepływająca przez Francję, Belgię i Niderlandy, występująca w popularnej belgijskiej legendzie o frytkach."
+          }
+        }
+      },
+      {
+        "id": 167,
+        "title": "Dlaczego miód długo się przechowuje",
+        "shortDescription": "Cukry i kwasowość chronią dojrzały miód.",
+        "details": "Dojrzały miód ma niską aktywność wody i kwaśny odczyn, dlatego większość drobnoustrojów nie może się w nim namnażać. Nie jest jednak niezniszczalny: po pochłonięciu wilgoci może fermentować.",
+        "imageUrl": "kulinaria_167_v2.webp",
+        "glossary": {
+          "aktywność wody": {
+            "title": "Aktywność wody",
+            "definition": "Miara wody dostępnej dla drobnoustrojów, inna niż całkowita zawartość wilgoci w produkcie."
+          }
+        }
+      },
+      {
+        "id": 168,
+        "title": "Niebezpieczna ryba fugu",
+        "shortDescription": "Tetrodotoksyna może sparaliżować mięśnie oddechowe.",
+        "details": "Niektóre rozdymki, nazywane fugu, gromadzą tetrodotoksynę głównie w wątrobie, gonadach, jelitach i skórze. Toksyna blokuje przewodzenie impulsów nerwowych, a ciężkie zatrucie może zakończyć się porażeniem oddechu.",
+        "imageUrl": "kulinaria_168.webp",
+        "glossary": {
+          "tetrodotoksynę": {
+            "title": "Tetrodotoksyna",
+            "definition": "Silna neurotoksyna blokująca kanały sodowe komórek nerwowych i mięśniowych, co może prowadzić do paraliżu."
+          }
+        }
+      },
+      {
+        "id": 169,
+        "title": "Pochodzenie pomarańczowej marchwi",
+        "shortDescription": "Pomarańczową marchew wyselekcjonowano w renesansowej Europie.",
+        "details": "Marchew udomowiono w Azji Zachodniej i Środkowej, a pomarańczowy typ wyselekcjonowano prawdopodobnie w renesansowej Europie. Barwę powoduje nagromadzenie karotenoidów; opowieść o hołdzie dla dynastii Orańskiej nie ma mocnych dowodów.",
+        "imageUrl": "kulinaria_169_v2.webp",
+        "glossary": {
+          "karotenoidów": {
+            "title": "Karotenoidy",
+            "definition": "Naturalne barwniki roślinne; alfa- i beta-karoten odpowiadają za pomarańczową barwę korzenia marchwi."
+          }
+        }
+      },
+      {
+        "id": 170,
+        "title": "Najdroższa przyprawa świata",
+        "shortDescription": "Kilogram szafranu wymaga ogromnej pracy ręcznej.",
+        "details": "Szafran powstaje z suszonych znamion słupka krokusa siewnego; każdy kwiat ma tylko trzy. Uzyskanie kilograma przyprawy wymaga ręcznego zebrania i obrobienia dziesiątek tysięcy kwiatów, często około 150 tysięcy.",
+        "imageUrl": "kulinaria_170.webp",
+        "glossary": {
+          "znamion słupka": {
+            "title": "Znamię słupka",
+            "definition": "Część słupka przyjmująca pyłek; wysuszone czerwone znamiona krokusa siewnego tworzą szafran."
+          }
+        }
+      },
+      {
+        "id": 171,
+        "title": "Kawa po przejściu przez łaskuna",
+        "shortDescription": "Trawienie zmienia ziarna, lecz rodzi problemy.",
+        "details": "Kopi luwak produkuje się z ziaren wydalonych przez łaskuna palmowego po zjedzeniu owoców kawowca. Przejście przez przewód pokarmowy zmienia ich skład, lecz chów łaskunów w klatkach budzi poważne zastrzeżenia dobrostanowe.",
+        "imageUrl": "kulinaria_171.webp",
+        "glossary": {
+          "łaskuna palmowego": {
+            "title": "Łaskun palmowy",
+            "definition": "Azjatycki ssak wszystkożerny, nazywany też cywetą palmową, który zjada dojrzałe owoce kawowca."
+          }
+        }
+      }
+    ]
+  }
+]

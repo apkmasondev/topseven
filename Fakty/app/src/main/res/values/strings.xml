@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Top seven</string>
+    <string name="app_subtitle">Odkrywaj fascynujący świat</string>
+    
+    <string name="mode_flashcards">Tryb Fiszek</string>
+    <string name="next_flashcard">Następna fiszka</string>
+    <string name="did_you_know">O CZYM MOWA?</string>
+    <string name="tap_to_flip">Dotknij, aby obrócić</string>
+    <string name="flashcards">Fiszki</string>
+    
+    <string name="favorites_title">Ulubione</string>
+    <string name="favorites_empty_title">Nie masz jeszcze ulubionych faktów.</string>
+    <string name="favorites_empty_desc">Przeglądaj kategorie i kliknij serduszko, aby zapisać najciekawsze ciekawostki na później.</string>
+    <string name="saved_facts_title">Zapisane ciekawostki</string>
+    
+    <string name="content_desc_back">Wstecz</string>
+    <string name="content_desc_favorites">Ulubione</string>
+    <string name="content_desc_flashcards">Fiszki</string>
+    <string name="content_desc_read_fact">Czytaj fakt na głos</string>
+    <string name="content_desc_stop_reading">Zatrzymaj czytanie</string>
+    <string name="content_desc_add_favorite">Dodaj do ulubionych</string>
+    <string name="content_desc_remove_favorite">Usuń z ulubionych</string>
+    <string name="content_desc_fact_position">Fakt %1$d z %2$d</string>
+    <string name="favorite_item_summary">%1$s • %2$s</string>
+
+    <string name="error_category_not_found">Nie znaleziono kategorii</string>
+    <string name="error_fact_not_found">Nie znaleziono faktu</string>
+    
+    <string name="search_favorites_hint">Szukaj w ulubionych...</string>
+    <string name="search_no_results">Nie znaleziono pasujących ciekawostek.</string>
+    <string name="content_desc_clear_search">Wyczyść wyszukiwanie</string>
+    
+    <string name="top_facts_title">Najważniejsze fakty</string>
+    <string name="error_loading_data">Nie udało się załadować danych.</string>
+    <string name="loading_data">Ładowanie...</string>
+    <string name="seven_fascinating_facts">7 fascynujących faktów</string>
+    <string name="content_desc_category_bg">Tło dla %1$s</string>
+    <string name="content_desc_flashcard_front">Przód fiszki. Dotknij, aby zobaczyć odpowiedź</string>
+    <string name="content_desc_flashcard_back">Tył fiszki. Dotknij, aby wrócić do pytania</string>
+</resources>

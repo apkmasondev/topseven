@@ -1,0 +1,35 @@
+# === Klucze podpisujące: NIGDY nie trafiają do repozytorium ===
+keystore.properties
+keystore/
+*.jks
+*.keystore
+
+# === Konfiguracja lokalna ===
+local.properties
+Fakty/local.properties
+
+# === Artefakty budowania (Gradle / Android) ===
+.gradle/
+build/
+Fakty/build/
+Fakty/app/build/
+Fakty/baselineprofile/build/
+Fakty/.kotlin/
+captures/
+.externalNativeBuild
+.cxx
+
+# === Buildy lokalne ===
+# APK publikowany ze strony leży w assets/ i jest wersjonowany świadomie.
+# Katalog releases/ służy do lokalnego składowania buildów i nie obciąża repozytorium.
+releases/
+*.aab
+*.apks
+
+# === IDE i narzędzia lokalne ===
+.idea/
+*.iml
+.vscode/
+.codex/
+.claude/
+.DS_Store

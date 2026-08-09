@@ -41,7 +41,7 @@ import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.semantics
-import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.stateDescription
 import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
@@ -318,8 +318,11 @@ fun Flashcard(
                 this.cameraDistance = cameraDistance
                 rotationY = rotation
             }
+            // stateDescription, a nie contentDescription: contentDescription na węźle
+            // scalającym potomków ZASTĘPUJE ich teksty, przez co czytnik ekranu w ogóle
+            // nie odczytywał treści fiszki. stateDescription jest dodawane do opisu.
             .semantics(mergeDescendants = true) {
-                contentDescription = if (isFlipped) descBack else descFront
+                stateDescription = if (isFlipped) descBack else descFront
             }
             .clickable(
                 role = Role.Button,

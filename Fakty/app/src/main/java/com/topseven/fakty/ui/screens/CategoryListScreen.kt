@@ -56,7 +56,8 @@ fun CategoryListScreen(
             Box {
                 AsyncImage(
                     model = "file:///android_asset/images/${category.icon}",
-                    contentDescription = stringResource(id = R.string.content_desc_category_bg, category.title),
+                    // Dekoracyjne - nazwa kategorii jest tytułem paska.
+                    contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.matchParentSize()
                 )

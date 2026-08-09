@@ -56,6 +56,8 @@ import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.automirrored.filled.VolumeOff
 import com.topseven.fakty.utils.StopTtsWhenScreenLeaves
+import androidx.compose.ui.semantics.contentDescription
+import androidx.compose.ui.semantics.semantics
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalSharedTransitionApi::class)
 @Composable
@@ -129,7 +131,9 @@ fun FactDetailScreen(
                 with(sharedTransitionScope) {
                     AsyncImage(
                         model = imagePath,
-                        contentDescription = fact.title,
+                        // Dekoracyjne: tytuł faktu jest odczytywany przez czytnik ekranu
+                        // z nagłówka poniżej, nie ma sensu dublować go na tle.
+                        contentDescription = null,
                         contentScale = ContentScale.Crop,
                         modifier = Modifier
                             .fillMaxWidth()
@@ -236,10 +240,17 @@ fun FactDetailScreen(
                         )
                         .statusBarsPadding(),
                     title = {
+                        val positionLabel = stringResource(
+                            id = R.string.content_desc_fact_position,
+                            pagerState.currentPage + 1,
+                            items.size
+                        )
                         Text(
-                            "${pagerState.currentPage + 1} / ${items.size}",
+                            text = "${pagerState.currentPage + 1} / ${items.size}",
                             fontWeight = FontWeight.Bold,
-                            color = PrimaryAccent
+                            color = PrimaryAccent,
+                            // Czytnik ekranu przeczytałby "1 / 7" bez kontekstu.
+                            modifier = Modifier.semantics { contentDescription = positionLabel }
                         )
                     },
                     navigationIcon = {
@@ -298,7 +309,10 @@ fun FactDetailScreen(
                         ) {
                             Icon(
                                 imageVector = if (isFavorite) Icons.Default.Favorite else Icons.Default.FavoriteBorder,
-                                contentDescription = stringResource(id = R.string.content_desc_favorites),
+                                contentDescription = stringResource(
+                                    id = if (isFavorite) R.string.content_desc_remove_favorite
+                                    else R.string.content_desc_add_favorite
+                                ),
                                 tint = if (isFavorite) PrimaryAccent else Color.White
                             )
                         }

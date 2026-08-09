@@ -88,7 +88,10 @@ fun CategoryCard(
             with(sharedTransitionScope) {
                 AsyncImage(
                     model = "file:///android_asset/images/${category.icon}",
-                    contentDescription = stringResource(id = R.string.content_desc_category_bg, category.title),
+                    // Obraz jest czysto dekoracyjny. Wcześniejsze "Tło dla <kategoria>"
+                    // trafiało do scalonego opisu karty i czytnik ekranu powtarzał nazwę
+                    // kategorii dwa razy.
+                    contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier
                         .fillMaxSize()

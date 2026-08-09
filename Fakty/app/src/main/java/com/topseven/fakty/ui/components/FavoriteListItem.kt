@@ -29,10 +29,9 @@ import androidx.compose.foundation.border
 import androidx.compose.ui.graphics.Brush
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
-import androidx.compose.ui.platform.LocalContext
+import androidx.compose.ui.res.stringResource
 import coil3.compose.AsyncImage
-import coil3.request.ImageRequest
-import coil3.request.crossfade
+import com.topseven.fakty.R
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material3.Icon
@@ -47,7 +46,6 @@ fun FavoriteListItem(
     val interactionSource = remember { MutableInteractionSource() }
     val isPressed by interactionSource.collectIsPressedAsState()
     val scale by animateFloatAsState(targetValue = if (isPressed) 0.96f else 1f, label = "scale")
-    val context = LocalContext.current
 
     val imagePath = if (!item.fact.imageUrl.isNullOrEmpty()) {
         "file:///android_asset/images/facts/${item.fact.imageUrl}"
@@ -94,7 +92,8 @@ fun FavoriteListItem(
             ) {
                 AsyncImage(
                     model = imagePath,
-                    contentDescription = item.fact.title,
+                    // Dekoracyjne - tytuł faktu jest obok jako zwykły tekst.
+                    contentDescription = null,
                     contentScale = ContentScale.Crop,
                     modifier = Modifier.fillMaxSize()
                 )
@@ -130,7 +129,11 @@ fun FavoriteListItem(
                 )
                 Spacer(modifier = Modifier.height(4.dp))
                 Text(
-                    text = "${item.category.title} • ${item.fact.shortDescription}",
+                    text = stringResource(
+                        id = R.string.favorite_item_summary,
+                        item.category.title,
+                        item.fact.shortDescription
+                    ),
                     style = MaterialTheme.typography.bodyMedium,
                     color = MaterialTheme.colorScheme.onSurfaceVariant,
                     maxLines = 2,

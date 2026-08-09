@@ -7,7 +7,7 @@
 
 ## 1. STRUKTURA BAZY DANYCH (data.json)
 
-Wszystkie dane trzymamy w pliku `d:\Projekty AI\Top seven\Fakty\app\src\main\assets\data.json`.
+Wszystkie dane trzymamy w pliku `Fakty/app/src/main/assets/data.json` (ścieżka względem korzenia repozytorium).
 Każda nowa kategoria musi posiadać DOKŁADNIE 7 faktów. Treści muszą być rygorystycznie **zweryfikowane pod kątem historycznym, matematycznym i naukowym** przed wygenerowaniem.
 
 ### Standardy Jakości Treści (Content QA Standards)
@@ -27,7 +27,7 @@ Aby utrzymać spójny i premium charakter aplikacji, narzucono sztywne limity i 
   "icon": "nazwa_kategorii.webp",
   "facts": [
     {
-      "id": 100, // Unikalne, kontynuuj numerację bazy!
+      "id": 211, // UNIKALNE W CAŁEJ BAZIE - patrz zasada numeracji poniżej
       "title": "Tytuł faktu",
       "shortDescription": "Jedno-zdaniowy krótki opis (widoczny na fiszce i liście).",
       "details": "Szczegółowy opis, widoczny na ekranie detali.",
@@ -42,6 +42,28 @@ Aby utrzymać spójny i premium charakter aplikacji, narzucono sztywne limity i 
   ]
 }
 ```
+
+### Zasada numeracji `id` faktów (WAŻNE)
+
+Identyfikator musi być unikalny **w całej bazie**, a nie tylko w obrębie swojej kategorii.
+Historycznie zasada ta została złamana - ta sama siódemka numerów `1-7` powtarzała się
+w trzech kategoriach, a `91-97` w dwóch kolejnych. Aplikacja to znosiła, bo wszędzie
+adresuje fakt parą `categoryId + factId`, ale identyfikator przestawał identyfikować
+cokolwiek. Naprawione w wersji 2.1.4.
+
+Konwencja: każda kategoria dostaje własną **dziesiątkę**, siedem kolejnych numerów.
+Zajęte zakresy sprawdzisz jednym poleceniem:
+
+```bash
+python Fakty/analyze_facts.py
+```
+
+Aktualnie najwyższy użyty numer to **207** (Historia Świata), więc kolejna nowa kategoria
+powinna zacząć się od **211**.
+
+**Nazwy plików graficznych są niezależne od `id` faktu** - w bazie występują skróty
+(`psy_1.webp`, `eco_1.webp`) oraz sufiksy wersji (`_v2`). Zmiana numeracji `id` nigdy
+nie wymaga zmiany nazw obrazków i odwrotnie.
 
 **UWAGA:**
 
@@ -72,10 +94,24 @@ Prompty graficzne muszą ZAWSZE posiadać tag: `no text`, by AI nie tworzyło "�
 
 ## 3. CHECKLISTA WDROŻENIOWA (Nie dotykaj kodu, zanim tego nie sprawdzisz)
 
-1. **Weryfikacja numeracji IDs:** Upewnij się, że nie nadpisałeś ID innych faktów.
+1. **Weryfikacja numeracji IDs:** Nowe `id` nie mogą kolidować z żadnym istniejącym w bazie.
 2. **Generowanie obrazów:** Wygeneruj, skaluj (`LANCZOS`), skompresuj (`WEBP`), zapisz.
-3. **Plik JSON:** Dodaj obiekt do `data.json`. Ścieżka w `imageUrl` to od teraz SAMA nazwa pliku (np. `matematyka_41.webp`), ponieważ aplikacja sama dokleja prefiks `file:///android_asset/images/facts/`.
-4. **Weryfikacja słownika:** Upewnij się, że klucze słownika mają sens i nie krzaczę się w wyrażeniach regularnych (bez zbędnych znaków specjalnych).
+3. **Plik JSON:** Dodaj obiekt do `data.json`. Ścieżka w `imageUrl` to SAMA nazwa pliku (np. `matematyka_41.webp`), ponieważ aplikacja sama dokleja prefiks `file:///android_asset/images/facts/`.
+4. **Weryfikacja słownika:** Upewnij się, że klucze słownika mają sens i nie krzaczą się w wyrażeniach regularnych (bez zbędnych znaków specjalnych).
+5. **URUCHOM WALIDATOR** - to jedyny krok, którego nie wolno pominąć:
+
+   ```bash
+   python Fakty/analyze_facts.py
+   ```
+
+   Automatycznie sprawdza: globalną i lokalną unikalność `id`, dokładnie 7 faktów
+   w kategorii, obecność wszystkich plików graficznych, limity długości
+   `shortDescription` (4-7 słów) i `details` (25-35 słów), obecność słowniczka oraz to,
+   czy każdy jego klucz faktycznie występuje w tekście `details`. Kod wyjścia 0 = w porządku.
+
+6. **Zbuduj i sprawdź na urządzeniu:** `cd Fakty && ./gradlew :app:assembleDebug`, a następnie
+   otwórz nową kategorię i jeden jej fakt. Testy jednostkowe warstwy danych:
+   `./gradlew :app:testDebugUnitTest`.
 
 ---
 

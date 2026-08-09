@@ -18,6 +18,10 @@
     <string name="content_desc_flashcards">Fiszki</string>
     <string name="content_desc_read_fact">Czytaj fakt na głos</string>
     <string name="content_desc_stop_reading">Zatrzymaj czytanie</string>
+    <string name="content_desc_add_favorite">Dodaj do ulubionych</string>
+    <string name="content_desc_remove_favorite">Usuń z ulubionych</string>
+    <string name="content_desc_fact_position">Fakt %1$d z %2$d</string>
+    <string name="favorite_item_summary">%1$s • %2$s</string>
 
     <string name="error_category_not_found">Nie znaleziono kategorii</string>
     <string name="error_fact_not_found">Nie znaleziono faktu</string>
@@ -31,6 +35,6 @@
     <string name="loading_data">Ładowanie...</string>
     <string name="seven_fascinating_facts">7 fascynujących faktów</string>
     <string name="content_desc_category_bg">Tło dla %1$s</string>
-    <string name="content_desc_flashcard_front">Fiszka, kliknij aby poznać szczegóły</string>
-    <string name="content_desc_flashcard_back">Fiszka, kliknij aby odwrócić z powrotem</string>
+    <string name="content_desc_flashcard_front">Przód fiszki. Dotknij, aby zobaczyć odpowiedź</string>
+    <string name="content_desc_flashcard_back">Tył fiszki. Dotknij, aby wrócić do pytania</string>
 </resources>

@@ -102,7 +102,8 @@ fun FactListItem(
                 with(sharedTransitionScope) {
                     AsyncImage(
                         model = imagePath,
-                        contentDescription = fact.title,
+                        // Dekoracyjne - tytuł faktu jest obok jako zwykły tekst.
+                        contentDescription = null,
                         contentScale = ContentScale.Crop,
                         modifier = Modifier
                             .fillMaxSize()

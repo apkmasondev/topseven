@@ -1410,7 +1410,7 @@
     "icon": "psychologia.webp",
     "facts": [
       {
-        "id": 1,
+        "id": 181,
         "title": "Efekt Mandeli",
         "shortDescription": "Wiele osób pamięta ten sam błąd.",
         "details": "Efekt Mandeli oznacza wspólne, podobne fałszywe wspomnienia. Badanie ikon wykazało, że przy niektórych obrazach uczestnicy wybierali ten sam nieistniejący szczegół, mimo wcześniejszego oglądania wersji prawidłowej.",
@@ -1423,7 +1423,7 @@
         }
       },
       {
-        "id": 2,
+        "id": 182,
         "title": "Paradoks wyboru",
         "shortDescription": "Większy wybór nie zawsze pomaga.",
         "details": "W badaniu sklepowym stoisko z 24 dżemami przyciągało więcej osób niż stoisko z sześcioma, ale kupowało odpowiednio około 3 i 30 procent próbujących. To klasyczny, lecz zależny od sytuacji paradoks wyboru.",
@@ -1440,7 +1440,7 @@
         }
       },
       {
-        "id": 3,
+        "id": 183,
         "title": "Świadome sny",
         "shortDescription": "Świadomość pojawiająca się podczas snu.",
         "details": "Świadomy sen zachodzi, gdy śniący rozpoznaje, że właśnie śni; pełna kontrola nie jest konieczna. W laboratorium potwierdzono takie sny podczas fazy REM dzięki umówionym ruchom oczu rejestrowanym spod zamkniętych powiek.",
@@ -1457,7 +1457,7 @@
         }
       },
       {
-        "id": 4,
+        "id": 184,
         "title": "Efekt Dunninga-Krugera",
         "shortDescription": "Słabi wykonawcy błędnie oceniają swój wynik.",
         "details": "W badaniach z 1999 roku osoby z najniższymi wynikami w zadaniach humoru, gramatyki i logiki znacznie przeceniały swoją pozycję względem grupy. Efekt dotyczy samooceny konkretnej umiejętności, nie ogólnej inteligencji.",
@@ -1474,7 +1474,7 @@
         }
       },
       {
-        "id": 5,
+        "id": 185,
         "title": "Efekt placebo",
         "shortDescription": "Oczekiwania mogą zmieniać odczuwanie objawów.",
         "details": "Efekt placebo to reakcja związana z oczekiwaniami i kontekstem leczenia, a nie samą obojętną substancją. W badaniach bólu nalokson osłabiał część analgezji placebo, wskazując na udział naturalnych opioidów organizmu.",
@@ -1495,7 +1495,7 @@
         }
       },
       {
-        "id": 6,
+        "id": 186,
         "title": "Efekt aureoli",
         "shortDescription": "Jedna cecha zabarwia całą ocenę.",
         "details": "Edward Thorndike opisał w 1920 roku, że przełożeni wojskowi oceniali różne cechy podwładnych zaskakująco podobnie. Efekt aureoli sprawia, że ogólne dobre lub złe wrażenie wpływa na niezależne sądy.",
@@ -1512,7 +1512,7 @@
         }
       },
       {
-        "id": 7,
+        "id": 187,
         "title": "Dysonans poznawczy",
         "shortDescription": "Wewnętrzny konflikt prowadzący do racjonalizowania błędów.",
         "details": "W eksperymencie z 1959 roku uczestnicy wykonywali nudne zadanie, a potem zachwalali je kolejnej osobie za 1 lub 20 dolarów. Grupa opłacona jednym dolarem później oceniała zadanie pozytywniej, zgodnie z teorią dysonansu poznawczego.",
@@ -1532,7 +1532,7 @@
     "icon": "ekonomia.webp",
     "facts": [
       {
-        "id": 1,
+        "id": 191,
         "title": "Piramida Ponziego",
         "shortDescription": "Wpłaty nowych uczestników finansują wcześniejszych.",
         "details": "Schemat Ponziego wypłaca wcześniejszym uczestnikom pieniądze wpłacane przez nowych, zamiast rzeczywistych zysków. Charles Ponzi obiecywał w 1920 roku ogromne zwroty na arbitrażu międzynarodowych kuponów pocztowych.",
@@ -1545,7 +1545,7 @@
         }
       },
       {
-        "id": 2,
+        "id": 192,
         "title": "Hiperinflacja w Zimbabwe",
         "shortDescription": "Hiperinflacja błyskawicznie odbiera pieniądzom wartość.",
         "details": "W listopadzie 2008 roku miesięczna inflacja w Zimbabwe osiągnęła około 79,6 miliarda procent, więc ceny podwajały się mniej więcej co dobę. Hiperinflacja gwałtownie niszczyła siłę nabywczą miejscowej waluty.",
@@ -1558,7 +1558,7 @@
         }
       },
       {
-        "id": 3,
+        "id": 193,
         "title": "Podaż i Popyt",
         "shortDescription": "Mniejsza podaż może podnosić ceny.",
         "details": "W czasie kryzysu naftowego 1973–1974 arabscy eksporterzy ograniczyli produkcję i nałożyli embargo na wybrane państwa. Cena ropy wzrosła niemal czterokrotnie, pokazując skutki gwałtownego spadku podaży.",
@@ -1575,7 +1575,7 @@
         }
       },
       {
-        "id": 4,
+        "id": 194,
         "title": "Byki i Niedźwiedzie",
         "shortDescription": "Byk oznacza wzrosty, niedźwiedź spadki.",
         "details": "Hossa oznacza dłuższy okres wzrostu cen akcji i optymizmu inwestorów, a bessa — spadków oraz pesymizmu. W popularnej terminologii giełdowej byk symbolizuje rynek rosnący, niedźwiedź zaś tracący wartość.",
@@ -1592,7 +1592,7 @@
         }
       },
       {
-        "id": 5,
+        "id": 195,
         "title": "Procent składany",
         "shortDescription": "Odsetki również zaczynają przynosić odsetki.",
         "details": "Przy corocznej kapitalizacji 1000 złotych oprocentowane na 8 procent rocznie wzrosłoby po 30 latach do około 10 063 złotych. Procent składany nalicza odsetki również od wcześniejszych odsetek.",
@@ -1605,7 +1605,7 @@
         }
       },
       {
-        "id": 6,
+        "id": 196,
         "title": "Tulipanomania",
         "shortDescription": "Tulipany napędziły krótką falę spekulacji.",
         "details": "W Holandii lat 30. XVII wieku ceny niektórych rzadkich tulipanów oraz kontraktów na cebulki gwałtownie rosły. Rynek załamał się w lutym 1637 roku, lecz nie zrujnował całej gospodarki.",
@@ -1618,7 +1618,7 @@
         }
       },
       {
-        "id": 7,
+        "id": 197,
         "title": "Bitcoin i blockchain",
         "shortDescription": "Rozproszona sieć zapisuje historię transakcji.",
         "details": "Satoshi Nakamoto opisał Bitcoin w 2008 roku, a 3 stycznia 2009 uruchomił jego blok genezy. Blockchain zapisuje transakcje w kolejnych blokach uzgadnianych przez zdecentralizowaną sieć uczestników.",
@@ -1646,7 +1646,7 @@
     "icon": "historia_swiata.webp",
     "facts": [
       {
-        "id": 91,
+        "id": 201,
         "title": "Wynalezienie pisma",
         "shortDescription": "Pismo utrwaliło informacje poza ludzką pamięcią.",
         "details": "Najstarsze znane systemy pisma powstały niezależnie w kilku regionach. W Mezopotamii około 3200 roku p.n.e. zapisywano na glinianych tabliczkach głównie rachunki gospodarcze, z których rozwinęło się pismo klinowe.",
@@ -1663,7 +1663,7 @@
         }
       },
       {
-        "id": 92,
+        "id": 202,
         "title": "476 n.e. – Upadek Rzymu",
         "shortDescription": "Umowna cezura końca zachodniego cesarstwa.",
         "details": "W 476 roku germański dowódca Odoaker usunął z tronu Romulusa Augustulusa. Datę tę umownie uznaje się za koniec cesarstwa zachodniorzymskiego, choć jego instytucje i kultura nie zniknęły nagle.",
@@ -1680,7 +1680,7 @@
         }
       },
       {
-        "id": 93,
+        "id": 203,
         "title": "Około 1450 – druk Gutenberga",
         "shortDescription": "Ruchome czcionki przyspieszyły powielanie książek.",
         "details": "Johannes Gutenberg udoskonalił w Moguncji europejski druk z metalowych ruchomych czcionek. Jego 42-wierszowa Biblia, wydrukowana około 1452–1455 w nakładzie blisko 180 egzemplarzy, przyspieszyła powielanie książek.",
@@ -1697,7 +1697,7 @@
         }
       },
       {
-        "id": 94,
+        "id": 204,
         "title": "1492 – wyprawa Kolumba",
         "shortDescription": "Spotkanie światów rozpoczęło epokę kolonizacji.",
         "details": "12 października 1492 roku wyprawa Krzysztofa Kolumba dotarła na bahamską wyspę Guanahani, zamieszkaną przez lud Taíno. Podróż zapoczątkowała trwały kontakt Europy z Amerykami, kolonizację i katastrofalne skutki dla ludności rdzennej.",
@@ -1714,7 +1714,7 @@
         }
       },
       {
-        "id": 95,
+        "id": 205,
         "title": "1789 – Rewolucja Francuska",
         "shortDescription": "Rewolucja podważyła przywileje starego porządku.",
         "details": "14 lipca 1789 roku paryżanie zdobyli Bastylię. W sierpniu Zgromadzenie Narodowe zniosło przywileje feudalne i uchwaliło siedemnastopunktową Deklarację Praw Człowieka i Obywatela, głosząc wolność oraz równość wobec prawa.",
@@ -1735,7 +1735,7 @@
         }
       },
       {
-        "id": 96,
+        "id": 206,
         "title": "Rewolucja Przemysłowa",
         "shortDescription": "Mechanizacja odmieniła produkcję i społeczeństwo.",
         "details": "Rewolucja przemysłowa rozpoczęła się w XVIII-wiecznej Wielkiej Brytanii i trwała dekady. Mechanizacja produkcji, fabryki oraz energia wodna i parowa zwiększyły wydajność, równocześnie przyspieszając urbanizację i rozwój klasy robotniczej.",
@@ -1752,7 +1752,7 @@
         }
       },
       {
-        "id": 97,
+        "id": 207,
         "title": "1989 – Upadek Muru",
         "shortDescription": "Otwarcie granicy odebrało murowi znaczenie.",
         "details": "9 listopada 1989 roku, po mylącej zapowiedzi nowych przepisów podróżnych NRD, tłumy wymusiły otwarcie berlińskich przejść granicznych. Główną rozbiórkę muru przeprowadzono dopiero od czerwca do listopada 1990 roku.",

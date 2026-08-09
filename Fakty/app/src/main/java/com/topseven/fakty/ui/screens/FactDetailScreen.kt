@@ -142,7 +142,9 @@ fun FactDetailScreen(
                             .fillMaxWidth()
                             .fillMaxHeight(0.6f)
                             .sharedElement(
-                                sharedContentState = rememberSharedContentState(key = "fact-image-${fact.id}"),
+                                sharedContentState = rememberSharedContentState(
+                                    key = "fact-image-${pageCategory.id}-${fact.id}"
+                                ),
                                 animatedVisibilityScope = animatedVisibilityScope
                             )
                     )

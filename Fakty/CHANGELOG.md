@@ -109,14 +109,25 @@ konfiguracja builda, dostępność). Bez zmian architektury i bez usuwania funkc
 - Zahardkodowane ciągi `"favorites"` i separator `" • "` przeniesiono odpowiednio do stałej
   `FactDetailSource` i do `strings.xml`.
 
+### Dane (Data)
+- Usunięto zduplikowane identyfikatory faktów między kategoriami. Ta sama siódemka numerów
+  powtarzała się w trzech kategoriach (1-7 w `historia_polski`, `psychologia`, `ekonomia`)
+  oraz w dwóch kolejnych (91-97 w `anatomia`, `historia_swiata`). Przenumerowano
+  `psychologia` na 181-187, `ekonomia` na 191-197 i `historia_swiata` na 201-207;
+  `historia_polski` i `anatomia` zachowały pierwotne numery. Nazwy plików graficznych są
+  niezależne od identyfikatorów, więc nie wymagały zmian.
+- Klucze `sharedElement` zawierają teraz identyfikator kategorii
+  (`fact-image-<categoryId>-<factId>`), więc pozostają jednoznaczne niezależnie od danych.
+- `analyze_facts.py` sprawdzał unikalność identyfikatorów wyłącznie w obrębie kategorii -
+  dlatego kolizje globalne przechodziły niezauważone. Dodano kontrolę globalną.
+
 ### Znane ograniczenia
 - APK 2.1.4 jest podpisany **nowym** certyfikatem wydawniczym (poprzedni plik ze strony był
   buildem debug). Instalacja na urządzeniu ze starszą wersją wymaga jej odinstalowania.
-- `data.json` zawiera zduplikowane identyfikatory faktów między kategoriami (1-7 w
-  `historia_polski`, `psychologia`, `ekonomia`; 91-97 w `anatomia`, `historia_swiata`).
-  Aplikacja działa poprawnie dzięki kluczom złożonym `categoryId + factId`, ale klucze
-  `sharedElement` są przez to potencjalnie niejednoznaczne. Zmiana wymagałaby migracji
-  zapisanych ulubionych, więc świadomie jej nie wykonano.
+- Przenumerowanie identyfikatorów unieważnia ulubione zapisane w wersjach do 2.1.3 włącznie
+  dla kategorii Psychologia, Ekonomia i Historia Świata. Aplikacja nie była jeszcze
+  dystrybuowana, więc realnie nie dotyczy to nikogo; osierocone wpisy i tak są pomijane
+  przy wczytywaniu listy.
 
 ## [2.1.3] - Architektura Stanu i Audyt Kodu (Etap 3)
 

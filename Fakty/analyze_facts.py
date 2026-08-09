@@ -38,6 +38,10 @@ def main() -> int:
 
     errors: list[str] = []
     seen_category_ids: set[str] = set()
+    # Identyfikatory faktów muszą być unikalne globalnie, nie tylko w obrębie kategorii.
+    # Wcześniej sprawdzana była wyłącznie unikalność lokalna, przez co ta sama siódemka
+    # numerów powtarzała się w kilku kategoriach.
+    fact_id_owners: dict[int, str] = {}
 
     for category in data:
         category_id = category["id"]
@@ -60,6 +64,11 @@ def main() -> int:
             if fact_id in seen_fact_ids:
                 errors.append(f"{prefix} duplicate fact id inside category")
             seen_fact_ids.add(fact_id)
+
+            owner = fact_id_owners.get(fact_id)
+            if owner is not None:
+                errors.append(f"{prefix} fact id already used by category {owner!r}")
+            fact_id_owners[fact_id] = category_id
 
             short_len = word_count(fact["shortDescription"])
             details_len = word_count(fact["details"])

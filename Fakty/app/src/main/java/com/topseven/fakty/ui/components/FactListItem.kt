@@ -45,6 +45,7 @@ import androidx.compose.ui.semantics.semantics
 fun FactListItem(
     fact: Fact,
     index: Int,
+    categoryId: String,
     categoryIcon: String,
     sharedTransitionScope: SharedTransitionScope,
     animatedVisibilityScope: AnimatedVisibilityScope,
@@ -108,7 +109,12 @@ fun FactListItem(
                         modifier = Modifier
                             .fillMaxSize()
                             .sharedElement(
-                                sharedContentState = rememberSharedContentState(key = "fact-image-${fact.id}"),
+                                // Klucz zawiera id kategorii, żeby był jednoznaczny nawet
+                                // gdyby dane ponownie zawierały ten sam numer faktu
+                                // w dwóch kategoriach.
+                                sharedContentState = rememberSharedContentState(
+                                    key = "fact-image-$categoryId-${fact.id}"
+                                ),
                                 animatedVisibilityScope = animatedVisibilityScope
                             )
                     )

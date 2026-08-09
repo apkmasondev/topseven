@@ -105,6 +105,7 @@ fun CategoryListScreen(
                 FactListItem(
                     fact = fact,
                     index = index,
+                    categoryId = category.id,
                     categoryIcon = category.icon,
                     sharedTransitionScope = sharedTransitionScope,
                     animatedVisibilityScope = animatedVisibilityScope,

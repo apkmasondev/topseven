@@ -37,9 +37,12 @@ import com.topseven.fakty.ui.theme.PrimaryAccent
 import com.topseven.fakty.ui.components.GlossaryText
 import com.topseven.fakty.ui.components.GlossaryBottomSheet
 
+import androidx.compose.foundation.rememberScrollState
+import androidx.compose.foundation.verticalScroll
 import androidx.compose.ui.semantics.Role
 import androidx.compose.ui.semantics.semantics
 import androidx.compose.ui.semantics.contentDescription
+import kotlinx.coroutines.Job
 import kotlinx.coroutines.launch
 import kotlinx.coroutines.delay
 import androidx.compose.ui.hapticfeedback.HapticFeedbackType
@@ -121,6 +124,14 @@ fun FlashcardsContent(
     var isFlipped by remember { mutableStateOf(false) }
     var selectedGlossaryTerm by remember { mutableStateOf<Pair<String, String>?>(null) }
     val coroutineScope = rememberCoroutineScope()
+
+    // Przejście do następnej fiszki po odwróceniu karty jest opóźnione o pół obrotu.
+    // Bez trzymania referencji do zadania każde kolejne kliknięcie startowało nową
+    // korutynę i licznik przeskakiwał o kilka kart naraz.
+    val advanceJob = remember { mutableStateOf<Job?>(null) }
+    DisposableEffect(Unit) {
+        onDispose { advanceJob.value?.cancel() }
+    }
 
     val currentPair = if (allFacts.isNotEmpty()) allFacts[currentIndex % allFacts.size] else null
 
@@ -223,13 +234,15 @@ fun FlashcardsContent(
                             if (isTtsPlaying) ttsManager?.stop()
                             if (isFlipped) {
                                 isFlipped = false
-                                // Uruchamiamy opóźnienie, by podmienić dane dokładnie w połowie obrotu (90 stopni),
+                                // Podmieniamy dane dokładnie w połowie obrotu (90 stopni),
                                 // kiedy karta jest niewidoczna (krawędzią do ekranu).
-                                coroutineScope.launch {
-                                    delay(300)
+                                advanceJob.value?.cancel()
+                                advanceJob.value = coroutineScope.launch {
+                                    delay(FLIP_HALF_DURATION_MS)
                                     currentIndex++
                                 }
                             } else {
+                                advanceJob.value?.cancel()
                                 currentIndex++
                             }
                         },
@@ -457,7 +470,13 @@ fun Flashcard(
                             style = MaterialTheme.typography.bodyLarge,
                             color = MaterialTheme.colorScheme.onSurface,
                             textAlign = TextAlign.Center,
-                            onTermClick = onGlossaryTermClick
+                            onTermClick = onGlossaryTermClick,
+                            // `fill = false` zachowuje przyklejenie treści do dołu karty dla
+                            // krótkich faktów, a przy długich ogranicza wysokość do dostępnego
+                            // miejsca i włącza przewijanie zamiast ucinać tekst na małych ekranach.
+                            modifier = Modifier
+                                .weight(1f, fill = false)
+                                .verticalScroll(rememberScrollState())
                         )
                         Spacer(modifier = Modifier.height(16.dp))
                     }

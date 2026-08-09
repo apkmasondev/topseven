@@ -73,17 +73,23 @@ class MainViewModel(private val repository: FactsRepository) : ViewModel() {
         }
     }
 
-    var ttsManager: TtsManager? = null
-        private set
+    // Silnik TTS jest wystawiony jako StateFlow, a nie zwykłe pole: tworzymy go dopiero
+    // w LaunchedEffect (już po pierwszej kompozycji), więc UI musi dostać powiadomienie
+    // o jego pojawieniu się - inaczej przycisk lektora nie pokazywał się przy pierwszym
+    // wejściu na ekran, dopóki coś innego nie wymusiło rekompozycji.
+    private val _ttsManager = MutableStateFlow<TtsManager?>(null)
+    val ttsManager: StateFlow<TtsManager?> = _ttsManager.asStateFlow()
 
+    /** Idempotentne. Wołane z UI (wątek główny), więc nie wymaga dodatkowej synchronizacji. */
     fun initTts(context: Context) {
-        if (ttsManager == null) {
-            ttsManager = TtsManager(context.applicationContext)
+        if (_ttsManager.value == null) {
+            _ttsManager.value = TtsManager(context.applicationContext)
         }
     }
 
     override fun onCleared() {
         super.onCleared()
-        ttsManager?.shutdown()
+        _ttsManager.value?.shutdown()
+        _ttsManager.value = null
     }
 }

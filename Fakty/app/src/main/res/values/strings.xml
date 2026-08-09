@@ -16,7 +16,8 @@
     <string name="content_desc_back">Wstecz</string>
     <string name="content_desc_favorites">Ulubione</string>
     <string name="content_desc_flashcards">Fiszki</string>
-    <string name="content_desc_read_fact">Czytaj fakt</string>
+    <string name="content_desc_read_fact">Czytaj fakt na głos</string>
+    <string name="content_desc_stop_reading">Zatrzymaj czytanie</string>
 
     <string name="error_category_not_found">Nie znaleziono kategorii</string>
     <string name="error_fact_not_found">Nie znaleziono faktu</string>

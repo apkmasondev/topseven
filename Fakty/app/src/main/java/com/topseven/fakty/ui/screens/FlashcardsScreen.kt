@@ -46,7 +46,7 @@ import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.automirrored.filled.VolumeOff
-import com.topseven.fakty.utils.TtsManager
+import com.topseven.fakty.utils.StopTtsWhenScreenLeaves
 
 private val WHITESPACE_REGEX = "\\s+".toRegex()
 
@@ -98,10 +98,12 @@ fun FlashcardsContent(
     LaunchedEffect(Unit) {
         viewModel.initTts(context)
     }
-    val ttsManager = viewModel.ttsManager
+    val ttsManager by viewModel.ttsManager.collectAsState()
     val fallbackFlow = remember { kotlinx.coroutines.flow.MutableStateFlow(false) }
     val isTtsReady by (ttsManager?.isReady ?: fallbackFlow).collectAsState()
     val isTtsPlaying by (ttsManager?.isPlaying ?: fallbackFlow).collectAsState()
+
+    StopTtsWhenScreenLeaves(ttsManager)
 
     var currentIndex by remember { mutableIntStateOf(0) }
 
@@ -458,7 +460,10 @@ fun Flashcard(
                         ) {
                             Icon(
                                 imageVector = if (isTtsPlaying) Icons.AutoMirrored.Filled.VolumeOff else Icons.AutoMirrored.Filled.VolumeUp,
-                                contentDescription = stringResource(id = R.string.content_desc_read_fact),
+                                contentDescription = stringResource(
+                                    id = if (isTtsPlaying) R.string.content_desc_stop_reading
+                                    else R.string.content_desc_read_fact
+                                ),
                                 tint = Color.White
                             )
                         }

@@ -55,7 +55,7 @@ import androidx.compose.ui.hapticfeedback.HapticFeedbackType
 import androidx.compose.ui.platform.LocalHapticFeedback
 import androidx.compose.material.icons.automirrored.filled.VolumeUp
 import androidx.compose.material.icons.automirrored.filled.VolumeOff
-import com.topseven.fakty.utils.TtsManager
+import com.topseven.fakty.utils.StopTtsWhenScreenLeaves
 
 @OptIn(ExperimentalMaterial3Api::class, ExperimentalSharedTransitionApi::class)
 @Composable
@@ -79,12 +79,14 @@ fun FactDetailScreen(
     LaunchedEffect(Unit) {
         viewModel.initTts(context)
     }
-    val ttsManager = viewModel.ttsManager
+    val ttsManager by viewModel.ttsManager.collectAsState()
 
     val fallbackFlow = remember { kotlinx.coroutines.flow.MutableStateFlow(false) }
     val isTtsReady by (ttsManager?.isReady ?: fallbackFlow).collectAsState()
     val isTtsPlaying by (ttsManager?.isPlaying ?: fallbackFlow).collectAsState()
     val haptic = LocalHapticFeedback.current
+
+    StopTtsWhenScreenLeaves(ttsManager)
 
     // Zatrzymujemy czytanie, jeśli użytkownik zmieni stronę (fakt)
     LaunchedEffect(pagerState.currentPage) {
@@ -272,7 +274,12 @@ fun FactDetailScreen(
                             ) {
                                 Icon(
                                     imageVector = if (isTtsPlaying) Icons.AutoMirrored.Filled.VolumeOff else Icons.AutoMirrored.Filled.VolumeUp,
-                                    contentDescription = stringResource(id = R.string.content_desc_read_fact),
+                                    // Opis musi odzwierciedlać stan, inaczej TalkBack czyta
+                                    // "Czytaj fakt" także wtedy, gdy przycisk zatrzymuje lektora.
+                                    contentDescription = stringResource(
+                                        id = if (isTtsPlaying) R.string.content_desc_stop_reading
+                                        else R.string.content_desc_read_fact
+                                    ),
                                     tint = Color.White
                                 )
                             }

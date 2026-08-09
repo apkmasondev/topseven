@@ -2,6 +2,122 @@
 
 Wszystkie znaczące zmiany w tym projekcie będą dokumentowane w tym pliku.
 
+## [2.1.4] - 2026-08-09 - Audyt kodu: stabilność, wydajność, dostępność
+
+Pełny audyt kodu źródłowego (błędy logiczne, wycieki zasobów, wydajność Compose,
+konfiguracja builda, dostępność). Bez zmian architektury i bez usuwania funkcji.
+
+### Naprawione (Fixed)
+
+**Lektor (TTS)**
+- Dodano brakującą deklarację `<queries>` z akcją `TTS_SERVICE` w manifeście. Od API 30
+  obowiązuje ograniczenie widoczności pakietów, więc bez niej `TextToSpeech` nie widział
+  zainstalowanych silników mowy - lektor po cichu nie działał na części urządzeń.
+- Naprawiono niepojawiający się przycisk lektora przy pierwszym wejściu na ekran faktu
+  i fiszek. `ttsManager` był zwykłym polem tworzonym w `LaunchedEffect` (już po pierwszej
+  kompozycji), więc UI nigdy nie dostawało powiadomienia o jego powstaniu. Silnik jest
+  teraz wystawiony jako `StateFlow`.
+- Lektor jest zatrzymywany przy opuszczeniu ekranu i przy przejściu aplikacji w tło
+  (`StopTtsWhenScreenLeaves`). Wcześniej czytał dalej po zminimalizowaniu aplikacji.
+- Szybkie dwukrotne kliknięcie przycisku odtwarzania uruchamiało dwie wypowiedzi zamiast
+  działać jak przełącznik play/stop - stan jest teraz ustawiany optymistycznie.
+- Dodano obsługę `onStop` i `onError(utteranceId, errorCode)` w `UtteranceProgressListener`
+  oraz odpięcie listenera w `shutdown()`. Metoda `shutdown()` jest odporna na wielokrotne
+  wywołanie i na wyjątki nakładek producenckich.
+- `Locale("pl","PL")` zastąpiono `Locale.forLanguageTag("pl-PL")` (wycofane API).
+
+**Dane i ulubione**
+- `FactsRepository` przestał połykać `CancellationException`, co tłumiło anulowanie korutyn
+  i mogło zapisać w cache pustą listę.
+- Dodano walidację `data.json`: pusty plik, uszkodzony JSON i nieoczekiwany kształt danych
+  nie wywracają aplikacji, a niekompletne kategorie i fakty są pomijane zamiast trafiać do UI.
+- Nieudany odczyt nie jest już cache'owany - kolejne wejście na ekran ponawia próbę.
+- Dostęp do cache objęto `Mutex` (dotąd był to niezsynchronizowany zapis z wielu korutyn).
+- `FavoriteDao` czytał `SharedPreferences` w konstruktorze na wątku głównym (I/O dysku,
+  ryzyko ANR). Odczyt i zapis przeniesiono na `Dispatchers.IO`, zapis używa `commit()`.
+- Kolejność listy ulubionych jest deterministyczna. Wcześniej wynikała z kolejności iteracji
+  zbioru i przestawiała się po każdej zmianie.
+- Uszkodzone klucze w zapisanych ulubionych są pomijane zamiast psuć całą listę.
+
+**Nawigacja i crashe**
+- Ekran szczegółów faktu otwierany z Ulubionych czytał `allFavoriteItems.value` zamiast
+  subskrybować strumień. Przy `SharingStarted.WhileSubscribed` zwracało to pustą listę
+  i pokazywało "Nie znaleziono faktu".
+- Zabezpieczono `items[pagerState.currentPage]` przed `IndexOutOfBoundsException`, gdy lista
+  skróci się w trakcie oglądania (usunięcie ulubionego).
+- Wejście na ekran kategorii lub faktu w trakcie wczytywania danych pokazywało pusty ekran
+  (`return@composable`) - teraz wyświetla wskaźnik ładowania.
+
+**Fiszki**
+- Szybkie tapanie "Następna fiszka" przy odwróconej karcie uruchamiało wiele korutyn
+  z opóźnieniem i licznik przeskakiwał o kilka kart naraz.
+- Długie treści faktów były ucinane na tyle karty na mniejszych ekranach - dodano
+  przewijanie z zachowaniem dotychczasowego wyrównania do dołu.
+
+### Wydajność (Performance)
+- `GlossaryText` budował adnotowany tekst (pełny skan wyrażeniami regularnymi po całej
+  treści) przy **każdej** rekompozycji. Na ekranie fiszek oznaczało to pełny przebieg
+  regeksów w każdej klatce animacji obrotu 3D. Wynik jest teraz pamiętany dla pary
+  `text`/`glossary`.
+- `Flashcard` odczytywał wartość animacji obrotu wprost w ciele kompozycji, przez co cała
+  karta rekomponowała się ~36 razy na obrót. Zastąpiono to `derivedStateOf`, dzięki czemu
+  animacja zostaje w fazie rysowania.
+- Granice wyrazów w słowniczku oparto na klasach Unicode zamiast ASCII-owego `\p{Punct}`,
+  co poprawia wykrywanie pojęć otoczonych polskimi znakami interpunkcyjnymi.
+
+### Konfiguracja builda (Build)
+- **Baseline Profiles faktycznie działają.** Moduł `:baselineprofile` generował profil,
+  którego nikt nie konsumował: brakowało pluginu `androidx.baselineprofile` i zależności
+  `baselineProfile(project(":baselineprofile"))`, więc `profileinstaller` nie miał czego
+  wczytać, a w APK nie było żadnego profilu. Po aktualizacji `androidx.benchmark` z 1.3.3
+  do 1.5.0-beta01 (1.3.3 i 1.4.1 nie obsługują AGP 9.x) profil jest generowany i pakowany
+  do APK jako `assets/dexopt/baseline.prof`. Generator pokrywa teraz realną ścieżkę
+  użytkownika i tworzy dodatkowo **profil startowy**, którego wcześniej nie było.
+- Dodano `signingConfig` dla wariantu release, czytany z `keystore.properties` spoza
+  repozytorium. Brak pliku nie psuje builda - powstaje wtedy APK niepodpisany.
+- Dodano brakujący `testInstrumentationRunner`. Testy z `androidTest/` istniały, ale nie
+  dało się ich uruchomić.
+- Zawężono reguły ProGuard. `-keep class kotlinx.serialization.** { *; }` oraz
+  `-keepclassmembers class * { *** Companion; }` blokowały obfuskację wszystkich obiektów
+  towarzyszących w aplikacji i jej zależnościach.
+- Rozszerzono `.gitignore` o klucze podpisujące, artefakty builda i katalogi IDE.
+
+### Dostępność (Accessibility)
+- Fiszka używała `contentDescription` na węźle scalającym potomków, co **zastępowało**
+  ich teksty - czytnik ekranu w ogóle nie odczytywał treści fiszki. Zmieniono na
+  `stateDescription`.
+- Opisy przycisków lektora i ulubionych odzwierciedlają stan ("Czytaj fakt na głos" /
+  "Zatrzymaj czytanie", "Dodaj do ulubionych" / "Usuń z ulubionych").
+- Licznik "1 / 7" ma opis "Fakt 1 z 7".
+- Obrazy tła oznaczono jako dekoracyjne (`contentDescription = null`), żeby czytnik ekranu
+  nie powtarzał nazwy kategorii i tytułu faktu dwa razy.
+
+### Interfejs (UI)
+- Podniesiono krycie dolnej krawędzi szklanej karty na ekranie faktu (0.5 -> 0.82).
+  Przy jasnych zdjęciach biały tekst tracił kontrast.
+- Treść ekranu faktu nie chowa się już pod paskiem nawigacji systemowej.
+
+### Testy
+- Liczba testów jednostkowych wzrosła z 4 do 22. Dodano `FactsRepositoryTest` (walidacja
+  i odporność parsowania `data.json`) oraz `FavoriteDaoTest` (atomowość zapisu, równoległe
+  modyfikacje, uszkodzone dane, determinizm kolejności).
+
+### Usunięte (Removed)
+- Martwy kod: nieużywana metoda `FavoriteDao.isFavorite()`, nieodczytywane parametry
+  `FaktyTheme(darkTheme, dynamicColor)`, nieużywane importy i zmienne, zbędny `Row`
+  wokół przycisku na ekranie fiszek.
+- Zahardkodowane ciągi `"favorites"` i separator `" • "` przeniesiono odpowiednio do stałej
+  `FactDetailSource` i do `strings.xml`.
+
+### Znane ograniczenia
+- APK 2.1.4 jest podpisany **nowym** certyfikatem wydawniczym (poprzedni plik ze strony był
+  buildem debug). Instalacja na urządzeniu ze starszą wersją wymaga jej odinstalowania.
+- `data.json` zawiera zduplikowane identyfikatory faktów między kategoriami (1-7 w
+  `historia_polski`, `psychologia`, `ekonomia`; 91-97 w `anatomia`, `historia_swiata`).
+  Aplikacja działa poprawnie dzięki kluczom złożonym `categoryId + factId`, ale klucze
+  `sharedElement` są przez to potencjalnie niejednoznaczne. Zmiana wymagałaby migracji
+  zapisanych ulubionych, więc świadomie jej nie wykonano.
+
 ## [2.1.3] - Architektura Stanu i Audyt Kodu (Etap 3)
 
 ### Zmienione (Changed)

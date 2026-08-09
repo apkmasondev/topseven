@@ -2,7 +2,7 @@
 
 Aplikacja mobilna prezentująca skondensowaną wiedzę w formie krótkich list najważniejszych faktów z różnych dziedzin (historia, biologia, geografia, fizyka itd.).
 
-## Jak uruchomić w Antigravity
+## Jak uruchomić
 
 1. Otwórz projekt w Android Studio lub skompiluj za pomocą Gradle:
    `./gradlew assembleDebug`

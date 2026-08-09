@@ -1,6 +1,5 @@
 # 🚀 Instrukcja dla Agenta AI: Tworzenie nowej kategorii (Top Seven)
 >
-> Dokument stworzony na bazie `Android-guide_2026.md`.
 > Cel: Standaryzacja pracy przyszłych agentów podczas poszerzania bazy danych aplikacji `Top Seven`.
 
 ---

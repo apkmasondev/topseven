@@ -119,10 +119,13 @@ fun FactDetailScreen(
             val imagePath = fact.imageUrl?.let { "file:///android_asset/images/facts/$it" }
                 ?: "file:///android_asset/images/${pageCategory.icon}"
 
+            // Dolna krawędź karty nakłada się na zdjęcie - przy jasnych fotografiach
+            // alpha 0.5 dawała biały tekst na jasnym tle. Podniesione minimum trzyma
+            // kontrast powyżej progu WCAG AA bez utraty efektu szkła.
             val glassGradient = Brush.verticalGradient(
                 colors = listOf(
-                    MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.9f),
-                    MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.5f)
+                    MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.95f),
+                    MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.82f)
                 )
             )
 
@@ -222,6 +225,9 @@ fun FactDetailScreen(
                             }
                             
                             Spacer(modifier = Modifier.height(48.dp))
+                            // Bez tego ostatnie zdanie chowało się pod paskiem nawigacji
+                            // przy trybie edge-to-edge z klasycznymi przyciskami.
+                            Spacer(modifier = Modifier.windowInsetsBottomHeight(WindowInsets.navigationBars))
                         }
                     }
                 }

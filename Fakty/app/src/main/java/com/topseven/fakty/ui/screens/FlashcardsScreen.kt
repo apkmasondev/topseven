@@ -220,13 +220,11 @@ fun FlashcardsContent(
                     )
                 }
                 
-                Row(
+                Box(
                     modifier = Modifier
                         .fillMaxWidth()
                         .padding(24.dp)
-                        .navigationBarsPadding(),
-                    horizontalArrangement = Arrangement.SpaceEvenly,
-                    verticalAlignment = Alignment.CenterVertically
+                        .navigationBarsPadding()
                 ) {
                     Button(
                         onClick = {

@@ -19,20 +19,18 @@ private val DarkColorScheme = darkColorScheme(
     onSurfaceVariant = TextSecondary
 )
 
+/**
+ * Aplikacja celowo używa wyłącznie ciemnej palety - efekt "szkła" (Glassmorphism) opiera się
+ * na jasnych tekstach i półprzezroczystych warstwach na ciemnym tle. Parametry `darkTheme`
+ * i `dynamicColor` zostały usunięte, bo nigdy nie były odczytywane i sugerowały wsparcie,
+ * którego nie ma.
+ */
 @Composable
 fun FaktyTheme(
-    // We enforce DarkTheme for the premium WOW effect
-    darkTheme: Boolean = true,
-    // Dynamic color is available on Android 12+, but we want our custom colors for WOW effect
-    dynamicColor: Boolean = false,
     content: @Composable () -> Unit
 ) {
-    val colorScheme = DarkColorScheme
-
-
-
     MaterialTheme(
-        colorScheme = colorScheme,
+        colorScheme = DarkColorScheme,
         typography = Typography,
         content = content
     )

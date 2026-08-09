@@ -1,6 +1,8 @@
 *.iml
 .gradle
 /local.properties
+local.properties
+.idea/
 /.idea/caches
 /.idea/libraries
 /.idea/modules.xml
@@ -9,7 +11,23 @@
 /.idea/assetWizardSettings.xml
 .DS_Store
 /build
+build/
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+.kotlin/
+
+# --- Klucze podpisujące: NIGDY nie trafiają do repozytorium ---
+keystore.properties
+keystore/
+*.jks
+*.keystore
+!debug.keystore
+
+# Artefakty budowania trzymane wyłącznie lokalnie.
+# Publikowany APK żyje w assets/ w korzeniu repozytorium (serwuje go GitHub Pages);
+# katalog releases/ służy do lokalnego składowania buildów.
+*.apk
+*.aab
+*.apks
+releases/

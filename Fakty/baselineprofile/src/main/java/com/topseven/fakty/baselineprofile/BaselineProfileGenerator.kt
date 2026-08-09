@@ -10,9 +10,12 @@ import org.junit.Test
 import org.junit.runner.RunWith
 
 /**
- * Generator profilów Baseline Profile, który symuluje typowe zachowanie użytkownika
- * po uruchomieniu aplikacji. To pozwala Ahead-Of-Time kompilatorowi Androida
- * na wstępne skompilowanie ścieżek kodu, co znacząco przyspiesza uruchamianie.
+ * Generator Baseline Profile. Wynik trafia do `app/src/release/generated/baselineProfiles/`
+ * i jest pakowany do APK release przez plugin `androidx.baselineprofile`, a wczytywany
+ * w czasie działania przez `androidx.profileinstaller`.
+ *
+ * Uruchomienie: `./gradlew :app:generateReleaseBaselineProfile` przy podłączonym urządzeniu
+ * lub emulatorze (API 28+).
  */
 @RunWith(AndroidJUnit4::class)
 class BaselineProfileGenerator {
@@ -20,24 +23,75 @@ class BaselineProfileGenerator {
     @get:Rule
     val baselineProfileRule = BaselineProfileRule()
 
+    /**
+     * Profil startowy - klasy potrzebne do pierwszej klatki. To on najmocniej skraca
+     * czas zimnego startu, a wcześniej nie powstawał w ogóle.
+     */
     @Test
-    fun generate() = baselineProfileRule.collect(
-        packageName = "com.topseven.fakty",
-        maxIterations = 1,
+    fun startup() = baselineProfileRule.collect(
+        packageName = PACKAGE_NAME,
+        includeInStartupProfile = true,
         profileBlock = {
-            // Start aplikacji
             pressHome()
             startActivityAndWait()
-
-            // Poczekaj na pełne wyrenderowanie aplikacji (brak aktywności)
-            device.wait(Until.hasObject(By.pkg("com.topseven.fakty").depth(0)), 5000)
-
-            // Wykonaj przewijanie w dół (skrolowanie), żeby obudzić widoki (LazyColumn)
-            val lazyColumn = device.findObject(By.scrollable(true))
-            if (lazyColumn != null) {
-                lazyColumn.setGestureMargin(device.displayWidth / 5)
-                lazyColumn.fling(Direction.DOWN)
-            }
+            device.waitForIdle()
         }
     )
+
+    /** Pełna ścieżka: lista kategorii -> lista faktów -> szczegóły -> fiszki. */
+    @Test
+    fun userJourney() = baselineProfileRule.collect(
+        packageName = PACKAGE_NAME,
+        profileBlock = {
+            pressHome()
+            startActivityAndWait()
+            device.wait(Until.hasObject(By.pkg(PACKAGE_NAME).depth(0)), TIMEOUT_MS)
+
+            scrollCategoryList()
+            openFirstCategoryAndFact()
+            openFlashcards()
+        }
+    )
+
+    private fun androidx.benchmark.macro.MacrobenchmarkScope.scrollCategoryList() {
+        val list = device.findObject(By.scrollable(true)) ?: return
+        list.setGestureMargin(device.displayWidth / 5)
+        list.fling(Direction.DOWN)
+        device.waitForIdle()
+        list.fling(Direction.UP)
+        device.waitForIdle()
+    }
+
+    private fun androidx.benchmark.macro.MacrobenchmarkScope.openFirstCategoryAndFact() {
+        // Pierwsza karta kategorii na liście.
+        val category = device.findObject(By.clickable(true).depth(0)) ?: return
+        category.click()
+        device.waitForIdle()
+
+        // Pierwszy fakt z listy - otwiera ekran szczegółów wraz z animacją shared element.
+        device.findObject(By.clickable(true))?.click()
+        device.waitForIdle()
+
+        device.pressBack()
+        device.waitForIdle()
+        device.pressBack()
+        device.waitForIdle()
+    }
+
+    private fun androidx.benchmark.macro.MacrobenchmarkScope.openFlashcards() {
+        val flashcards = device.findObject(By.desc(FLASHCARDS_DESC)) ?: return
+        flashcards.click()
+        device.waitForIdle()
+        // Obrót fiszki 3D - najcięższa animacja w aplikacji.
+        device.findObject(By.clickable(true))?.click()
+        device.waitForIdle()
+        device.pressBack()
+        device.waitForIdle()
+    }
+
+    private companion object {
+        const val PACKAGE_NAME = "com.topseven.fakty"
+        const val TIMEOUT_MS = 5_000L
+        const val FLASHCARDS_DESC = "Fiszki"
+    }
 }

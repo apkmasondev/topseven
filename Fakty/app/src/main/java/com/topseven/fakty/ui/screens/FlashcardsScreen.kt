@@ -50,6 +50,12 @@ import com.topseven.fakty.utils.StopTtsWhenScreenLeaves
 
 private val WHITESPACE_REGEX = "\\s+".toRegex()
 
+/** Czas pełnego obrotu fiszki 3D. */
+private const val FLIP_DURATION_MS = 600
+
+/** Połowa obrotu - moment, w którym karta stoi krawędzią do ekranu i można podmienić treść. */
+private const val FLIP_HALF_DURATION_MS = 300L
+
 @OptIn(ExperimentalMaterial3Api::class)
 @Composable
 fun FlashcardsScreen(
@@ -269,9 +275,15 @@ fun Flashcard(
 ) {
     val rotation by animateFloatAsState(
         targetValue = if (isFlipped) 180f else 0f,
-        animationSpec = tween(durationMillis = 600),
+        animationSpec = tween(durationMillis = FLIP_DURATION_MS),
         label = "flipAnimation"
     )
+
+    // Odczyt `rotation` wprost w ciele kompozycji rekomponował całą kartę (razem
+    // z parsowaniem słowniczka) w każdej z ~36 klatek obrotu. derivedStateOf sprawia,
+    // że rekompozycja następuje tylko w momencie faktycznej zamiany stron karty,
+    // a sama animacja zostaje w fazie rysowania (graphicsLayer).
+    val showFront by remember { derivedStateOf { rotation <= 90f } }
 
     // Kamery (Paralax) do lepszego efektu głębi 3D
     val cameraDistance = 12f * LocalContext.current.resources.displayMetrics.density
@@ -301,7 +313,7 @@ fun Flashcard(
                 onClick = onClick
             )
     ) {
-        if (rotation <= 90f) {
+        if (showFront) {
             // PRZÓD KARTY
             Surface(
                 modifier = Modifier

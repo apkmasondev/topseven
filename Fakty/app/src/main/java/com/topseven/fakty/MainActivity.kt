@@ -6,7 +6,6 @@ import androidx.activity.compose.setContent
 import androidx.activity.enableEdgeToEdge
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.*
-import androidx.compose.material.icons.Icons
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.foundation.layout.fillMaxSize
@@ -25,7 +24,7 @@ import androidx.compose.animation.fadeIn
 import androidx.compose.animation.fadeOut
 import androidx.compose.animation.slideInHorizontally
 import androidx.compose.animation.slideOutHorizontally
-import com.topseven.fakty.data.database.FavoriteDao
+import com.topseven.fakty.data.models.FavoriteItem
 import com.topseven.fakty.data.repository.FactsRepository
 import com.topseven.fakty.ui.screens.*
 import com.topseven.fakty.ui.theme.FaktyTheme
@@ -49,6 +48,23 @@ class MainActivity : ComponentActivity() {
                 }
             }
         }
+    }
+}
+
+@Composable
+private fun LoadingBox() {
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        CircularProgressIndicator(color = MaterialTheme.colorScheme.primary)
+    }
+}
+
+@Composable
+private fun ErrorBox(messageResId: Int) {
+    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
+        Text(
+            text = stringResource(id = messageResId),
+            color = MaterialTheme.colorScheme.error
+        )
     }
 }
 
@@ -115,7 +131,9 @@ fun FaktyApp() {
                         navController.popBackStack()
                     },
                     onFactClick = { categoryId, factId ->
-                        navController.navigate(FactDetailRoute(categoryId, factId, source = "favorites"))
+                        navController.navigate(
+                            FactDetailRoute(categoryId, factId, source = FactDetailSource.FAVORITES)
+                        )
                     }
                 )
             }
@@ -124,10 +142,11 @@ fun FaktyApp() {
                 val route = backStackEntry.toRoute<CategoryRoute>()
                 val categoryId = route.categoryId
                 
-                val successState = uiState as? UiState.Success ?: return@composable
-                val category = successState.categories.find { it.id == categoryId }
-                if (category != null) {
-                    CategoryListScreen(
+                val successState = uiState as? UiState.Success
+                val category = successState?.categories?.find { it.id == categoryId }
+
+                when {
+                    category != null -> CategoryListScreen(
                         category = category,
                         sharedTransitionScope = this@SharedTransitionLayout,
                         animatedVisibilityScope = this@composable,
@@ -136,10 +155,9 @@ fun FaktyApp() {
                             navController.navigate(FactDetailRoute(category.id, factId))
                         }
                     )
-                } else {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Text(stringResource(id = R.string.error_category_not_found), color = MaterialTheme.colorScheme.error)
-                    }
+                    // Wcześniej `return@composable` przy stanie Loading zostawiał pusty ekran.
+                    successState == null -> LoadingBox()
+                    else -> ErrorBox(messageResId = R.string.error_category_not_found)
                 }
             }
             
@@ -147,19 +165,27 @@ fun FaktyApp() {
                 val route = backStackEntry.toRoute<FactDetailRoute>()
                 val categoryId = route.categoryId
                 val factId = route.factId
-                val source = route.source
+                val fromFavorites = route.source == FactDetailSource.FAVORITES
 
-                val successState = uiState as? UiState.Success ?: return@composable
+                // collectAsState zamiast odczytu `.value`: allFavoriteItems działa w trybie
+                // WhileSubscribed, więc bez aktywnej subskrypcji zwracał wartość początkową
+                // (pustą listę) i ekran szczegółów pokazywał "Nie znaleziono faktu".
+                val favoriteItems by viewModel.allFavoriteItems.collectAsState()
+                val successState = uiState as? UiState.Success
 
-                val items = if (source == "favorites") {
-                    viewModel.allFavoriteItems.value
-                } else {
-                    val category = successState.categories.find { it.id == categoryId }
-                    category?.facts?.map { com.topseven.fakty.data.models.FavoriteItem(category, it) } ?: emptyList()
+                val items = remember(successState, favoriteItems, categoryId, fromFavorites) {
+                    when {
+                        fromFavorites -> favoriteItems
+                        successState == null -> emptyList()
+                        else -> successState.categories
+                            .find { it.id == categoryId }
+                            ?.let { category -> category.facts.map { FavoriteItem(category, it) } }
+                            .orEmpty()
+                    }
                 }
 
-                if (items.isNotEmpty()) {
-                    FactDetailScreen(
+                when {
+                    items.isNotEmpty() -> FactDetailScreen(
                         viewModel = viewModel,
                         items = items,
                         initialFactId = factId,
@@ -167,10 +193,9 @@ fun FaktyApp() {
                         animatedVisibilityScope = this@composable,
                         onBackClick = { navController.popBackStack() }
                     )
-                } else {
-                    Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
-                        Text(stringResource(id = R.string.error_fact_not_found), color = MaterialTheme.colorScheme.error)
-                    }
+                    // Dane wciąż się wczytują - nie strasz użytkownika błędem.
+                    successState == null -> LoadingBox()
+                    else -> ErrorBox(messageResId = R.string.error_fact_not_found)
                 }
             }
         }
